@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.26)  9 FEB 2019 16:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.26)  10 FEB 2019 21:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1239,20 +1239,19 @@ Chapter 2.
 [9
 
 ] [10]
-<ressources/images/figures/Trello.png, id=271, 1445.4pt x 514.92375pt>
+<ressources/images/figures/Trello.png, id=274, 1445.4pt x 540.0175pt>
 File: ressources/images/figures/Trello.png Graphic file (type png)
 <use ressources/images/figures/Trello.png>
 Package pdftex.def Info: ressources/images/figures/Trello.png  used on input li
-ne 78.
-(pdftex.def)             Requested size: 439.26942pt x 156.49014pt.
-<ressources/images/figures/SnagR.jpeg, id=272, 880.28876pt x 337.26pt>
-File: ressources/images/figures/SnagR.jpeg Graphic file (type jpg)
-<use ressources/images/figures/SnagR.jpeg>
-Package pdftex.def Info: ressources/images/figures/SnagR.jpeg  used on input li
-ne 80.
-(pdftex.def)             Requested size: 408.45695pt x 156.49014pt.
- [11 <./ressources/images/figures/Trello.png> <./ressources/images/figures/Snag
-R.jpeg>]) (./4-works.tex [12]
+ne 79.
+(pdftex.def)             Requested size: 418.8465pt x 156.49014pt.
+ [11 <./ressources/images/figures/Trello.png>]
+Overfull \hbox (10.76006pt too wide) in paragraph at lines 94--96
+[]\T1/cmr/m/n/12 En ce qui con-cerne l'outil d'automatisation de l'extraction d
+es don-nées que j'ai développé,
+ []
+
+) (./4-works.tex [12]
 Chapter 3.
 ) (./5-conclusion.tex [13
 
@@ -1281,7 +1280,7 @@ l.1 \chapter
             *{Annexes} [1
 
 ]
-<ressources/images/annexes/Vcycle.png, id=419, 1025.8325pt x 781.92125pt>
+<ressources/images/annexes/Vcycle.png, id=425, 1025.8325pt x 781.92125pt>
 File: ressources/images/annexes/Vcycle.png Graphic file (type png)
 <use ressources/images/annexes/Vcycle.png>
 Package pdftex.def Info: ressources/images/annexes/Vcycle.png  used on input li
@@ -1318,10 +1317,10 @@ Package logreq Info: Writing requests to 'rapport.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24155 strings out of 492649
- 404209 string characters out of 6129622
+ 24149 strings out of 492649
+ 404032 string characters out of 6129622
  920176 words of memory out of 5000000
- 27565 multiletter control sequences out of 15000+600000
+ 27561 multiletter control sequences out of 15000+600000
  19682 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  47i,8n,45p,2004b,1716s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1343,10 +1342,10 @@ exmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2018/tex
 mf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2018/texmf
 -dist/fonts/type1/public/cm-super/sfti1440.pfb></usr/local/texlive/2018/texmf-d
 ist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on rapport.pdf (22 pages, 3038430 bytes).
+Output written on rapport.pdf (22 pages, 3010852 bytes).
 PDF statistics:
- 501 PDF objects out of 1000 (max. 8388607)
- 434 compressed objects within 5 object streams
+ 507 PDF objects out of 1000 (max. 8388607)
+ 441 compressed objects within 5 object streams
  90 named destinations out of 1000 (max. 500000)
- 200 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 195 words of extra memory for PDF output out of 10000 (max. 10000000)
 

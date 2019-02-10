@@ -71,27 +71,32 @@ Au sein de l'équipe \gls{TC}, les \gls{methodesagiles} ont été utilisées not
 Parmis ces trois outils que sont SnagR, Jira Ops et Trello \footnote{Jira Ops et Trello sont d'ailleurs édités par la même entreprise : Atlassian} SnagR et Trello intègrent les \gls{methodesagiles}, et plus particulièrement la méthode \textit{KanBan}.
 
 \textbf{La méthode Kanban,} est une méthode de gestion de projet où chaque tâche est placée sur une carte et chaque carte doit être placée dans un tableau. Chaque carte peut être assignée à un ou plusieurs utilisateurs et on peut lui attribuer une date d'échéance ainsi qu'une ou des étiquettes permettant de catégoriser la tâche associée. L'avancement d'une tache est représenté par le déplacement de la carte à laquelle est est liée d'un tableau à un autre. 
-En ce qui concerne mon organisation personnelle avec Trello, j'ai utilisé 5 tableaux :
-Tâches récurrentes, À faire, En attente, En cours et Fait. Les taches portant l'étiquette "Récurrente" (étiquette rouge dans l'exemple ci-dessous) suivent le développement 
+En ce qui concerne mon organisation personnelle avec Trello, j'ai utilisé 5 tableaux. Une carte passe successivement par le tableau "À faire", "En cours" puis "Fait" mais peuvent aussi passer par le tableau intermédiaire "En attente" lorsque l'utilisateur nécessite l'achèvement d'une tache par un autre membre du projet, extérieur à l'équipe. À l'exception des taches portant l'étiquette "Récurrente" (étiquette rouge dans l'exemple ci-dessous) qui une fois achevées, retournent dans le tableau "Récurrente".
 
-
-Il est basé sur une organisation des projets en planches listant des cartes, chacune représentant des tâches. Les cartes sont assignables à des utilisateurs et sont mobiles d'une planche à l'autre, traduisant leur avancement. 
-
-Voici ci-dessous, l'interface de Trello puis celle de SnagR.
+Voici ci-dessous, l'interface de Trello.
 
 \begin{center}
 \includegraphics[height=5.5cm]{ressources/images/figures/Trello.png}
-
-\includegraphics[height=5.5cm]{ressources/images/figures/SnagR.jpeg}
 \end{center}
 
+\newpage
 
 %Comment les développements ont été vérifiés/testés/validés ?
-MOI
+Concernant le processus que j'ai mis en place, que ce soit pour son initialisation, les différentes modifications apportées à certaines étapes ou l'ajout de certaines étapes, le développement se faisait en 4 étapes :
 
+\begin{itemize}
+\item \textit{Formalisation :} Tout d'abord, il fallait analyser le besoin, les ressources dont l'équipe disposait puis chercher une solution optimale et la rendre intelligible afin de pouvoir la communiquer (par le biais d'un diagramme par exemple).
+\item \textit{Validation interne :} Ensuite il me fallait exposer ma proposition à mes managers, c'est à dire au directeur adjoint, au manager \gls{TC}, au manager technique et au responsable \gls{RAMS}. Cette étape n'était pas qu'une simple obligation impliquée par le respect de la hiérarchie, elle s'est avérée cruciale par deux aspects majeurs. Tout d'abord, elle permettait de s'assurer de la conformité du processus au regard des besoins de l'équipe. En effet, ces managers possédaient une connaissance poussée des systèmes déployés mais aussi du projet ainsi que du fonctionnement des différentes entités de ce dernier. Ensuite elle était indispensable du point de vue de l'attribution des tâches, afin de ne pas surcharger un employé ou une équipe, ce qui dans un projet de cette envergure, se serait avéré lourd de conséquence. En fonction des remarques et conseils de mes supérieurs, j'effectuais les modifications nécessaires.
+\item \textit{Validation externe :} Rendu à ce stade, il fallait ensuite éprouver la solution fasse au client. Non seulement parce qu'il fallait obtenir son accord, mais aussi parce qu'il serait lui aussi concerné par les conséquences de cette décision, étant donné que QDVC et ICE possédaient leurs propres équipes intégrées au processus de \gls{TC}. J'exposerai plus loin les difficultés rencontrées à cette étape.
+\item \textit{Application du processus aux équipes \gls{TC} :} Enfin, après avoir obtenu les deux validations nécessaires, il fallait ensuite mettre en place le processus, propager les nouvelles pratiques aux membre des différentes équipes \gls{TC} puis dans un second temps, il me fallait faire remonter aux managers les premiers résultats impliqués par ce changement (nous verrons plus loin les méthodes utilisées).
+\end{itemize}
+
+En ce qui concerne l'outil d'automatisation de l'extraction des données que j'ai développé, le processus était identique à l'exception de la validation externe, puisque cette solution était à usage purement interne.
 %Quelles sont les technologies utilisées pour le projet ? Il ne s'agit pas de faire de longs développements ici mais de présenter une synthèse.
 
 \section{Prise de recul}
 %Quel a été l'intérêt de votre travail pour l'entreprise ? Que va devenir votre contribution ? Présenter les perspectives.
+
 %Quelles sont les améliorations à envisager ? Quelle est la maintenance à prévoir sur cette réalisation ou cette application ?
+
 %Selon les cas, présentez vos réflexions sur l'impact de votre travail sur les utilisateurs, les nouveaux usages, le respect de la vie privée ou de l'environnement...
