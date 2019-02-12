@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.26)  10 FEB 2019 21:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.26)  12 FEB 2019 18:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1138,6 +1138,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
  []
 
 
+Overfull \hbox (3.91739pt too wide) in paragraph at lines 7--8
+[]\T1/cmr/m/n/12 Ensuite, je voudrais re-mercier le man-ager de l'équipe, Mon-s
+ieur Stéphane GLOAGUEN,
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
@@ -1216,7 +1222,7 @@ sor-tium et fait l'intermédiaire
 
 [5 <./ressources/images/figures/Lusail.png> <./ressources/images/figures/Consor
 tium.png>] [6]
-<ressources/images/figures/OBS1.png, id=204, 804.00375pt x 372.39125pt>
+<ressources/images/figures/OBS1.png, id=202, 804.00375pt x 372.39125pt>
 File: ressources/images/figures/OBS1.png Graphic file (type png)
 <use ressources/images/figures/OBS1.png>
 Package pdftex.def Info: ressources/images/figures/OBS1.png  used on input line
@@ -1227,11 +1233,11 @@ Overfull \hbox (36.21573pt too wide) in paragraph at lines 114--115
  [] 
  []
 
-<ressources/images/figures/OBS2.png, id=207, 693.59125pt x 221.82875pt>
+<ressources/images/figures/OBS2.png, id=205, 693.59125pt x 221.82875pt>
 File: ressources/images/figures/OBS2.png Graphic file (type png)
 <use ressources/images/figures/OBS2.png>
 Package pdftex.def Info: ressources/images/figures/OBS2.png  used on input line
- 122.
+ 121.
 (pdftex.def)             Requested size: 444.80705pt x 142.26378pt.
 [7 <./ressources/images/figures/OBS1.png>]) (./3-missions.tex [8 <./ressources/
 images/figures/OBS2.png>]
@@ -1243,30 +1249,30 @@ Chapter 2.
 File: ressources/images/figures/Trello.png Graphic file (type png)
 <use ressources/images/figures/Trello.png>
 Package pdftex.def Info: ressources/images/figures/Trello.png  used on input li
-ne 79.
-(pdftex.def)             Requested size: 418.8465pt x 156.49014pt.
+ne 80.
+(pdftex.def)             Requested size: 304.62366pt x 113.81102pt.
  [11 <./ressources/images/figures/Trello.png>]
-Overfull \hbox (10.76006pt too wide) in paragraph at lines 94--96
+Overfull \hbox (10.76006pt too wide) in paragraph at lines 95--97
 []\T1/cmr/m/n/12 En ce qui con-cerne l'outil d'automatisation de l'extraction d
 es don-nées que j'ai développé,
  []
 
-) (./4-works.tex [12]
+[12]) (./4-works.tex [13]
 Chapter 3.
-) (./5-conclusion.tex [13
+) (./5-conclusion.tex [14
 
-]) (./rapport.gls [14
+]) (./rapport.gls [15
 
-] [15
+] [16
 
 
 ]
-Overfull \hbox (1.965pt too wide) in paragraph at lines 98--101
+Overfull \hbox (1.965pt too wide) in paragraph at lines 98--102
 []\T1/cmr/m/it/12 Supervisory Con-trol And Data Ac-qui-si-tion\T1/cmr/m/n/12 , 
 Sys-tème de Con-trôle et d'Acquisition
  []
 
-[16]) [17]
+[17]) [18]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 140.
 
  (/usr/local/texlive/2018/texmf-dist/tex/latex/base/t1cmtt.fd
@@ -1280,7 +1286,7 @@ l.1 \chapter
             *{Annexes} [1
 
 ]
-<ressources/images/annexes/Vcycle.png, id=425, 1025.8325pt x 781.92125pt>
+<ressources/images/annexes/Vcycle.png, id=432, 1025.8325pt x 781.92125pt>
 File: ressources/images/annexes/Vcycle.png Graphic file (type png)
 <use ressources/images/annexes/Vcycle.png>
 Package pdftex.def Info: ressources/images/annexes/Vcycle.png  used on input li
@@ -1311,16 +1317,16 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 146.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 146.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 146.
 Package rerunfilecheck Info: File `rapport.out' has not changed.
-(rerunfilecheck)             Checksum: F373F4F43C6BB59520DA87DD51FBA8D0;1097.
+(rerunfilecheck)             Checksum: 7BA0735397C50E6F696A38DA8C0AAD32;1096.
 Package logreq Info: Writing requests to 'rapport.run.xml'.
 \openout1 = `rapport.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24149 strings out of 492649
- 404032 string characters out of 6129622
- 920176 words of memory out of 5000000
- 27561 multiletter control sequences out of 15000+600000
+ 24119 strings out of 492649
+ 403573 string characters out of 6129622
+ 921615 words of memory out of 5000000
+ 27531 multiletter control sequences out of 15000+600000
  19682 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  47i,8n,45p,2004b,1716s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1342,10 +1348,10 @@ exmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2018/tex
 mf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2018/texmf
 -dist/fonts/type1/public/cm-super/sfti1440.pfb></usr/local/texlive/2018/texmf-d
 ist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on rapport.pdf (22 pages, 3010852 bytes).
+Output written on rapport.pdf (23 pages, 3014416 bytes).
 PDF statistics:
- 507 PDF objects out of 1000 (max. 8388607)
- 441 compressed objects within 5 object streams
+ 514 PDF objects out of 1000 (max. 8388607)
+ 447 compressed objects within 5 object streams
  90 named destinations out of 1000 (max. 500000)
  195 words of extra memory for PDF output out of 10000 (max. 10000000)
 
