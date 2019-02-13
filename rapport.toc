@@ -11,51 +11,67 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.1.2}Les domaines d'activit\IeC {\'e}s}{3}{subsection.1.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.3}Position du groupe sur la sc\IeC {\`e}ne internationale}{3}{subsection.1.1.3}
+\contentsline {subsection}{\numberline {1.1.3}Position du groupe sur la sc\IeC {\`e}ne internationale}{4}{subsection.1.1.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.2}Le projet : Lusail LRT}{4}{section.1.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.2.1}Le Light Rail Transit}{4}{subsection.1.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.2}Le contexte du projet}{4}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.2}Le contexte du projet}{5}{subsection.1.2.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.2.3}Les acteurs du projet}{5}{subsection.1.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.4}Place de Thales au sein du projet}{6}{subsection.1.2.4}
+\contentsline {subsection}{\numberline {1.2.4}Place de Thales au sein du projet}{7}{subsection.1.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Pr\IeC {\'e}sentation de l'\IeC {\'e}quipe T \& C}{7}{section.1.3}
+\contentsline {section}{\numberline {1.3}Pr\IeC {\'e}sentation de l'\IeC {\'e}quipe T \& C}{8}{section.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Mission}{10}{chapter.2}
+\contentsline {chapter}{\numberline {2}Mission}{11}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Sujet du stage}{10}{section.2.1}
+\contentsline {section}{\numberline {2.1}Sujet du stage}{11}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Planning}{10}{section.2.2}
+\contentsline {section}{\numberline {2.2}Planning}{11}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Contributions}{11}{section.2.3}
+\contentsline {section}{\numberline {2.3}Contributions}{12}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Technologies}{12}{section.2.4}
+\contentsline {section}{\numberline {2.4}Technologies}{14}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}Prise de recul}{14}{section.2.5}
+\contentsline {section}{\numberline {2.5}Prise de recul}{17}{section.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}R\IeC {\'e}alisations}{15}{chapter.3}
+\contentsline {chapter}{\numberline {3}R\IeC {\'e}alisations}{18}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Un stage port\IeC {\'e} \IeC {\`a} la fois sur la technique}{15}{section.3.1}
+\contentsline {section}{\numberline {3.1}Conception d'un processus de production et de gestion des rapports de test}{18}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.1}L'initialisation du processus}{15}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.1}\IeC {\'E}tat des lieux}{18}{subsection.3.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.2}Son automatisation}{15}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.2}Premi\IeC {\`e}re version}{19}{subsection.3.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.3}Sa transmission}{15}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.3}\IeC {\'E}volution du processus}{19}{subsection.3.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Sur la gestion de projet}{15}{section.3.2}
+\contentsline {section}{\numberline {3.2}Mise au point d'un outil de collecte de donn\IeC {\'e}es }{19}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Les interactions avec les diff\IeC {\'e}rentes instances Thales}{15}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.1}Les motivations}{20}{subsection.3.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Celles avec le client}{15}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.2}Les diff\IeC {\'e}rentes fonctionnalit\IeC {\'e}s de l'outil}{20}{subsection.3.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion}{16}{chapter*.4}
+\contentsline {subsection}{\numberline {3.2.3}Les choix techniques}{20}{subsection.3.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Glossaire}{17}{section*.5}
+\contentsline {section}{\numberline {3.3}Communication sur l'avancement du projet}{20}{section.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.1}Organisation des donn\IeC {\'e}es}{20}{subsection.3.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.2}Communication interne}{20}{subsection.3.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.3}Communication avec le client}{20}{subsection.3.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}Formation et transmission}{21}{section.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.1}Sensibilisation des membre de l'\IeC {\'e}quipe }{21}{subsection.3.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.2}Tuilage}{21}{subsection.3.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Conclusion}{22}{chapter*.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Glossaire}{23}{section*.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Bibliographie}{}{chapter*.7}
 \defcounter {refsection}{0}\relax 

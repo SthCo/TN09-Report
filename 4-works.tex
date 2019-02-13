@@ -6,26 +6,105 @@
 %Présentez votre réflexion et vos choix, qui devraient être justifiés. Examinez rapidement les autres alternatives.
 
 %Sélectionnez les détails pertinents et laissez les autres en annexe. Allez du général au particulier. Evitez de présenter un catalogue des fonctions développées.
+Le sujet de mon stage étant large, très tôt j'ai dû me concentrer sur plusieurs tâches puis rapidement m'atteler à plusieurs réalisations afin d'assurer au mieux ma fonction. Nous verrons donc dans cette partie, pour chacune de ces différentes réalisations, les besoins auxquels il fallait répondre, les choix qui ont été fait et les différentes difficultés rencontrées.
 
-\section{Un stage porté à la fois sur la technique}
+\section{Conception d'un processus de production et de gestion des rapports de test}
+%QQchose ?
+\subsection{État des lieux}
+Dans un premier temps, une présentation du contexte initial est indispensable. Au sein de l'équipe \gls{TC}, il existe différentes phases de test, dont l'organisation correspond au cycle en V du projet (cf. Annexe I) :
+\begin{itemize}
+\item \textbf{FAT} : Factory Acceptance Test
+\item \textbf{iFAT} : Integrated Factory Acceptance Test
+\item \textbf{\gls{StAT}} : Stand Alone Test
+\item \textbf{\gls{SIT}} : Site Integration Test 
+\item \textbf{\gls{E2E}} : End to End Test 
+\end{itemize}
 
-\subsection{L'initialisation du processus}
+Nous nous concentrons ici sur les phases \gls{StAT}, \gls{SIT}, \gls{E2E}. 
 
+Pour chaque sous-système du projet, 3 procédures de test ont été rédigées, une par phase de test. 
+
+Ainsi, si une localisation du projet abrite 3 sous-systèmes nécessitant d'être testés, il y aura 9 tests à effectuer dans cette localisation.
+
+Ensuite, chaque test doit être formalisé par un rapport de test constitué de la manière suivante : 
+
+\begin{itemize}
+\item Une première page que l'on appelle ITR, qui permet d'identifier le rapport (numéro unique), d'identifier le test (localisation, phase, système, date), identifier le statut (accepté avec, sans réserves ou refusé), résumer les observations et réserves des 3 parties et consigner leurs signatures.
+\item Les pages suivantes sont les \gls{TestCases}, en français les scénarios de test, qui permettent de simuler plusieurs situations d'utilisation des systèmes de manière à prouver leur conformité vis à vis de toutes les exigences du cahier des charges.
+\begin{itemize}
+\item Chaque \gls{TestCases} est composé de une ou plusieurs étapes qui elles mêmes sont reliées à une ou plusieurs exigences.
+\end{itemize}
+\end{itemize}
+
+Parmi ces exigences, certaines sont liées à la sécurité, dans le cadre des \gls{RAMS}, et sont indexées dans un document appelé le \gls{SC}. Ces exigences liées à la sécurité sont séparés en deux \gls{SIL}, ou niveaux de criticité : SIL0, le plus faible et SIL2 le plus élevé.
+
+Une fois ce contexte clarifié, nous avons pu entreprendre l'élaboration du processus et c'est le sujet de la prochaine section.
+
+\subsection{Première version}
+de la nécéssité de Mezzoteam et eTOL
+
+Les exigences liées à la sécurité nécessitent d'être suivie de manière prioritaire car le futur opérateur refusera de commencer la période de formation à l'exploitation du système de ses employés tant qu'il n'aura pas la preuve de la conformité du projet vis à vis des ces exigences.
+
+Scopes
+Workflow 1
+\subsection{Évolution du processus}
+
+Validation des requirements.
+IO point et documentation externe 
+Snags
+Workflow 2
+
+\section{Mise au point d'un outil de collecte de données }
+
+\gls{scraping}
+
+\subsection{Les motivations}
+1500 rapports
+Plus de 15 000 TC (formulaire)
+Plus de 60 000 steps (étapes)
+Après avoir importé manuellement les données des premiers rapports, .. tourné vers SnagR :
+Présentation des activités
+Problème de cohérence
+=> KPI Fausse
+Absence de validation des données
+Exportation des données limitées
+Donc besoin d'implémenter moi même
+\subsection{Les différentes fonctionnalités de l'outil}
+Sauvegarde complète
+Actualisation en deux étapes
+\subsection{Les choix techniques}
 DB, Access, powerbi ou excel ?
 => Limitations dues au caractère sensible des données, process beaucoup trop long
 
-\subsection{Son automatisation}
 Pandas
 
-\subsection{Sa transmission}
 Multi thread ou multi process ?
 => 
+Temps d'éxécution : 1h30 => 5 min (laisser qq latences)
 
 Python 3 ou le choix de la pérénité
 => 2to3
 
-\section{Sur la gestion de projet}
+\section{Communication sur l'avancement du projet}
+\subsection{Organisation des données}
+Séparation
+Séléction
+\subsection{Communication interne}
+Outils d'aide à la décision
+KPI
+S-Curves
+Syncronisation avec le Testing pour plus de cohésion
+\subsection{Communication avec le client}
+Difficultés de la position de Thales
 
-\subsection{Les interactions avec les différentes instances Thales}
 
-\subsection{Celles avec le client}
+\section{Formation et transmission}
+\subsection{Sensibilisation des membre de l'équipe }
+Sensibilisation à l'importance des rapports
+Formation à la validation des données (doc, convention de nommage)
+\subsection{Tuilage}
+Doc
+Etat de l'avencement
+Vidéos tutorielles
+
+
