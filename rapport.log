@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.26)  13 FEB 2019 12:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.26)  13 FEB 2019 22:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -968,7 +968,7 @@ Package: glossary-tree 2018/04/07 v4.37 (NLCT)
 \glo@main@file=\write6
 \openout6 = `rapport.glo'.
 
-Package glossaries Info: Writing glossary file rapport.glo on input line 2.
+Package glossaries Info: Writing glossary file rapport.glo on input line 3.
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -982,27 +982,27 @@ File: english.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
 (./rapport.aux)
 \openout1 = `rapport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 127.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 127.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 130.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 130.
 
  (/usr/local/texlive/2018/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    ... okay on input line 130.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1069,7 +1069,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box41
-Package hyperref Info: Link coloring OFF on input line 127.
+Package hyperref Info: Link coloring OFF on input line 130.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1079,9 +1079,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count358
 )
-LaTeX Info: Redefining \ref on input line 127.
-LaTeX Info: Redefining \pageref on input line 127.
-LaTeX Info: Redefining \nameref on input line 127.
+LaTeX Info: Redefining \ref on input line 130.
+LaTeX Info: Redefining \pageref on input line 130.
+LaTeX Info: Redefining \nameref on input line 130.
 
 (./rapport.out) (./rapport.out)
 \@outlinefile=\write7
@@ -1106,8 +1106,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'rapport.bbl' found.
 
 (./rapport.bbl)
-Package biblatex Info: Reference section=0 on input line 127.
-Package biblatex Info: Reference segment=0 on input line 127.
+Package biblatex Info: Reference section=0 on input line 130.
+Package biblatex Info: Reference segment=0 on input line 130.
  (./0.0-titre.tex
 <ressources/images/logos/Thales_Logo.png, id=84, 803.0pt x 139.52126pt>
 File: ressources/images/logos/Thales_Logo.png Graphic file (type png)
@@ -1151,17 +1151,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.132 \tableofcontents
+l.135 \tableofcontents
                        [1
 
-] (./rapport.tocpdfTeX warning (ext4): destination with the same identifier (na
-me{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.78 ...tentsline {chapter}{Annexes}{}{chapter*.8}
-                                                   [2
-
-])
+] (./rapport.toc)
 \tf@toc=\write8
 \openout8 = `rapport.toc'.
 
@@ -1170,7 +1163,9 @@ er (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \chapter
-            *{RÃ©sumÃ© technique} [3]) (./2-structure.tex
+            *{RÃ©sumÃ© technique} [2
+
+]) (./2-structure.tex
 Overfull \hbox (10.2687pt too wide) in paragraph at lines 4--1
 \T1/cmr/m/n/12 Ce stage m'a amené à dé-cou-vrir de nom-breuses struc-tures ains
 i que des do-maines d'ingénierie
@@ -1180,7 +1175,7 @@ i que des do-maines d'ingénierie
 
 ]
 Chapter 1.
-<ressources/images/figures/timeline.png, id=140, 866.23625pt x 657.45625pt>
+<ressources/images/figures/timeline.png, id=137, 866.23625pt x 657.45625pt>
 File: ressources/images/figures/timeline.png Graphic file (type png)
 <use ressources/images/figures/timeline.png>
 Package pdftex.def Info: ressources/images/figures/timeline.png  used on input 
@@ -1188,14 +1183,14 @@ line 7.
 (pdftex.def)             Requested size: 374.87994pt x 284.52756pt.
 [2
 
- <./ressources/images/figures/timeline.png>] [3]
-<ressources/images/figures/Key.png, id=157, 1061.9675pt x 702.625pt>
+ <./ressources/images/figures/timeline.png>]
+<ressources/images/figures/Key.png, id=147, 1061.9675pt x 702.625pt>
 File: ressources/images/figures/Key.png Graphic file (type png)
 <use ressources/images/figures/Key.png>
 Package pdftex.def Info: ressources/images/figures/Key.png  used on input line 
 36.
 (pdftex.def)             Requested size: 344.03345pt x 227.62204pt.
- [4 <./ressources/images/figures/Key.png>]
+ [3] [4 <./ressources/images/figures/Key.png>]
 <ressources/images/figures/Lusail.png, id=167, 997.7275pt x 489.83pt>
 File: ressources/images/figures/Lusail.png Graphic file (type png)
 <use ressources/images/figures/Lusail.png>
@@ -1207,8 +1202,7 @@ Overfull \hbox (8.3899pt too wide) in paragraph at lines 53--54
  [] 
  []
 
-[5 <./ressources/images/figures/Lusail.png>]
-<ressources/images/figures/Consortium.png, id=178, 1541.76pt x 691.58376pt>
+<ressources/images/figures/Consortium.png, id=168, 1541.76pt x 691.58376pt>
 File: ressources/images/figures/Consortium.png Graphic file (type png)
 <use ressources/images/figures/Consortium.png>
 Package pdftex.def Info: ressources/images/figures/Consortium.png  used on inpu
@@ -1219,14 +1213,14 @@ Overfull \hbox (52.19733pt too wide) in paragraph at lines 59--60
  [] 
  []
 
-
+[5 <./ressources/images/figures/Lusail.png>]
 Overfull \hbox (30.13597pt too wide) in paragraph at lines 64--65
 \T1/cmr/m/n/12 de QDVC et d'Alstom, les deux en-treprises prin-ci-pales du con-
 sor-tium et fait l'intermédiaire
  []
 
 [6 <./ressources/images/figures/Consortium.png>] [7]
-<ressources/images/figures/OBS1.png, id=220, 804.00375pt x 372.39125pt>
+<ressources/images/figures/OBS1.png, id=222, 804.00375pt x 372.39125pt>
 File: ressources/images/figures/OBS1.png Graphic file (type png)
 <use ressources/images/figures/OBS1.png>
 Package pdftex.def Info: ressources/images/figures/OBS1.png  used on input line
@@ -1237,48 +1231,84 @@ Overfull \hbox (36.21573pt too wide) in paragraph at lines 114--115
  [] 
  []
 
-[8]
-<ressources/images/figures/OBS2.png, id=235, 693.59125pt x 221.82875pt>
+<ressources/images/figures/OBS2.png, id=225, 693.59125pt x 221.82875pt>
 File: ressources/images/figures/OBS2.png Graphic file (type png)
 <use ressources/images/figures/OBS2.png>
 Package pdftex.def Info: ressources/images/figures/OBS2.png  used on input line
  121.
 (pdftex.def)             Requested size: 444.80705pt x 142.26378pt.
- [9 <./ressources/images/figures/OBS1.png> <./ressources/images/figures/OBS2.pn
-g>]) (./3-missions.tex [10]
+[8 <./ressources/images/figures/OBS1.png> <./ressources/images/figures/OBS2.png
+>]) (./3-missions.tex [9]
 Chapter 2.
-[11
+[10
 
-] [12] [13] [14]
-<ressources/images/figures/Trello.png, id=312, 1445.4pt x 540.0175pt>
+] [11] [12]
+<ressources/images/figures/Trello.png, id=293, 1445.4pt x 540.0175pt>
 File: ressources/images/figures/Trello.png Graphic file (type png)
 <use ressources/images/figures/Trello.png>
 Package pdftex.def Info: ressources/images/figures/Trello.png  used on input li
 ne 88.
 (pdftex.def)             Requested size: 304.62366pt x 113.81102pt.
- [15 <./ressources/images/figures/Trello.png>]
+ [13] [14 <./ressources/images/figures/Trello.png>]
 Overfull \hbox (10.76006pt too wide) in paragraph at lines 103--105
 []\T1/cmr/m/n/12 En ce qui con-cerne l'outil d'automatisation de l'extraction d
 es don-nées que j'ai développé,
  []
 
-[16]) (./4-works.tex [17]
+[15]) (./4-works.tex [16]
 Chapter 3.
-[18
+[17
 
-] [19] [20]) (./5-conclusion.tex [21]) (./rapport.gls [22
+]
+<ressources/images/figures/Workflow1.png, id=348, 870.25125pt x 430.60875pt>
+File: ressources/images/figures/Workflow1.png Graphic file (type png)
+<use ressources/images/figures/Workflow1.png>
+Package pdftex.def Info: ressources/images/figures/Workflow1.png  used on input
+ line 48.
+(pdftex.def)             Requested size: 402.52473pt x 199.16928pt.
+ [18 <./ressources/images/figures/Workflow1.png>]
+<ressources/images/figures/RACI.png, id=365, 993.7125pt x 233.87375pt>
+File: ressources/images/figures/RACI.png Graphic file (type png)
+<use ressources/images/figures/RACI.png>
+Package pdftex.def Info: ressources/images/figures/RACI.png  used on input line
+ 68.
+(pdftex.def)             Requested size: 483.5724pt x 113.81102pt.
 
-] [23
+Overfull \hbox (28.3283pt too wide) in paragraph at lines 68--69
+ [] 
+ []
+
+<ressources/images/figures/Workflow2.png, id=366, 1023.825pt x 438.63875pt>
+File: ressources/images/figures/Workflow2.png Graphic file (type png)
+<use ressources/images/figures/Workflow2.png>
+Package pdftex.def Info: ressources/images/figures/Workflow2.png  used on input
+ line 74.
+(pdftex.def)             Requested size: 464.88814pt x 199.16928pt.
+
+Overfull \hbox (9.64403pt too wide) in paragraph at lines 74--75
+ [] 
+ []
+
+[19 <./ressources/images/figures/RACI.png>] [20 <./ressources/images/figures/Wo
+rkflow2.png>]) (./5-conclusion.tex [21] [22]) (./rapport.gls [23
+
+]
+Overfull \hbox (13.42548pt too wide) in paragraph at lines 46--49
+\T1/cmr/m/n/12 métro, mais supérieures à celles des sys-tèmes tra-di-tion-nels 
+de tramway. (c.f $[]$).
+ []
+
+[24
 
 
-] [24]
-Overfull \hbox (1.965pt too wide) in paragraph at lines 106--109
+]
+Overfull \hbox (1.965pt too wide) in paragraph at lines 81--84
 []\T1/cmr/m/it/12 Supervisory Con-trol And Data Ac-qui-si-tion\T1/cmr/m/n/12 , 
 Sys-tème de Con-trôle et d'Acquisition
  []
 
-[25]) [26]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 141.
+[25] [26]) [27]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 144.
 
  (/usr/local/texlive/2018/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
@@ -1291,50 +1321,50 @@ l.1 \chapter
             *{Annexes} [1
 
 ]
-<ressources/images/annexes/Vcycle.png, id=526, 1025.8325pt x 781.92125pt>
+<ressources/images/annexes/Vcycle.png, id=552, 1025.8325pt x 781.92125pt>
 File: ressources/images/annexes/Vcycle.png Graphic file (type png)
 <use ressources/images/annexes/Vcycle.png>
 Package pdftex.def Info: ressources/images/annexes/Vcycle.png  used on input li
 ne 10.
 (pdftex.def)             Requested size: 522.60416pt x 398.33858pt.
 )
-Overfull \hbox (67.36005pt too wide) in paragraph at lines 10--145
+Overfull \hbox (67.36005pt too wide) in paragraph at lines 10--148
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--145
+Underfull \hbox (badness 10000) in paragraph at lines 10--148
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 147.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 150.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.147 \end{document}
+l.150 \end{document}
                      [2
 
  <./ressources/images/annexes/Vcycle.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 147.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 150.
 
 (./rapport.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 147.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 147.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 150.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 150.
 Package rerunfilecheck Info: File `rapport.out' has not changed.
-(rerunfilecheck)             Checksum: AEECE6DCB052E82979F08AB3A018DAEA;1289.
+(rerunfilecheck)             Checksum: 587D6080D58676461C961F69251648E0;1290.
 Package logreq Info: Writing requests to 'rapport.run.xml'.
 \openout1 = `rapport.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24323 strings out of 492649
- 406693 string characters out of 6129622
- 923321 words of memory out of 5000000
- 27713 multiletter control sequences out of 15000+600000
+ 24339 strings out of 492649
+ 407239 string characters out of 6129622
+ 930227 words of memory out of 5000000
+ 27725 multiletter control sequences out of 15000+600000
  19682 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,8n,45p,2004b,2035s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 47i,8n,45p,1989b,1716s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
 /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></us
@@ -1353,10 +1383,10 @@ exmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2018/tex
 mf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2018/texmf
 -dist/fonts/type1/public/cm-super/sfti1440.pfb></usr/local/texlive/2018/texmf-d
 ist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on rapport.pdf (32 pages, 3024407 bytes).
+Output written on rapport.pdf (32 pages, 3102477 bytes).
 PDF statistics:
- 613 PDF objects out of 1000 (max. 8388607)
- 536 compressed objects within 6 object streams
- 112 named destinations out of 1000 (max. 500000)
- 211 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 639 PDF objects out of 1000 (max. 8388607)
+ 556 compressed objects within 6 object streams
+ 113 named destinations out of 1000 (max. 500000)
+ 226 words of extra memory for PDF output out of 10000 (max. 10000000)
 
