@@ -6,7 +6,7 @@ Scanning input file rapport.glo....
 !! Input index error (file = rapport.glo, line = 35):
    -- Illegal page number .
 done (97 entries accepted, 2 rejected).
-Sorting entries....done (724 comparisons).
-Generating output file rapport.gls....done (126 lines written, 0 warnings).
+Sorting entries....done (723 comparisons).
+Generating output file rapport.gls....done (127 lines written, 0 warnings).
 Output written in rapport.gls.
 Transcript written in rapport.glg.

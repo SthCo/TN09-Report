@@ -2,11 +2,15 @@
 
 \section{Sujet du stage}
 %Vous présentez le sujet initial tel qu'il a été validé, ses éventuelles évolutions (et leurs causes). Attention, si votre sujet a fortement évolué, vous devez en référer à votre suiveur (éventuellement il devrait être re-validé).
-Le sujet de mon stage était la prise en charge du suivi, de la gestion et de l'optimisation  du \gls{reporting} des différents tests de l'équipe \gls{TC}.
-En effet, chaque rapport de test se décompose en plusieurs étapes de test, qui sont toutes reliées à des exigences du cahier des charges. Pour chaque test, QDVC et ICE déterminent si oui ou non les résultats permettent de considérer le rapport comme accepté. Ainsi chaque rapport constitue une preuve nécessaire à la validation des exigences et sans laquelle le système ne peut être validé.
-Chaque rapport est édité et consigné dans la base de données \gls{SnagR}.
-Cependant, cet outil est initialement destiné aux projets de génie civil et à la gestion des problèmes d'installation, c'est pour cela que l'utilisation de cet outil a été réduite à l'édition de rapports de test peu de temps après mon arrivée.
-Ainsi la problématique initiale fut : comment suivre efficacement la production et la validation des rapports ?
+Le sujet de mon stage était la prise en charge du suivi, de la gestion et de l'optimisation du \gls{reporting} des différents tests de l'équipe \gls{TC}.
+
+Chaque rapport de test se décompose en plusieurs étapes de test, qui sont toutes reliées à des exigences du cahier des charges. Pour chaque test, QDVC et ICE déterminent si oui ou non les résultats permettent de considérer le rapport comme accepté. Ainsi, chaque rapport constitue une preuve nécessaire à la validation des exigences sans laquelle le système ne peut être validé.
+
+Chaque rapport est édité et consigné grâce à \gls{SnagR}, un outil initialement destiné aux projets de génie civil et à la gestion des problèmes d'installation, dont le choix revient à QDVC.
+
+Or le secteur d'activité de Thales n'étant pas le génie civil, l'utilisation seule de cet outil ne suffisait pas à satisfaire les besoins du projet.
+
+C'est ce qui m'a conduit à me concentrer sur la problématique suivante : comment suivre efficacement la production et la validation des rapports tout en utilisant un outil imposé par le client ?
 
 %Resituer votre sujet dans les objectifs de l'entreprise.
 %Avez-vous repris un travail existant ?
@@ -14,7 +18,7 @@ Ainsi la problématique initiale fut : comment suivre efficacement la production
 
 \section{Planning}
 %Vous pouvez présenter le planning initial et le planning réel avec les dates importantes.
-En termes de délais, il m'a fallu incorporer les différentes solutions que j'ai mises au point au fur et à mesure du projet, tout en proposition une version finale environ un mois avant la fin de mon stage afin de pouvoir suffisamment l'éprouver.
+En termes de délais, il m'a fallu incorporer les différentes solutions que j'ai mises au point au fur et à mesure du projet, tout en proposant une version finale environ un mois avant la fin de mon stage afin de pouvoir suffisamment l'éprouver.
 %Quelles ont été les étapes importantes ? Indiquez celles qui auraient été les plus difficiles, les plus intéressantes, etc.
 Le but à court terme était de mettre en place un processus efficace de traitement des rapports et de leurs données puis de l'intégrer au fonctionnement global du projet.
 Dans un second temps, le but à long terme était d'automatiser une partie de ce processus, notamment l'extraction et le traitement des données des rapports.
@@ -23,17 +27,15 @@ Chacune de ces trois grandes étapes comporte son lot de difficultés :
 \begin{itemize}
 \item \textbf{L'initialisation du processus :} L'ampleur du projet constitue une première difficulté. En effet, la tâche qui m'a été confiée demande une bonne connaissance non seulement du fonctionnement interne du projet, mais aussi de l'état actuel de son avancement.
 \item \textbf{Son automatisation :} La base de donnée avec laquelle je travaillais n'avait pas été documentée, ainsi l'extraction de données s'est avérée complexe.
-\item \textbf{Sa transmission :} Former quelqu'un tout en continuant à travailler a constitué un réel défi pour quelqu'un sans expérience professionnelle.
+\item \textbf{Sa transmission :} Former mon remplaçant tout en continuant à travailler a constitué un réel défi pour ma première expérience professionnelle.
 \end{itemize}
 \section{Contributions}
 %Quel était l'état du projet à votre arrivée ? et à la fin ?
-À mon arrivée, l'installation était arrivée à un stade suffisamment avancé pour permettre de débuter les phases de test (et cela depuis quelques mois).
-Ainsi la production des rapports était tout juste amorcée.
-C'est pour cela que le projet de mon stage a commencé au moment où on me l'a confié.
-À la fin de mon stage, la phase de test était avancée à plus de 50\% et le processus de production et des suivis des rapports de test était en place et fonctionnel.
+Au début du stage, l'installation des équipements et systèmes du \gls{CCS} était depuis quelques mois à un stade suffisamment avancé pour permettre de débuter les phases de test.
+Ainsi la production des rapports était amorcée.
 %Avez-vous travaillé seul ou avec d'autres ? Quelles ont été vos contributions exactes ?
-Mes managers m'ont transmis la documentation nécessaire à l'initialisation, de mon projet puis m'ont guidé au cours du stage afin de me permette d'y apporter des améliorations et de nouvelles fonctionnalités.
-Chaque semaine je me devais d'envoyer un rapport sur l'avancement du \gls{reporting} à différents managers Thalès ainsi qu'au client (QDVC).
+Mes managers m'ont transmis la documentation nécessaire à l'initialisation de mon projet et m'ont guidé au cours du stage afin de me permettre d'y apporter des améliorations et de nouvelles fonctionnalités.
+Chaque semaine je devais d'envoyer un rapport sur l'avancement du \gls{reporting} à différents managers de Thalès ainsi qu'au client (QDVC).
 Ces rapports avaient pour fonction l'aide à la décision et comportaient de nombreux indicateurs d'avancement (\gls{KPI} : Key Progress Indicator).
 Je travaillais conjointement avec :
 \begin{itemize}
@@ -46,8 +48,14 @@ Je travaillais conjointement avec :
 
 %Avez-vous réalisé une étude, une maquette, une preuve de concept, un produit ou une application complète ? Que reste-t-il à faire pour rendre utilisable votre travail ?
 
-En parallèle de ces différentes activités, il m'a fallu automatiser l'extraction des données des rapports. Pour cela j'ai développé un script permettant de se connecter au site \gls{SnagR}, d'en extraire différents lots de données et de les exporter dans différents fichiers Excel. Il m'a fallu aussi ajouter à cette application une fonctionnalité de sauvegarde complète de rapports, en cas de problème avec les serveurs SnagR, serveurs auxquels Thalès n'avait pas accès physiquement.
-Ce script est exécutable à travers l'invite de commande, et comme nous le verrons plus tard j'ai formé la personne me remplaçant à son utilisation, mais j'ai aussi préparé une documentation. Ainsi, à mon départ, mon remplaçant utilisait déjà les résultats de mon travail.
+En parallèle de ces différentes activités, il m'a fallu automatiser l'extraction des données des rapports. Pour cela j'ai développé un script permettant de se connecter au site \gls{SnagR}, d'en extraire différents lots de données et de les exporter dans différents fichiers Excel. Il m'a fallu aussi ajouter à cette application une fonctionnalité de sauvegarde complète de rapports, en cas de problème avec les serveurs SnagR, serveurs auxquels Thalès n'avait pas accès physiquement. Ce script est exécutable à travers l'invite de commande.
+
+À la fin de mon stage, la phase de test est avancée à plus de 50\% et le processus de production et des suivis des rapports de test est en place et fonctionnel.
+
+Comme nous le verrons plus tard j'ai formé la personne me remplaçant à son utilisation, mais j'ai aussi préparé une documentation.
+
+Ainsi lors du tuilage mon remplaçant utilisait déjà les résultats de mon travail.
+
 
 \newpage
 \section{Technologies}
@@ -65,14 +73,14 @@ Durant mon stage, j'ai donc utilisé :
 \end{itemize}
 
 %Quelles sont les méthodes utilisées dans votre équipe ? (eg. méthode agile...)
-Au sein de l'équipe \gls{TC}, les \gls{methodesagiles} ont été utilisées notamment par le biais d'outils comme \gls{SnagR} ou Jira Ops. En effet, \gls{SnagR} permet aussi de répertorier les problèmes ou points bloquants que les différentes équipes du projet rencontrent.
+Au sein de l'équipe \gls{TC}, les \gls{methodesagiles} ont été utilisées notamment par le biais d'outils comme \gls{SnagR} ou Jira. En effet, \gls{SnagR} permet aussi de répertorier les problèmes ou points bloquants que les différentes équipes du projet rencontrent.
 
 \gls{SnagR} est la solution choisie par le Consortium, mais pour son fonctionnement interne, Thales a choisi d'utiliser Jira Ops , qui permet à l'équipe inshore de faire remonter les différents problèmes rencontrés à l'équipe offshore, sous forme de \gls{PCR}.
 
-Parmi ces trois outils que sont SnagR, Jira Ops et Trello \footnote{Jira Ops et Trello sont d'ailleurs édités par la même entreprise : Atlassian} SnagR et Trello intègrent les \gls{methodesagiles}, et plus particulièrement la méthode \textit{KanBan}.
+Les trois outils que sont SnagR, Jira et Trello \footnote{Jira Ops et Trello sont d'ailleurs édités par la même entreprise : Atlassian}intègrent tous les \gls{methodesagiles}, et plus particulièrement la méthode \textit{KanBan}.
 
-\textbf{La méthode Kanban,} est une méthode de gestion de projet où chaque tâche est placée sur une carte et chaque carte doit être placée dans un tableau. Chaque carte peut être assignée à un ou plusieurs utilisateurs et on peut lui attribuer une date d'échéance ainsi qu'une ou des étiquettes permettant de catégoriser la tâche associée. L'avancement d'une tache est représenté par le déplacement d'un tableau à un autre de la carte à laquelle il est lié.
-En ce qui concerne mon organisation personnelle avec Trello, j'ai utilisé 5 tableaux. Une carte passe successivement par le tableau "À faire", "En cours" puis "Fait", mais peuvent aussi passer par le tableau intermédiaire "En attente" lorsque l'utilisateur nécessite l'achèvement d'une tache par un autre membre du projet, extérieur à l'équipe. À l'exception des taches portant l'étiquette "Récurrente" (étiquette rouge dans l'exemple ci-dessous) qui une fois achevées, retournent dans le tableau "Récurrente".
+\textbf{La méthode Kanban,} est une méthode de gestion de projet où chaque tâche est placée sur une carte et chaque carte doit être placée dans un tableau. Chaque carte peut être assignée à un ou plusieurs utilisateurs et on peut lui attribuer une date d'échéance ainsi qu'une ou des étiquettes permettant de catégoriser la tâche associée. L'avancement d'une tâche est représenté par le déplacement d'une carte d'un tableau à un autre.
+En ce qui concerne mon organisation personnelle avec Trello, j'ai utilisé 5 tableaux. Une carte passe successivement par le tableau "À faire", "En cours" puis "Fait", mais peut aussi passer par le tableau intermédiaire "En attente" lorsqu'elle nécessite l'achèvement d'une tâche par un autre membre du projet, extérieur à l'équipe. À l'exception des tâches portant l'étiquette "Récurrente" (étiquette rouge dans l'exemple ci-dessous) qui une fois achevées, retournent dans le tableau portant la mention "Récurrente".
 
 Voici ci-dessous, l'interface de Trello.
 
@@ -86,10 +94,10 @@ Voici ci-dessous, l'interface de Trello.
 Concernant le processus que j'ai mis en place, que ce soit pour son initialisation, les différentes modifications apportées à certaines étapes ou l'ajout de certaines étapes, le développement se faisait en 4 étapes :
 
 \begin{itemize}
-\item \textit{Formalisation :} Tout d'abord, il fallait analyser le besoin, les ressources dont l'équipe disposait puis chercher une solution optimale et la rendre intelligible afin de pouvoir la communiquer (par le biais d'un diagramme par exemple).
-\item \textit{Validation interne :} Ensuite il me fallait exposer ma proposition à mes managers, c'est à dire au directeur adjoint, au manager \gls{TC}, au manager technique et au responsable \gls{RAMS}. Cette étape n'était pas qu'une simple obligation impliquée par le respect de la hiérarchie, elle s'est avérée cruciale par deux aspects majeurs. Tout d'abord, elle permettait de s'assurer de la conformité du processus au regard des besoins de l'équipe. En effet, ces managers possédaient une connaissance poussée des systèmes déployés, mais aussi du projet ainsi que du fonctionnement des différentes entités de ce dernier. Ensuite elle était indispensable du point de vue de l'attribution des tâches, afin de ne pas surcharger un employé ou une équipe, ce qui dans un projet de cette envergure, se serait avéré lourd de conséquences. En fonction des remarques et conseils de mes supérieurs, j'effectuais les modifications nécessaires.
+\item \textit{Formalisation :} tout d'abord, il fallait analyser le besoin, les ressources dont l'équipe disposait puis chercher une solution optimale et la rendre intelligible afin de pouvoir la communiquer (par le biais d'un diagramme par exemple).
+\item \textit{Validation interne :} ensuite il me fallait exposer ma proposition à mes managers, c'est à dire au directeur adjoint, au manager \gls{TC}, au manager technique et au responsable \gls{RAMS}. Cette étape n'était pas qu'une simple obligation impliquée par le respect de la hiérarchie, elle s'est avérée cruciale pour deux raisons. Tout d'abord, elle permettait de s'assurer de la conformité du processus au regard des besoins de l'équipe. En effet, ces managers possédaient une connaissance poussée des systèmes déployés, mais aussi du projet ainsi que du fonctionnement des différentes entités de ce dernier. Ensuite elle était indispensable du point de vue de l'attribution des tâches, afin de ne pas surcharger un employé ou une équipe, ce qui dans un projet de cette envergure, se serait avéré lourd de conséquences. En fonction des remarques et conseils de mes supérieurs, j'effectuais les modifications nécessaires.
 \item \textit{Validation externe :} rendu à ce stade, il fallait ensuite éprouver la solution fasse au client. Non seulement parce qu'il fallait obtenir son accord, mais aussi parce qu'il serait lui aussi concerné par les conséquences de cette décision, étant donné que QDVC et ICE possédaient leurs propres équipes intégrées au processus de \gls{TC}. J'exposerai plus loin les difficultés rencontrées à cette étape.
-\item \textit{Application du processus aux équipes \gls{TC} :} Enfin, après avoir obtenu les deux validations nécessaires, il fallait ensuite mettre en place le processus, propager les nouvelles pratiques aux membres des différentes équipes \gls{TC} puis dans un second temps, il me fallait faire remonter aux managers les premiers résultats impliqués par ce changement (nous verrons plus loin les méthodes utilisées).
+\item \textit{Application du processus aux équipes \gls{TC} :} enfin, après avoir obtenu les deux validations nécessaires, il fallait ensuite mettre en place le processus, propager les nouvelles pratiques aux membres des différentes équipes \gls{TC} puis dans un second temps, il me fallait faire remonter aux managers les premiers résultats impliqués par ce changement (nous verrons plus loin les méthodes utilisées).
 \end{itemize}
 
 En ce qui concerne l'outil d'automatisation de l'extraction des données que j'ai développé, le processus était identique à l'exception de la validation externe, puisque cette solution était à usage purement interne.
@@ -99,14 +107,14 @@ En ce qui concerne l'outil d'automatisation de l'extraction des données que j'a
 
 \section{Prise de recul}
 %Quel a été l'intérêt de votre travail pour l'entreprise ? Que va devenir votre contribution ? Présenter les perspectives.
-L'intérêt de mon travail pour l'équipe était de pouvoir obtenir un suivi détaillé de la production des preuves nécessaires à l'ouverture du projet ainsi que de pouvoir s'assurer du référencement de ces preuves dans le référentiel projet (dans la base de données \gls{Mezzoteam} ). Après mon départ, mon remplaçant reprendra la supervision de ces différents processus en utilisant les différents outils que j'ai mis en place.
+L'intérêt de mon travail pour l'équipe était de pouvoir obtenir un suivi détaillé de la production des preuves nécessaires à l'ouverture du projet ainsi que de pouvoir s'assurer du référencement de ces preuves dans le référentiel projet (dans la base de données \gls{Mezzoteam}). Après mon départ, mon remplaçant reprendra la supervision de ces différents processus en utilisant les différents outils que j'ai mis en place.
 
 %Quelles sont les améliorations à envisager ? Quelle est la maintenance à prévoir sur cette réalisation ou cette application ?
 Certaines parties des processus que j'ai mis en place pourraient encore être automatisées afin de minimiser la charge de travail répartie entre les différents acteurs impliqués dans ce processus.
 Il y a certains problèmes techniques que je n'ai pas eu le temps de résoudre, mais nous reviendrons sur ce sujet en détail dans la prochaine partie.
-Concernant la maintenance éventuelle à prévoir sur l'application que j'ai réalisée, elle serait nécessaire dans l'éventualité de changement de structure de la base de données de \gls{SnagR}.
+Concernant la maintenance éventuelle à prévoir sur l'application que j'ai réalisée, elle serait nécessaire dans l'éventualité d'un changement de structure de la base de données de \gls{SnagR}.
 Alors il faudrait analyser les changements apportés, déterminer s’ils impactent le bon fonctionnement de l'application, auquel cas des modifications mineures seront nécessaires.
 
 %Selon les cas, présentez vos réflexions sur l'impact de votre travail sur les utilisateurs, les nouveaux usages, le respect de la vie privée ou de l'environnement...
 
-Selon moi, je pense avoir amené certains utilisateurs, acteurs des différents processus, à réfléchir quand à la cohérence des données en les sensibilisant sur l'importance de la validation des données lorsqu'on utilise une base de données par exemple.
+Selon moi, je pense avoir amené certains utilisateurs, acteurs des différents processus, à réfléchir quant à la cohérence des données en les sensibilisant sur l'importance de la validation des données lorsqu'on utilise une base de données par exemple.
