@@ -37,6 +37,7 @@
 \glossaryentry{\underline {E2E}?\glossentry{E2E}|setentrycounter[]{page}\glsnumberformat}{1}
 \glossaryentry{\underline {Safety Case}?\glossentry{SC}|setentrycounter[]{page}\glsnumberformat}{1}
 \glossaryentry{\underline {SIL}?\glossentry{SIL}|setentrycounter[]{page}\glsnumberformat}{1}
+\glossaryentry{\underline {API}?\glossentry{API}|setentrycounter[]{page}\glsnumberformat}{1}
 \glossaryentry{\underline {LRT}?\glossentry{LRT}|setentrycounter[]{page}\glsnumberformat}{}
 \glossaryentry{\underline {T\&C}?\glossentry{TC}|setentrycounter[]{page}\glsnumberformat}{}
 \glossaryentry{\underline {LRT}?\glossentry{LRT}|setentrycounter[]{page}\glsnumberformat}{3}
@@ -86,44 +87,63 @@
 \glossaryentry{\underline {RAMS}?\glossentry{RAMS}|setentrycounter[]{page}\glsnumberformat}{11}
 \glossaryentry{\underline {T\&C}?\glossentry{TC}|setentrycounter[]{page}\glsnumberformat}{11}
 \glossaryentry{\underline {SnagR}?\glossentry{SnagR}|setentrycounter[]{page}\glsnumberformat}{11}
-\glossaryentry{\underline {IDE}?\glossentry{IDE}|setentrycounter[]{page}\glsnumberformat}{13}
-\glossaryentry{\underline {LaTeX}?\glossentry{LaTeX}|setentrycounter[]{page}\glsnumberformat}{13}
-\glossaryentry{\underline {méthodes agiles}?\glossentry{methodesagiles}|setentrycounter[]{page}\glsnumberformat}{13}
-\glossaryentry{\underline {Git}?\glossentry{Git}|setentrycounter[]{page}\glsnumberformat}{13}
+\glossaryentry{\underline {IDE}?\glossentry{IDE}|setentrycounter[]{page}\glsnumberformat}{12}
+\glossaryentry{\underline {LaTeX}?\glossentry{LaTeX}|setentrycounter[]{page}\glsnumberformat}{12}
+\glossaryentry{\underline {méthodes agiles}?\glossentry{methodesagiles}|setentrycounter[]{page}\glsnumberformat}{12}
+\glossaryentry{\underline {Git}?\glossentry{Git}|setentrycounter[]{page}\glsnumberformat}{12}
+\glossaryentry{\underline {T\&C}?\glossentry{TC}|setentrycounter[]{page}\glsnumberformat}{12}
+\glossaryentry{\underline {méthodes agiles}?\glossentry{methodesagiles}|setentrycounter[]{page}\glsnumberformat}{12}
+\glossaryentry{\underline {SnagR}?\glossentry{SnagR}|setentrycounter[]{page}\glsnumberformat}{12}
+\glossaryentry{\underline {SnagR}?\glossentry{SnagR}|setentrycounter[]{page}\glsnumberformat}{12}
+\glossaryentry{\underline {SnagR}?\glossentry{SnagR}|setentrycounter[]{page}\glsnumberformat}{12}
+\glossaryentry{\underline {PCR}?\glossentry{PCR}|setentrycounter[]{page}\glsnumberformat}{12}
+\glossaryentry{\underline {méthodes agiles}?\glossentry{methodesagiles}|setentrycounter[]{page}\glsnumberformat}{12}
 \glossaryentry{\underline {T\&C}?\glossentry{TC}|setentrycounter[]{page}\glsnumberformat}{13}
-\glossaryentry{\underline {méthodes agiles}?\glossentry{methodesagiles}|setentrycounter[]{page}\glsnumberformat}{13}
-\glossaryentry{\underline {SnagR}?\glossentry{SnagR}|setentrycounter[]{page}\glsnumberformat}{13}
-\glossaryentry{\underline {SnagR}?\glossentry{SnagR}|setentrycounter[]{page}\glsnumberformat}{13}
-\glossaryentry{\underline {SnagR}?\glossentry{SnagR}|setentrycounter[]{page}\glsnumberformat}{13}
-\glossaryentry{\underline {PCR}?\glossentry{PCR}|setentrycounter[]{page}\glsnumberformat}{13}
-\glossaryentry{\underline {méthodes agiles}?\glossentry{methodesagiles}|setentrycounter[]{page}\glsnumberformat}{13}
+\glossaryentry{\underline {RAMS}?\glossentry{RAMS}|setentrycounter[]{page}\glsnumberformat}{13}
+\glossaryentry{\underline {T\&C}?\glossentry{TC}|setentrycounter[]{page}\glsnumberformat}{13}
+\glossaryentry{\underline {T\&C}?\glossentry{TC}|setentrycounter[]{page}\glsnumberformat}{13}
+\glossaryentry{\underline {T\&C}?\glossentry{TC}|setentrycounter[]{page}\glsnumberformat}{14}
+\glossaryentry{\underline {Mezzoteam}?\glossentry{Mezzoteam}|setentrycounter[]{page}\glsnumberformat}{14}
+\glossaryentry{\underline {SnagR}?\glossentry{SnagR}|setentrycounter[]{page}\glsnumberformat}{14}
 \glossaryentry{\underline {T\&C}?\glossentry{TC}|setentrycounter[]{page}\glsnumberformat}{15}
-\glossaryentry{\underline {RAMS}?\glossentry{RAMS}|setentrycounter[]{page}\glsnumberformat}{15}
-\glossaryentry{\underline {T\&C}?\glossentry{TC}|setentrycounter[]{page}\glsnumberformat}{15}
-\glossaryentry{\underline {T\&C}?\glossentry{TC}|setentrycounter[]{page}\glsnumberformat}{15}
-\glossaryentry{\underline {T\&C}?\glossentry{TC}|setentrycounter[]{page}\glsnumberformat}{15}
-\glossaryentry{\underline {Mezzoteam}?\glossentry{Mezzoteam}|setentrycounter[]{page}\glsnumberformat}{16}
-\glossaryentry{\underline {SnagR}?\glossentry{SnagR}|setentrycounter[]{page}\glsnumberformat}{16}
+\glossaryentry{\underline {StAT}?\glossentry{StAT}|setentrycounter[]{page}\glsnumberformat}{15}
+\glossaryentry{\underline {SIT}?\glossentry{SIT}|setentrycounter[]{page}\glsnumberformat}{15}
+\glossaryentry{\underline {E2E}?\glossentry{E2E}|setentrycounter[]{page}\glsnumberformat}{15}
+\glossaryentry{\underline {StAT}?\glossentry{StAT}|setentrycounter[]{page}\glsnumberformat}{16}
+\glossaryentry{\underline {SIT}?\glossentry{SIT}|setentrycounter[]{page}\glsnumberformat}{16}
+\glossaryentry{\underline {E2E}?\glossentry{E2E}|setentrycounter[]{page}\glsnumberformat}{16}
+\glossaryentry{\underline {Test Cases}?\glossentry{TestCases}|setentrycounter[]{page}\glsnumberformat}{16}
+\glossaryentry{\underline {Test Cases}?\glossentry{TestCases}|setentrycounter[]{page}\glsnumberformat}{16}
+\glossaryentry{\underline {RAMS}?\glossentry{RAMS}|setentrycounter[]{page}\glsnumberformat}{16}
+\glossaryentry{\underline {Safety Case}?\glossentry{SC}|setentrycounter[]{page}\glsnumberformat}{16}
+\glossaryentry{\underline {SIL}?\glossentry{SIL}|setentrycounter[]{page}\glsnumberformat}{16}
 \glossaryentry{\underline {T\&C}?\glossentry{TC}|setentrycounter[]{page}\glsnumberformat}{17}
-\glossaryentry{\underline {StAT}?\glossentry{StAT}|setentrycounter[]{page}\glsnumberformat}{17}
-\glossaryentry{\underline {SIT}?\glossentry{SIT}|setentrycounter[]{page}\glsnumberformat}{17}
-\glossaryentry{\underline {E2E}?\glossentry{E2E}|setentrycounter[]{page}\glsnumberformat}{17}
-\glossaryentry{\underline {StAT}?\glossentry{StAT}|setentrycounter[]{page}\glsnumberformat}{18}
-\glossaryentry{\underline {SIT}?\glossentry{SIT}|setentrycounter[]{page}\glsnumberformat}{18}
-\glossaryentry{\underline {E2E}?\glossentry{E2E}|setentrycounter[]{page}\glsnumberformat}{18}
+\glossaryentry{\underline {SnagR}?\glossentry{SnagR}|setentrycounter[]{page}\glsnumberformat}{17}
+\glossaryentry{\underline {SnagR}?\glossentry{SnagR}|setentrycounter[]{page}\glsnumberformat}{17}
+\glossaryentry{\underline {Mezzoteam}?\glossentry{Mezzoteam}|setentrycounter[]{page}\glsnumberformat}{17}
+\glossaryentry{\underline {e-TOL}?\glossentry{e-TOL}|setentrycounter[]{page}\glsnumberformat}{17}
+\glossaryentry{\underline {RAMS}?\glossentry{RAMS}|setentrycounter[]{page}\glsnumberformat}{17}
+\glossaryentry{\underline {KPI}?\glossentry{KPI}|setentrycounter[]{page}\glsnumberformat}{17}
 \glossaryentry{\underline {Test Cases}?\glossentry{TestCases}|setentrycounter[]{page}\glsnumberformat}{18}
 \glossaryentry{\underline {Test Cases}?\glossentry{TestCases}|setentrycounter[]{page}\glsnumberformat}{18}
-\glossaryentry{\underline {RAMS}?\glossentry{RAMS}|setentrycounter[]{page}\glsnumberformat}{18}
-\glossaryentry{\underline {Safety Case}?\glossentry{SC}|setentrycounter[]{page}\glsnumberformat}{18}
-\glossaryentry{\underline {SIL}?\glossentry{SIL}|setentrycounter[]{page}\glsnumberformat}{18}
-\glossaryentry{\underline {T\&C}?\glossentry{TC}|setentrycounter[]{page}\glsnumberformat}{19}
+\glossaryentry{\underline {PCR}?\glossentry{PCR}|setentrycounter[]{page}\glsnumberformat}{18}
+\glossaryentry{\underline {Test Cases}?\glossentry{TestCases}|setentrycounter[]{page}\glsnumberformat}{19}
 \glossaryentry{\underline {SnagR}?\glossentry{SnagR}|setentrycounter[]{page}\glsnumberformat}{19}
 \glossaryentry{\underline {SnagR}?\glossentry{SnagR}|setentrycounter[]{page}\glsnumberformat}{19}
-\glossaryentry{\underline {Mezzoteam}?\glossentry{Mezzoteam}|setentrycounter[]{page}\glsnumberformat}{19}
-\glossaryentry{\underline {e-TOL}?\glossentry{e-TOL}|setentrycounter[]{page}\glsnumberformat}{19}
-\glossaryentry{\underline {RAMS}?\glossentry{RAMS}|setentrycounter[]{page}\glsnumberformat}{19}
 \glossaryentry{\underline {KPI}?\glossentry{KPI}|setentrycounter[]{page}\glsnumberformat}{19}
+\glossaryentry{\underline {SnagR}?\glossentry{SnagR}|setentrycounter[]{page}\glsnumberformat}{19}
+\glossaryentry{\underline {SnagR}?\glossentry{SnagR}|setentrycounter[]{page}\glsnumberformat}{19}
+\glossaryentry{\underline {SnagR}?\glossentry{SnagR}|setentrycounter[]{page}\glsnumberformat}{19}
+\glossaryentry{\underline {SnagR}?\glossentry{SnagR}|setentrycounter[]{page}\glsnumberformat}{20}
 \glossaryentry{\underline {Test Cases}?\glossentry{TestCases}|setentrycounter[]{page}\glsnumberformat}{20}
-\glossaryentry{\underline {Test Cases}?\glossentry{TestCases}|setentrycounter[]{page}\glsnumberformat}{20}
-\glossaryentry{\underline {PCR}?\glossentry{PCR}|setentrycounter[]{page}\glsnumberformat}{20}
-\glossaryentry{\underline {scraping}?\glossentry{scraping}|setentrycounter[]{page}\glsnumberformat}{21}
+\glossaryentry{\underline {API}?\glossentry{API}|setentrycounter[]{page}\glsnumberformat}{22}
+\glossaryentry{\underline {SnagR}?\glossentry{SnagR}|setentrycounter[]{page}\glsnumberformat}{22}
+\glossaryentry{\underline {API}?\glossentry{API}|setentrycounter[]{page}\glsnumberformat}{22}
+\glossaryentry{\underline {API}?\glossentry{API}|setentrycounter[]{page}\glsnumberformat}{22}
+\glossaryentry{\underline {SnagR}?\glossentry{SnagR}|setentrycounter[]{page}\glsnumberformat}{22}
+\glossaryentry{\underline {API}?\glossentry{API}|setentrycounter[]{page}\glsnumberformat}{22}
+\glossaryentry{\underline {API}?\glossentry{API}|setentrycounter[]{page}\glsnumberformat}{22}
+\glossaryentry{\underline {SnagR}?\glossentry{SnagR}|setentrycounter[]{page}\glsnumberformat}{22}
+\glossaryentry{\underline {API}?\glossentry{API}|setentrycounter[]{page}\glsnumberformat}{22}
+\glossaryentry{\underline {Test Cases}?\glossentry{TestCases}|setentrycounter[]{page}\glsnumberformat}{23}
+\glossaryentry{\underline {SnagR}?\glossentry{SnagR}|setentrycounter[]{page}\glsnumberformat}{26}

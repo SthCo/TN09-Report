@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.26)  13 FEB 2019 22:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.26)  15 FEB 2019 00:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1243,31 +1243,36 @@ Chapter 2.
 [10
 
 ] [11] [12]
-<ressources/images/figures/Trello.png, id=293, 1445.4pt x 540.0175pt>
+<ressources/images/figures/Trello.png, id=301, 1445.4pt x 540.0175pt>
 File: ressources/images/figures/Trello.png Graphic file (type png)
 <use ressources/images/figures/Trello.png>
 Package pdftex.def Info: ressources/images/figures/Trello.png  used on input li
-ne 88.
-(pdftex.def)             Requested size: 304.62366pt x 113.81102pt.
- [13] [14 <./ressources/images/figures/Trello.png>]
-Overfull \hbox (10.76006pt too wide) in paragraph at lines 103--105
+ne 86.
+(pdftex.def)             Requested size: 456.93549pt x 170.71652pt.
+
+Overfull \hbox (1.69138pt too wide) in paragraph at lines 86--87
+ [] 
+ []
+
+[13 <./ressources/images/figures/Trello.png>]
+Overfull \hbox (10.76006pt too wide) in paragraph at lines 99--101
 []\T1/cmr/m/n/12 En ce qui con-cerne l'outil d'automatisation de l'extraction d
 es don-nées que j'ai développé,
  []
 
-[15]) (./4-works.tex [16]
+) (./4-works.tex [14]
 Chapter 3.
-[17
+[15
 
 ]
-<ressources/images/figures/Workflow1.png, id=348, 870.25125pt x 430.60875pt>
+<ressources/images/figures/Workflow1.png, id=339, 870.25125pt x 430.60875pt>
 File: ressources/images/figures/Workflow1.png Graphic file (type png)
 <use ressources/images/figures/Workflow1.png>
 Package pdftex.def Info: ressources/images/figures/Workflow1.png  used on input
  line 48.
 (pdftex.def)             Requested size: 402.52473pt x 199.16928pt.
- [18 <./ressources/images/figures/Workflow1.png>]
-<ressources/images/figures/RACI.png, id=365, 993.7125pt x 233.87375pt>
+ [16 <./ressources/images/figures/Workflow1.png>]
+<ressources/images/figures/RACI.png, id=357, 993.7125pt x 233.87375pt>
 File: ressources/images/figures/RACI.png Graphic file (type png)
 <use ressources/images/figures/RACI.png>
 Package pdftex.def Info: ressources/images/figures/RACI.png  used on input line
@@ -1278,7 +1283,7 @@ Overfull \hbox (28.3283pt too wide) in paragraph at lines 68--69
  [] 
  []
 
-<ressources/images/figures/Workflow2.png, id=366, 1023.825pt x 438.63875pt>
+<ressources/images/figures/Workflow2.png, id=358, 1023.825pt x 438.63875pt>
 File: ressources/images/figures/Workflow2.png Graphic file (type png)
 <use ressources/images/figures/Workflow2.png>
 Package pdftex.def Info: ressources/images/figures/Workflow2.png  used on input
@@ -1289,25 +1294,56 @@ Overfull \hbox (9.64403pt too wide) in paragraph at lines 74--75
  [] 
  []
 
-[19 <./ressources/images/figures/RACI.png>] [20 <./ressources/images/figures/Wo
-rkflow2.png>]) (./5-conclusion.tex [21] [22]) (./rapport.gls [23
+[17 <./ressources/images/figures/RACI.png>] [18 <./ressources/images/figures/Wo
+rkflow2.png>] [19]
+<ressources/images/figures/tree.png, id=388, 344.28625pt x 316.18124pt>
+File: ressources/images/figures/tree.png Graphic file (type png)
+<use ressources/images/figures/tree.png>
+Package pdftex.def Info: ressources/images/figures/tree.png  used on input line
+ 136.
+(pdftex.def)             Requested size: 216.87521pt x 199.16928pt.
+ [20] [21 <./ressources/images/figures/tree.png>]
+Overfull \hbox (36.06921pt too wide) in paragraph at lines 175--177
+[]\T1/cmr/m/n/12 Il m'a donc fal-lut com-pren-dre la struc-ture et le fonc-tion
+-nement de l'[][]$[]$[] par l'expérimentation.
+ []
+
+[22] [23]
+<ressources/images/figures/bd.png, id=422, 1028.84375pt x 1345.025pt>
+File: ressources/images/figures/bd.png Graphic file (type png)
+<use ressources/images/figures/bd.png>
+Package pdftex.def Info: ressources/images/figures/bd.png  used on input line 2
+14.
+(pdftex.def)             Requested size: 514.42062pt x 672.51085pt.
+
+Overfull \hbox (59.17651pt too wide) in paragraph at lines 214--215
+ [] 
+ []
+
+[24 <./ressources/images/figures/bd.png>]
+Overfull \hbox (2.86343pt too wide) in paragraph at lines 237--238
+[]\T1/cmr/m/n/12 La so-lu-tion op-ti-male, selon moi, au-rait été d'héberger ce
+ script sur un serveur, l'exécuter
+ []
+
+[25] [26]) (./5-conclusion.tex [27]) (./rapport.gls [28
+
+] [29
+
 
 ]
-Overfull \hbox (13.42548pt too wide) in paragraph at lines 46--49
+Overfull \hbox (13.42548pt too wide) in paragraph at lines 50--53
 \T1/cmr/m/n/12 métro, mais supérieures à celles des sys-tèmes tra-di-tion-nels 
 de tramway. (c.f $[]$).
  []
 
-[24
 
-
-]
-Overfull \hbox (1.965pt too wide) in paragraph at lines 81--84
+Overfull \hbox (1.965pt too wide) in paragraph at lines 86--89
 []\T1/cmr/m/it/12 Supervisory Con-trol And Data Ac-qui-si-tion\T1/cmr/m/n/12 , 
 Sys-tème de Con-trôle et d'Acquisition
  []
 
-[25] [26]) [27]
+[30] [31]) [32]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 144.
 
  (/usr/local/texlive/2018/texmf-dist/tex/latex/base/t1cmtt.fd
@@ -1321,7 +1357,7 @@ l.1 \chapter
             *{Annexes} [1
 
 ]
-<ressources/images/annexes/Vcycle.png, id=552, 1025.8325pt x 781.92125pt>
+<ressources/images/annexes/Vcycle.png, id=603, 1025.8325pt x 781.92125pt>
 File: ressources/images/annexes/Vcycle.png Graphic file (type png)
 <use ressources/images/annexes/Vcycle.png>
 Package pdftex.def Info: ressources/images/annexes/Vcycle.png  used on input li
@@ -1351,17 +1387,24 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 150.
 (./rapport.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 150.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 150.
-Package rerunfilecheck Info: File `rapport.out' has not changed.
-(rerunfilecheck)             Checksum: 587D6080D58676461C961F69251648E0;1290.
+
+
+Package rerunfilecheck Warning: File `rapport.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `rapport.out':
+(rerunfilecheck)             Before: 587D6080D58676461C961F69251648E0;1290
+(rerunfilecheck)             After:  A07A85650BAB0C9D1B47C9D46F8173E5;1344.
 Package logreq Info: Writing requests to 'rapport.run.xml'.
 \openout1 = `rapport.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24339 strings out of 492649
- 407239 string characters out of 6129622
- 930227 words of memory out of 5000000
- 27725 multiletter control sequences out of 15000+600000
+ 24387 strings out of 492649
+ 408062 string characters out of 6129622
+ 930905 words of memory out of 5000000
+ 27765 multiletter control sequences out of 15000+600000
  19682 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  47i,8n,45p,1989b,1716s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1383,10 +1426,10 @@ exmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2018/tex
 mf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2018/texmf
 -dist/fonts/type1/public/cm-super/sfti1440.pfb></usr/local/texlive/2018/texmf-d
 ist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on rapport.pdf (32 pages, 3102477 bytes).
+Output written on rapport.pdf (37 pages, 3281366 bytes).
 PDF statistics:
- 639 PDF objects out of 1000 (max. 8388607)
- 556 compressed objects within 6 object streams
- 113 named destinations out of 1000 (max. 500000)
- 226 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 695 PDF objects out of 1000 (max. 8388607)
+ 602 compressed objects within 7 object streams
+ 119 named destinations out of 1000 (max. 500000)
+ 236 words of extra memory for PDF output out of 10000 (max. 10000000)
 
