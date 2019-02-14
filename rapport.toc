@@ -85,7 +85,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.4}Formation et transmission}{27}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.1}Sensibilisation des membre de l'\IeC {\'e}quipe }{27}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.1}Sensibilisation des membres de l'\IeC {\'e}quipe }{27}{subsection.3.4.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.5}Tuilage}{27}{section.3.5}
 \defcounter {refsection}{0}\relax 

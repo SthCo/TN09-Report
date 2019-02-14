@@ -6,7 +6,7 @@
 %Présentez votre réflexion et vos choix, qui devraient être justifiés. Examinez rapidement les autres alternatives.
 
 %Sélectionnez les détails pertinents et laissez les autres en annexe. Allez du général au particulier. Evitez de présenter un catalogue des fonctions développées.
-Le sujet de mon stage étant large, très tôt j'ai dû me concentrer sur plusieurs tâches puis rapidement m'atteler à plusieurs réalisations afin d'assurer au mieux ma fonction. Nous verrons donc dans ce chapitre, pour chacune de ces différentes réalisations, les besoins auxquels il fallait répondre, les choix qui ont été fait et les différentes difficultés rencontrées.
+Le sujet de mon stage étant large, très tôt j'ai dû me concentrer sur plusieurs tâches puis rapidement m'atteler à plusieurs réalisations afin d'assurer au mieux ma fonction. Nous verrons donc dans ce chapitre, pour chacune de ces différentes réalisations, les besoins auxquels il fallait répondre, les choix qui ont été faits et les différentes difficultés rencontrées.
 
 \section{Conception d'un processus de production et de gestion des rapports de test}
 %QQchose ?
@@ -14,29 +14,29 @@ Le sujet de mon stage étant large, très tôt j'ai dû me concentrer sur plusie
 Dans un premier temps, une présentation du contexte initial est indispensable. Au sein de l'équipe \gls{TC}, il existe différentes phases de test, dont l'organisation correspond au cycle en V du projet (cf. Annexe I) :
 \begin{itemize}
 \item \textbf{FAT} : Factory Acceptance Test, test d'acceptation usine consistant à inspecter le système dans l'usine avant livraison. Pendant le FAT, les performances du système sont contrôlées, généralement en collaboration avec le client.
-\item \textbf{iFAT} : Integrated Factory Acceptance Test, test d'acceptation intégré usine consistant à contrôler le fonctionnement des différents équipement ensemble.
+\item \textbf{iFAT} : Integrated Factory Acceptance Test, test d'acceptation intégré usine consistant à contrôler le fonctionnement des différents équipements ensemble.
 \item \textbf{\gls{StAT}} : Stand Alone Test, test unitaire, où  l'équipement testé est isolé de toute interaction durant le test, afin de restreindre les critères du test à son fonctionnement autonome.
-\item \textbf{\gls{SIT}} : Site Integration Test, test d'intégration, ayant pour but de détécter les erreurs non détéctables pendant les test unitaires. Ce type de test consiste à assembler différents composants afin de tester leur fonctionnement dans l'ensemble.
+\item \textbf{\gls{SIT}} : Site Integration Test, test d'intégration, ayant pour but de détecter les erreurs non détectables pendant les tests unitaires. Ce type de test consiste à assembler différents composants afin de tester leur fonctionnement dans l'ensemble.
 \item \textbf{\gls{E2E}} : End to End Test, test bout en bout ayant pour but de vérifier si un système se comporte comme prévu du début à la fin. Le testeur doit se mettre dans le rôle d’un utilisateur et effectuer les tests comme s’il utilisait véritablement l’outil mis à sa disposition.
 \end{itemize}
 
-Nous nous concentrerons ici sur les phases \gls{StAT}, \gls{SIT}, \gls{E2E}. 
+Nous nous concentrerons ici sur les phases \gls{StAT}, \gls{SIT}, \gls{E2E}.
 
-Pour chaque sous-système du projet, 3 procédures de test ont été rédigées, une par phase de test. 
+Pour chaque sous-système du projet, 3 procédures de test ont été rédigées, une par phase de test.
 
 Ainsi, si une localisation du projet abrite 3 sous-systèmes nécessitant d'être testés, il y aura 9 tests à effectuer dans cette localisation.
 
-Ensuite, chaque test doit être formalisé par un rapport de test constitué de la manière suivante : 
+Ensuite, chaque test doit être formalisé par un rapport de test constitué de la manière suivante :
 
 \begin{itemize}
-\item Une première page que l'on appelle ITR, qui permet d'identifier le rapport (numéro unique), d'identifier le test (localisation, phase, système, date), identifier le statut (accepté avec, sans réserves ou refusé), résumer les observations et réserves des 3 parties et consigner leurs signatures.
-\item Les pages suivantes sont les \gls{TestCases}, en français les scénarios de test, qui permettent de simuler plusieurs situations d'utilisation des systèmes de manière à prouver leur conformité vis à vis de toutes les exigences du cahier des charges.
+\item Une première page que l'on appelle ITR, qui permet d'identifier le rapport (numéro unique), d'identifier le test (localisation, phase, système, date), identifier le statut (accepté avec, sans réserve ou refusé), résumer les observations et réserves des 3 parties et consigner leurs signatures.
+\item Les pages suivantes sont les \gls{TestCases}, en français les scénarios de test, qui permettent de simuler plusieurs situations d'utilisation des systèmes de manière à prouver leur conformité vis-à-vis de toutes les exigences du cahier des charges.
 \begin{itemize}
-\item Chaque \gls{TestCases} est composé de une ou plusieurs étapes qui elles mêmes sont reliées à une ou plusieurs exigences.
+\item Chaque \gls{TestCases} est composé de une ou plusieurs étapes qui elles-mêmes sont reliées à une ou plusieurs exigences.
 \end{itemize}
 \end{itemize}
 
-Parmi ces exigences, certaines sont liées à la sécurité, dans le cadre des \gls{RAMS}, et sont indexées dans un document appelé le \gls{SC}. Ces exigences liées à la sécurité sont séparés en deux \gls{SIL}, ou niveaux de criticité : SIL0, le plus faible et SIL2 le plus élevé.
+Parmi ces exigences, certaines sont liées à la sécurité, dans le cadre des \gls{RAMS}, et sont indexées dans un document appelé le \gls{SC}. Ces exigences liées à la sécurité sont séparées en deux \gls{SIL}, ou niveaux de criticité : SIL0, le plus faible et SIL2 le plus élevé.
 
 Une fois ce contexte clarifié, nous avons pu entreprendre l'élaboration du processus et c'est le sujet de la prochaine section.
 
@@ -50,25 +50,25 @@ Après l'analyse exposée précédemment, nous avons travaillé conjointement av
 
 
 \begin{itemize}
-\item \textbf{1.} Tout d'abord, l'équipe \gls{TC} effectue les différentes inspections et produit les rapports de test en remplissant les formulaires correspondant sur \gls{SnagR}.  
-\item \textbf{2.} Ensuite j'extraie les données de \gls{SnagR} (nous reviendrons sur ce point dans la prochaine partie) et les importe dans un fichier Excel afin de les exploiter. J'exporte les rapports au format pdf et les envoie à l'équipe de gestion des documents.
-\item \textbf{3.} Cette dernière importe les rapports sur \gls{Mezzoteam} afin de rendre ces preuves accessibles à tout les membre du projet et les importe aussi sur \gls{e-TOL} pour que les membre de l'équipe Thales offshore puissent les consulter. Une fois l'importation terminée, l'équipe me fournit les références de ces documents afin que je les ajoutes à ma base de donnée.
-\item \textbf{4.} Le manager \gls{RAMS} et son équipe me fournissent des mises à jours concernant les exigences liées à la sécurité afin que je puisse actualiser mon fichier car les rapports devant servir de preuve pour ces dernières nécessitent d'être suivis de manière prioritaire. En effet, le futur opérateur refusera de commencer la période de formation de ses employés à l'exploitation du système tant qu'il n'aura pas la preuve de la conformité du projet vis à vis de ces exigences.
+\item \textbf{1.} Tout d'abord, l'équipe \gls{TC} effectue les différentes inspections et produit les rapports de test en remplissant les formulaires correspondant sur \gls{SnagR}.
+\item \textbf{2.} Ensuite j'extraie les données de \gls{SnagR} (nous reviendrons sur ce point dans la prochaine partie) et les importe dans un fichier Excel afin de les exploiter. J'exporte les rapports au format PDF et les envoie à l'équipe de gestion des documents.
+\item \textbf{3.} Cette dernière importe les rapports sur \gls{Mezzoteam} afin de rendre ces preuves accessibles à tous les membres du projet et les importe aussi sur \gls{e-TOL} pour que les membres de l'équipe Thales offshore puissent les consulter. Une fois l'importation terminée, l'équipe me fournit les références de ces documents afin que je les ajoute à ma base de données.
+\item \textbf{4.} Le manager \gls{RAMS} et son équipe me fournissent des mises à jour concernant les exigences liées à la sécurité afin que je puisse actualiser mon fichier, car les rapports devant servir de preuve pour ces dernières nécessitent d'être suivis de manière prioritaire. En effet, le futur opérateur refusera de commencer la période de formation de ses employés à l'exploitation du système tant qu'il n'aura pas la preuve de la conformité du projet vis-à-vis de ces exigences.
 \item \textbf{5.} Enfin, il me faut communiquer les résultats aux différents managers sous forme de \gls{KPI}, courbes et outils d'aide à la décision. Nous reviendrons plus tard sur ce point.
 \end{itemize}
 
-Ce processus fut mis en place et appliqué durant le premier mois de mon stage, mais il fallu rapidement l'adapter.
+Ce processus fut mis en place et appliqué durant le premier mois de mon stage, mais il fallut rapidement l'adapter.
 
 \subsection{Évolution du processus}
 
-En effet, aux vues des différentes responsabilités que l'on m'a confié à partir du second mois, j'ai du intégrer à ce processus de nouvelles étapes. 
+En effet, aux vues des différentes responsabilités que l'on m'a confiées à partir du second mois, j'ai dû intégrer à ce processus de nouvelles étapes.
 Voici ci-dessous la matrice de responsabilité de notre projet suivant la méthode RACI. Dans cette matrice, le R signifie responsable et désigne la personne qui exécute l'action, le A désigne la personne qui approuve l'action, le C une personne consultée et le I une personne devant être tenue informée.
 
 \begin{center}
 \includegraphics[height=4cm]{ressources/images/figures/RACI.png}
 \end{center}
 
-Ainsi, c'est pour cela que j'ai dû choisir d'intégrer au processus de nouveaux acteurs ainsi que de nouvelles interactions. 
+Ainsi, c'est pour cela que j'ai dû choisir d'intégrer au processus de nouveaux acteurs ainsi que de nouvelles interactions.
 
 \begin{center}
 \includegraphics[height=7cm]{ressources/images/figures/Workflow2.png}
@@ -77,37 +77,37 @@ Ainsi, c'est pour cela que j'ai dû choisir d'intégrer au processus de nouveaux
 
 \begin{itemize}
 \item \textbf{Étapes 1 à 4.} Identiques à la première version du processus.
-\item \textbf{5.} Après avoir vérifié que les exigences liées à la sécurité étaient bien à jour, il me fallait fournir au manager sécurité les données nécésssaires à la vérification de la conformité des systèmes. Je devais donc lui fournir, pour chaque exigence déjà vérifiée lors d'un test, la référence du rapport de ce test ainsi que celles des \gls{TestCases} permettant de vérifier la conformité de l'exigence.
+\item \textbf{5.} Après avoir vérifié que les exigences liées à la sécurité étaient bien à jour, il me fallait fournir au manager sécurité les données nécessaires à la vérification de la conformité des systèmes. Je devais donc lui fournir, pour chaque exigence déjà vérifiée lors d'un test, la référence du rapport de ce test ainsi que celles des \gls{TestCases} permettant de vérifier la conformité de l'exigence.
 \item \textbf{6.} Ensuite, le manager sécurité devait spécifier, pour chaque \gls{TestCases} lié à une exigence sécurité, si il était conforme ou non, et le cas échéant, il devait générer une \gls{PCR} afin de notifier ce défaut aux autres équipes.
-\item \textbf{7.} Après cela, je collectais, auprès du manager technique (et de son équipe), les différents facteurs limitant retardant l'execution de certains test, afin de pouvoir, à l'étape suivante, réaliser des outils d'aide à la décision.
+\item \textbf{7.} Après cela, je collectais, auprès du manager technique (et de son équipe), les différents facteurs limitants retardant l'exécution de certains tests, afin de pouvoir, à l'étape suivante, réaliser des outils d'aide à la décision.
 \item \textbf{8.} Comme précédemment, il fallait enfin communiquer les résultats aux managers.
 \end{itemize}
 
-Dans un soucis de synthèse, la version du processus final exposée ci-dessus est une version simplifiée, mais les étapes principales y sont représentées. 
-Au cours de la prochaine partie, nous allons nous intéresser à la réalisation de la deuxième étape du processus : l'extraction des données. 
+Dans un souci de synthèse, la version du processus final exposée ci-dessus est une version simplifiée, mais les étapes principales y sont représentées.
+Au cours de la prochaine partie, nous allons nous intéresser à la réalisation de la deuxième étape du processus : l'extraction des données.
 
 \newpage
 \section{Mise au point d'un outil d'extraction de données }
 %QQchose ?
 Cette partie constitue le point névralgique du processus, car sans données, aucune des étapes suivantes n'est réalisable. Mais c'est aussi le point le plus complexe et c'est pour cela que cette réalisation fut la plus conséquente de mon stage.
 \subsection{Les motivations}
-Au tout début de mon stage, je me chargeais de l'extraction de ces données manuellement, puisque le nombre de rapports de test remplis était réduit. 
+Au tout début de mon stage, je me chargeais de l'extraction de ces données manuellement, puisque le nombre de rapports de test remplis était réduit.
 
 Mais rapidement il fallut envisager une alternative, car sur cette phase du projet, environ 1500 rapports de test seraient produits, soit plus de 15 000 \gls{TestCases} (donc autant de formulaires), soit plus de 60 000 étapes de test à analyser.
 
-De plus, le contenu de ces rapports de test étant dynamique (puisque les utilisateurs de \gls{SnagR} pouvaient éditer le même rapport à maintes reprises), il aurait fallu actualiser cette énorme quantité de données régulièrement. 
+De plus, le contenu de ces rapports de test étant dynamique (puisque les utilisateurs de \gls{SnagR} pouvaient éditer le même rapport à maintes reprises), il aurait fallu actualiser cette énorme quantité de données régulièrement.
 
 Ainsi, j'ai essayé, en demandant au client des droits d'accès plus élevés sur \gls{SnagR}, d'obtenir les données automatiquement en utilisant les fonctions proposées par l'outil.
 
 Mais ces fonctions d'exportation de données présentaient deux défauts majeurs :
 \begin{itemize}
 \item Les champs et les différents lots de données proposés au moment de l'exportation étaient trop restreints, il n'était pas possible d'exporter toutes les données issues des rapports.
-\item Les données étaient structurées autours d'un découpage basé sur des activités, pour faire simple, ce dernier ne correspondait pas au découpage énoncé précédemment : 1 rapport par localisation pour chaque type de test et pour chaque système. Les données manquaient de cohérence, le nombre de total d'activités étant de 6000 alors que seules 1500 de ces activités seraient liées à un rapport. C'est pour cela que les \gls{KPI} proposées par l'outil \gls{SnagR} étaient fausses, puisqu'elles se basaient sur un nombre total 4 fois plus élevé que le vrai.
+\item Les données étaient structurées autour d'un découpage basé sur des activités, pour faire simple, ce dernier ne correspondait pas au découpage énoncé précédemment : 1 rapport par localisation pour chaque type de test et pour chaque système. Les données manquaient de cohérence, le nombre total d'activités étant de 6000 alors que seules 1500 de ces activités seraient liées à un rapport. C'est pour cela que les \gls{KPI} proposées par l'outil \gls{SnagR} étaient fausses, puisqu'elles se basaient sur un nombre total 4 fois plus élevé que le vrai.
 \end{itemize}
 
-Le problème étant que le client, qui avait choisi cet outil, devait envoyer des tickets techniques au service client \gls{SnagR} pour chaque question, incidents ou même pour la suppression de données.
+Le problème étant que le client, qui avait choisi cet outil, devait envoyer des tickets techniques au service client \gls{SnagR} pour chaque incident.
 
-Après en avoir discuté avec mon maître de stage, il a accepté que je me charge d'implémenter un solution permettant d'extraire les données des formulaires présents sur \gls{SnagR} puis de les ré-organiser dans une autre base de données.
+Après en avoir discuté avec mon maître de stage, il a accepté que je me charge d'implémenter une solution permettant d'extraire les données des formulaires présents sur \gls{SnagR} puis de les réorganiser dans une autre base de données.
 
 Pour cette réalisation, il fallait donc concevoir plusieurs fonctionnalités, c'est le sujet de prochaine section.
 
@@ -115,22 +115,22 @@ Pour cette réalisation, il fallait donc concevoir plusieurs fonctionnalités, c
 
 Dans cette section, nous verrons les différentes étapes nécessaires au bon fonctionnement de l'outil.
 
-\subsubsection{Authentification} 
+\subsubsection{Authentification}
 Il fallait dans un premier temps fournir au script le moyen de se connecter au site de \gls{SnagR} pour pouvoir avoir accès aux données.
-\subsubsection{Extraction des données} 
-Ensuite, l'extraction des données se faisait deux étapes : 
+\subsubsection{Extraction des données}
+Ensuite, l'extraction des données se faisait deux étapes :
 \begin{itemize}
-\item Premièrement seules les données des ITR (première page des rapports) sont extraites, de manière à obtenir la liste de tout les rapports présent dans la base de donnée, avec leurs informations principales (identifiant, système, type de test, localisation, date du test, statut général, commentaire générale et signatures des différents partis).
-\item Dans un second temps, pour chaque rapport, les données de tout les \gls{TestCases} dont il est constitué, sont extraites afin d'accéder à un second niveau de détails.
+\item Premièrement seules les données des ITR (première page des rapports) sont extraites, de manière à obtenir la liste de tous les rapports présente dans la base de données, avec leurs informations principales (identifiant, système, type de test, localisation, date du test, statut général, commentaire général et signatures des différents partis).
+\item Dans un second temps, pour chaque rapport, les données de tous les \gls{TestCases} dont il est constitué sont extraites afin d'accéder à un second niveau de détails.
 \end{itemize}
 
 L'utilisateur pouvoir choisir au début de l'exécution du script quel niveau de détails il souhaitait.
 \subsubsection{Organisation des données}
 En parallèle de l'extraction des données, il fallait les organiser au fur et à mesure dans des tables dans le but de les exploiter.
 \subsubsection{Sauvegarde}
-À la fin des deux étapes précédentes, le script propose à l'utilisateur d'effectuer une sauvegarde complète de tous les rapports de test dont la complétion avait été entamée. 
+À la fin des deux étapes précédentes, le script propose à l'utilisateur d'effectuer une sauvegarde complète de tous les rapports de test dont la complétion avait été entamée.
 
-Si l'utilisateur choisissait d'éffectuer une sauvegarde, l'ensemble de ces rapports étaient téléchargés au format pdf avec leur identifiant inscrit dans leur nom de fichier, tout cela organisé dans une arborescence respectant le schéma suivant : 
+Si l'utilisateur choisissait d'effectuer une sauvegarde, l'ensemble de ces rapports étaient téléchargés au format PDF avec leur identifiant inscrit dans leur nom de fichier, tout cela organisé dans une arborescence respectant le schéma suivant :
 
 \begin{center}
 \includegraphics[height=7cm]{ressources/images/figures/tree.png}
@@ -138,7 +138,7 @@ Si l'utilisateur choisissait d'éffectuer une sauvegarde, l'ensemble de ces rapp
 
 \subsubsection{Exportation}
 
-Enfin, les données sous forme de tables étaient exportées au format Excel afin d'être intégrées aux différents outils du projet. 
+Enfin, les données sous forme de tables étaient exportées au format Excel afin d'être intégrées aux différents outils du projet.
 
 \subsection{Les choix techniques}
 
@@ -147,12 +147,12 @@ Dans cette section, pour chaque étape énoncée précédemment, nous exposerons
 Concernant le langage informatique, j'aurais pus utiliser :
 \begin{itemize}
 \item \textbf{Node.js :} langage efficace pour extraire des données d'un site web dynamique, mais pas assez stable pour le nombre de requêtes nécessaires à ce projet.
-\item \textbf{C ++ :} il propose des performance élevées mais aurait demandé un investissement horaire démesuré.
-\item \textbf{PHP :} ce langage supporte mal le multi-threading et l'ordonnancement de tâches, fonctions pourtant indispensable à ce projet, comme nous le verrons plus bas.
-\item \textbf{Python :} c'est l'alternative la plus utilisée pour ce genre de projet, et cela principalement grâce aux bibliothèques surdéveloppées que la communauté Python a mis au point et enrichie.
+\item \textbf{C ++ :} il propose des performances élevées, mais aurait demandé un investissement horaire démesuré.
+\item \textbf{PHP :} ce langage supporte mal le multi-threading et l'ordonnancement de tâches, fonctions pourtant indispensables à ce projet, comme nous le verrons plus bas.
+\item \textbf{Python :} c'est l'alternative la plus utilisée pour ce genre de projet, et cela principalement grâce aux bibliothèques surdéveloppées que la communauté Python a mises au point et enrichies.
 \end{itemize}
 
-J'ai donc choisi d'utiliser Python. Dans un premier temps j'utilisais Python 2.7 mais la fin de vie de cette version étant annoncée pour Janvier 2020 j'ai préféré passer, vers la fin du projet, à Python 3.7.
+J'ai donc choisi d'utiliser Python. Dans un premier temps j'utilisais Python 2.7, mais la fin de vie de cette version étant annoncée pour janvier 2020 j'ai préféré passer, vers la fin du projet, à Python 3.7.
 Ce choix était aussi motivé par la simplicité de cette opération, grâce à l'existence d'un programme nommé \underline{\href{https://docs.python.org/2/library/2to3.html}{2to3}} qui permet de transformer un script écrit en 2.7 en un script compatible 3.7.
 
 \subsubsection{Authentification}
@@ -160,46 +160,46 @@ Ce choix était aussi motivé par la simplicité de cette opération, grâce à 
 Pour cette partie, j'ai défini une session, avec laquelle j'envoyais une requête de type "post" avec les données nécessaires à l'authentification. Cette requête permettait de simuler la saisie manuelle des données dans les champs dédiés de la page d'authentification puis de simuler l'appui sur le bouton "Se connecter".
 Cependant, une autre solution bien plus simple aurait été d'utiliser la clé d'accès à l'\gls{API} de \gls{SnagR} à chaque requête.
 
-En effet, l'outil propose une \gls{API}, qui est une interface donnant accès à certaines de ses fonctions et de ses données et cela de manière facilitée.
+En effet, l'outil propose une \gls{API}, qui est une interface donnant accès à certaines de ses fonctions et de ses données, et cela de manière facilitée.
 
-Malheureusement, je n'ai découvert l'existence de cette \gls{API} qu'après avoir réussis à implémenter la méthode d'authentification.
+Malheureusement, je n'ai découvert l'existence de cette \gls{API} qu'après avoir réussi à implémenter la méthode d'authentification.
 
 \subsubsection{Extraction des données}
 
-Pour l'extraction des données, j'ai commencé par analyser les différentes requêtes effectuées par \gls{SnagR} et c'est à ce moment là que j'ai découvert la présence d'une \gls{API} (à travers l'url d'une requête). 
+Pour l'extraction des données, j'ai commencé par analyser les différentes requêtes effectuées par \gls{SnagR} et c'est à ce moment-là que j'ai découvert la présence d'une \gls{API} (à travers l'URL d'une requête).
 
-Afin de pouvoir l'exploiter au mieux, j'ai voulu me procurer sa documentation. En explorant l'arborescence du site, j'ai découvert une page contenant une documentation non-achevée et obsolète puisqu'elle concernait la version 1 de l'\gls{API} et non la version actuelle (v2). 
+Afin de pouvoir l'exploiter au mieux, j'ai voulu me procurer sa documentation. En explorant l'arborescence du site, j'ai découvert une page contenant une documentation non achevée et obsolète puisqu'elle concernait la version 1 de l'\gls{API} et non la version actuelle (v2).
 
-J'ai donc contacté le service informatique du client (QDVC) puis le service de \gls{SnagR} mais une telle documentation pour la version 2 ne semblait pas exister. 
+J'ai donc contacté le service informatique du client (QDVC) puis le service de \gls{SnagR}, mais une telle documentation pour la version 2 ne semblait pas exister.
 
-Il m'a donc fallut comprendre la structure et le fonctionnement de l'\gls{API} par l'expérimentation. 
+Il m'a donc fallu comprendre la structure et le fonctionnement de l'\gls{API} par l'expérimentation.
 J'ai analysé de nombreuses pages du site jusqu'à obtenir un lot de requêtes suffisant à l'extraction des données nécessaires.
 
 Les réponses à ces requêtes étaient au format JSON, un format de représentation des données.
 
-J'ai donc choisi de générer ces requêtes au sein du script et de récupérer les données résultantes avec une module Python nommé \underline{\href{https://simplejson.readthedocs.io/en/latest/}{simplejson}}.
+J'ai donc choisi de générer ces requêtes au sein du script et de récupérer les données résultantes avec un module Python nommé \underline{\href{https://simplejson.readthedocs.io/en/latest/}{simplejson}}.
 
-Le choix de l'extraction des données en deux temps est justifié par deux raisons : 
+Le choix de l'extraction des données en deux temps est justifié par deux raisons :
 \begin{itemize}
-\item Laisser le choix à l'utilisateur des données qu'il veut extraire afin d'actualiser sa base de donnée
-\item Optimiser le nombre de requêtes exécutées par le script. En effet, une fois la liste des rapports obtenues, au lieu de chercher à extraire les données de tous les rapports, mêmes ceux encore vierges, on ne s'intéresse que ceux qui sont au minimum entamés. Ici nous avons pris comme critère la présence de la signature de l'ingénieur Thales ayant réalisé le test. 
+\item Laisser le choix à l'utilisateur des données qu'il veut extraire afin d'actualiser sa base de données.
+\item Optimiser le nombre de requêtes exécutées par le script. En effet, une fois la liste des rapports obtenue, au lieu de chercher à extraire les données de tous les rapports, même ceux encore vierges, on ne s'intéresse qu’à ceux qui sont au minimum entamés. Ici nous avons pris comme critère la présence de la signature de l'ingénieur Thales ayant réalisé le test.
 \end{itemize}
 
-Toujours dans une démarche d'optimisation de cette étape, j'ai ensuite cherché à réduire le temps d'extraction des données. En effet, il fallait une requête pour pouvoir obtenir les données de chaque \gls{TestCases}, ce qui faisait plus de 15 000 requêtes, plus le temps de traitement de chaque requête. 
+Toujours dans une démarche d'optimisation de cette étape, j'ai ensuite cherché à réduire le temps d'extraction des données. En effet, il fallait une requête pour pouvoir obtenir les données de chaque \gls{TestCases}, ce qui faisait plus de 15 000 requêtes, plus le temps de traitement de chaque requête.
 
-C'est pour ces raison qu'initialement, le programme prenait environ une heure à s'exécuter.
+C'est pour ces raisons qu'initialement, le programme prenait environ une heure à s'exécuter.
 
-C'est ce qui m'a ammené à devoir choisir entre le multithreading et le multiprocessing. Ce sont deux techniques d'optimisation dont le principe diffère :
+C'est ce qui m'a amené à devoir choisir entre le multithreading et le multiprocessing. Ce sont deux techniques d'optimisation dont le principe diffère :
 \begin{itemize}
-\item Le premier consiste à exécuter des tâches ou fil de tâches (appartenant au même processus) en parallèle tout en utilisant les mêmes ressources (même processeur).
+\item Le premier consiste à exécuter des tâches ou fils de tâches (appartenant au même processus) en parallèle tout en utilisant les mêmes ressources (même processeur).
 \item Le second consiste à exécuter plusieurs processus en parallèle en utilisant plus de deux processeurs.
 \end{itemize}
 
-J'ai choisi le multithreading, car je voulais pas concevoir un outil dont les performances dépendraient grandement de la machine qui l'exécute. 
+J'ai choisi le multithreading, car je ne voulais pas concevoir un outil dont les performances dépendraient grandement de la machine qui l'exécute.
 
 À cela j'ai ajouté un système de queue, pour stocker les requêtes en attente d'être exécutées.
 
-Après avoir mis en place cette solution, le temps d'exécution oscillait entre 5 et 10 minutes, car les serveurs du site n'offraient pas une stabilité optimale, ce qui faisait que par moment, plus de 40\% des requêtes échouaient et devaient être effectuées à nouveau. 
+Après avoir mis en place cette solution, le temps d'exécution oscillait entre 5 et 10 minutes, car les serveurs du site n'offraient pas une stabilité optimale, ce qui faisait que par moment, plus de 40\% des requêtes échouaient et devaient être effectuées à nouveau.
 
 \subsubsection{Organisation des données}
 
@@ -207,8 +207,8 @@ Pour organiser les données, j'ai utilisé la bibliothèque \underline{\href{htt
 
 La première étape était d'importer les données au format JSON dans des tables. Pour cela j'ai utilisé le module "jsonnormalize" issu de la bibliothèque Pandas.
 
-Cette dernière m'a aussi servie à sélectionner les champs de données que je voulais conserver, filtrer les résultats, joindre des tables et toutes les opérations habituelles lorsqu'on traite avec des tables de données. 
-Voici ci-dessous les différentes tables que j'ai crée afin de concevoir ma base de données finale :
+Cette dernière m'a aussi servie à sélectionner les champs de données que je voulais conserver, filtrer les résultats, joindre des tables et toutes les opérations habituelles lorsqu'on traite avec des tables de données.
+Voici ci-dessous les différentes tables que j'ai créées afin de concevoir ma base de données finale :
 \newpage
 \begin{center}
 \includegraphics[scale=0.5]{ressources/images/figures/bd.png}
@@ -219,7 +219,7 @@ Pour plus de détails, voici les différentes opérations réalisées :
 \item 1 : on filtre la liste des formulaires en ne retenant que les ITR (première page d'un rapport).
 \item 2 : on effectue une jointure des deux tables avec l'identifiant du de l'ITR puis on supprime cet identifiant au profit de l'identifiant du rapport lié à l'ITR qui est aussi unique dont éligible en tant que clé primaire.
 \item 3 : on filtre en ne retenant que les ITR signés par Thales.
-\item 4 : on filtre en ne retenant que les Test Cases.
+\item 4 : on filtre en ne retenant que les Tests Cases.
 \item 5 : on effectue une jointure des deux tables avec l'identifiant du rapport lié à l'ITR.
 \item 6 : on effectue une jointure des deux tables avec l'identifiant du test case.
 \item 7 : on effectue une jointure des deux tables avec l'identifiant du rapport lié à l'ITR.
@@ -227,16 +227,16 @@ Pour plus de détails, voici les différentes opérations réalisées :
 \end{itemize}
 
 \subsubsection{Sauvegarde}
-Pour cette fonction, j'ai fait le choix de ne télécharger que les rapports au minimum initialisés par Thales. Chaque sauvegarde est stockée dans un dossier ayant pour nom la date de l'exécution en suivant l'arborescence précédemment énoncée. 
+Pour cette fonction, j'ai fait le choix de ne télécharger que les rapports au minimum initialisés par Thales. Chaque sauvegarde est stockée dans un dossier ayant pour nom la date de l'exécution en suivant l'arborescence précédemment énoncée.
 
-J'aurai pus faire le choix de ne créer qu'un seul dossier et de ne télécharger que les rapports qui n'avaient pas été encore sauvagardé,
+J'aurais pus faire le choix de ne créer qu'un seul dossier et de ne télécharger que les rapports qui n'avaient pas été encore sauvegardés,
 mais le contenu de ces derniers étant dynamique, la seule solution viable était une sauvegarde intégrale et datée à chaque appel de la fonction de sauvegarde.
 \subsubsection{Exportation}
 Enfin, pour l'exportation, je me suis posé la question du format d'exportation de ces données que je devais choisir.
 
 La solution optimale, selon moi, aurait été d'héberger ce script sur un serveur, l'exécuter en tâche de fond puis créer une interface web pour la consultation et la communication de ces données.
 
-Cependant, cette solution ne correspond pas aux contraintes du projet. 
+Cependant, cette solution ne correspond pas aux contraintes du projet.
 
 Premièrement, je ne pouvais pas allouer la totalité de mon temps à cette tâche.
 
@@ -247,11 +247,11 @@ Ensuite, le caractère confidentiel de ces données ne me permettait pas de les 
 \newpage
 \section{Communication sur l'avancement du projet}
 
-Une fois les données extraites, il faut leur donner un sens afin de pouvoir les exploiter. Sur ce projet, les données issues des rapports étaient indispensable au management ainsi qu'à la communication avec le client. La première étape de cette exploitation est l'analyse des données.
+Une fois les données extraites, il faut leur donner un sens afin de pouvoir les exploiter. Sur ce projet, les données issues des rapports étaient indispensables au management ainsi qu'à la communication avec le client. La première étape de cette exploitation est l'analyse des données.
 
 \subsection{Analyse des données}
-Si on revient aux raisons qui nous ont poussé à développer l'outil présenté précédemment, une d'entre elles était le manque de cohérence. 
-En effet, le nombre total de rapports sur \gls{SnagR} étant plus élevé que la réalité, il est, jusque là, impossible de rendre compte de l'avancement, puisque ce dernier s'illustre avec des pourcentages d'accomplissement. 
+Si on revient aux raisons qui nous ont poussés à développer l'outil présenté précédemment, une d'entre elles était le manque de cohérence.
+En effet, le nombre total de rapports sur \gls{SnagR} étant plus élevé que la réalité, il est, jusque là, impossible de rendre compte de l'avancement, puisque ce dernier s'illustre avec des pourcentages d'accomplissement.
 
 C'est pour cela qu'un travail d'analyse des différentes documentations des systèmes déployés pas Thales a été réalisé avec mon maître de stage ainsi que le manager de l'équipe afin d'obtenir un nombre total de rapports à produire.
 
@@ -260,7 +260,7 @@ Création de différents indicateurs et outils permettant la vérification de la
 
 
 \subsection{Communication interne}
-Liste (exhaustive ou non) des différents graphique, tableau et autres éléments présents dans les slides que j'envoyai chaque semaine. 
+Liste (exhaustive ou non) des différents graphiques, tableaux et autres éléments présents dans les slides que j'envoyai chaque semaine.
 %Outils d'aide à la décision
 %KPI
 %S-Curves
@@ -270,11 +270,11 @@ Partie expliquant la synchronisation avec le testing (fichier d'Armenio) pour pl
 
 Organisation des données et des indicateurs pour correspondre aux différents scopes proposés par l'équipe RAMS (Pilot, Safety Strategy et Safety Related)
 
-Difficultés personnelles rencontrées face au client (dues à une première expérience) 
+Difficultés personnelles rencontrées face au client (dues à une première expérience)
 
 \newpage
 \section{Formation et transmission}
-\subsection{Sensibilisation des membre de l'équipe }
+\subsection{Sensibilisation des membres de l'équipe }
 %Absence de validation des données
 Sensibilisation des utilisateurs SnagR à l'importance de la production des rapports (je vais essayer de tourner ça autrement pour ne pas commettre d'impair, mais l'idée est là)
 
@@ -290,6 +290,6 @@ Délégation du travail progressive
 
 Tutoriel vidéo réalisé pour mon remplaçant.
 
-Documentation fournies.
+Documentation fournie.
 
 État de l'avancement (pending tasks, pending issues).
