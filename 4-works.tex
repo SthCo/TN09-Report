@@ -32,11 +32,12 @@ Ensuite, chaque test doit être formalisé par un rapport de test constitué de 
 \item Une première page que l'on appelle ITR, qui permet d'identifier le rapport (numéro unique), d'identifier le test (localisation, phase, système, date), identifier le statut (accepté avec, sans réserve ou refusé), résumer les observations et réserves des 3 parties et consigner leurs signatures.
 \item Les pages suivantes sont les \gls{TestCases}, en français les scénarios de test, qui permettent de simuler plusieurs situations d'utilisation des systèmes de manière à prouver leur conformité vis-à-vis de toutes les exigences du cahier des charges.
 \begin{itemize}
-\item Chaque \gls{TestCases} est composé de une ou plusieurs étapes qui elles-mêmes sont reliées à une ou plusieurs exigences.
+\item Chaque \gls{TestCases} est composé d’ une ou plusieurs étapes qui elles-mêmes sont reliées à une ou plusieurs exigences.
 \end{itemize}
 \end{itemize}
 
-Parmi ces exigences, certaines sont liées à la sécurité, dans le cadre des \gls{RAMS}, et sont indexées dans un document appelé le \gls{SC}. Ces exigences liées à la sécurité sont séparées en deux \gls{SIL}, ou niveaux de criticité : SIL0, le plus faible et SIL2 le plus élevé.
+Parmi ces exigences, certaines sont liées à la sécurité, dans le cadre des \gls{RAMS}, et sont indexées dans un document appelé le \gls{SC}. Ce document permet de démontrer que toutes les exigences liées à la sécurité ont été couvertes et clôturées. Certaines d'entre elles sont liées à des \gls{TestCases}. Grâce à ce document, on peut prouver au futur opérateur du système qu'il peut opérer en toute sécurité sur tous les systèmes mis en place par Thales (ceux du \gls{CCS}).
+Ces exigences liées à la sécurité sont séparées en deux \gls{SIL}, ou niveaux de criticité : SIL0, le plus faible et SIL2 le plus élevé.
 
 Une fois ce contexte clarifié, nous avons pu entreprendre l'élaboration du processus et c'est le sujet de la prochaine section.
 
@@ -68,7 +69,7 @@ Voici ci-dessous la matrice de responsabilité de notre projet suivant la métho
 \includegraphics[height=4cm]{ressources/images/figures/RACI.png}
 \end{center}
 
-Ainsi, c'est pour cela que j'ai dû choisir d'intégrer au processus de nouveaux acteurs ainsi que de nouvelles interactions.
+J'ai ainsi dû choisir d'intégrer au processus de nouveaux acteurs ainsi que de nouvelles interactions.
 
 \begin{center}
 \includegraphics[height=7cm]{ressources/images/figures/Workflow2.png}
@@ -109,7 +110,7 @@ Le problème étant que le client, qui avait choisi cet outil, devait envoyer de
 
 Après en avoir discuté avec mon maître de stage, il a accepté que je me charge d'implémenter une solution permettant d'extraire les données des formulaires présents sur \gls{SnagR} puis de les réorganiser dans une autre base de données.
 
-Pour cette réalisation, il fallait donc concevoir plusieurs fonctionnalités, c'est le sujet de prochaine section.
+Pour cette réalisation, il fallait donc concevoir plusieurs fonctionnalités, c'est le sujet de la prochaine section.
 
 \subsection{La structure de l'outil}
 
@@ -118,13 +119,13 @@ Dans cette section, nous verrons les différentes étapes nécessaires au bon fo
 \subsubsection{Authentification}
 Il fallait dans un premier temps fournir au script le moyen de se connecter au site de \gls{SnagR} pour pouvoir avoir accès aux données.
 \subsubsection{Extraction des données}
-Ensuite, l'extraction des données se faisait deux étapes :
+Ensuite, l'extraction des données se faisait en deux étapes :
 \begin{itemize}
-\item Premièrement seules les données des ITR (première page des rapports) sont extraites, de manière à obtenir la liste de tous les rapports présente dans la base de données, avec leurs informations principales (identifiant, système, type de test, localisation, date du test, statut général, commentaire général et signatures des différents partis).
+\item Premièrement seules les données des ITR (première page des rapports) sont extraites, de manière à obtenir la liste de tous les rapports présente dans la base de données, avec leurs informations principales (identifiant, système, type de test, localisation, date du test, statut général, commentaire général et signature des différents partis).
 \item Dans un second temps, pour chaque rapport, les données de tous les \gls{TestCases} dont il est constitué sont extraites afin d'accéder à un second niveau de détails.
 \end{itemize}
 
-L'utilisateur pouvoir choisir au début de l'exécution du script quel niveau de détails il souhaitait.
+L'utilisateur pouvait choisir au début de l'exécution du script quel niveau de détails il souhaitait.
 \subsubsection{Organisation des données}
 En parallèle de l'extraction des données, il fallait les organiser au fur et à mesure dans des tables dans le but de les exploiter.
 \subsubsection{Sauvegarde}
@@ -144,7 +145,7 @@ Enfin, les données sous forme de tables étaient exportées au format Excel afi
 
 Dans cette section, pour chaque étape énoncée précédemment, nous exposerons ainsi les éventuelles difficultés rencontrées pour chacune d'elles, les différentes alternatives techniques possibles et nous justifierons nos choix.
 
-Concernant le langage informatique, j'aurais pus utiliser :
+Concernant le langage informatique, j'aurais pu utiliser :
 \begin{itemize}
 \item \textbf{Node.js :} langage efficace pour extraire des données d'un site web dynamique, mais pas assez stable pour le nombre de requêtes nécessaires à ce projet.
 \item \textbf{C ++ :} il propose des performances élevées, mais aurait demandé un investissement horaire démesuré.
@@ -207,7 +208,7 @@ Pour organiser les données, j'ai utilisé la bibliothèque \underline{\href{htt
 
 La première étape était d'importer les données au format JSON dans des tables. Pour cela j'ai utilisé le module "jsonnormalize" issu de la bibliothèque Pandas.
 
-Cette dernière m'a aussi servie à sélectionner les champs de données que je voulais conserver, filtrer les résultats, joindre des tables et toutes les opérations habituelles lorsqu'on traite avec des tables de données.
+Cette dernière m'a aussi servi à sélectionner les champs de données que je voulais conserver, filtrer les résultats, joindre des tables et toutes les opérations habituelles lorsqu'on traite avec des tables de données.
 Voici ci-dessous les différentes tables que j'ai créées afin de concevoir ma base de données finale.
 
 \newpage
@@ -216,7 +217,7 @@ Voici ci-dessous les différentes tables que j'ai créées afin de concevoir ma 
 \end{center}
 \newpage
 
-Les tables "Listes des formulaire", "Champs de données des ITR", "Champs de données des Test Cases" et "Liste des rapports" sont les tables obtenues en réponse à différentes requêtes envoyées à l'\gls{API} de \gls{SnagR}. 
+Les tables "Listes des formulaires", "Champs de données des ITR", "Champs de données des Test Cases" et "Liste des rapports" sont les tables obtenues en réponse à différentes requêtes envoyées à l'\gls{API} de \gls{SnagR}.
 
 Les deux tables que l'on cherche à obtenir sont les tables "Rapports" et "Test Cases".
 
@@ -237,8 +238,10 @@ Voici le détail des différentes opérations réalisées :
 \subsubsection{Sauvegarde}
 Pour cette fonction, j'ai fait le choix de ne télécharger que les rapports au minimum initialisés par Thales. Chaque sauvegarde est stockée dans un dossier ayant pour nom la date de l'exécution en suivant l'arborescence précédemment énoncée.
 
-J'aurais pus faire le choix de ne créer qu'un seul dossier et de ne télécharger que les rapports qui n'avaient pas été encore sauvegardés,
+J'aurais pu faire le choix de ne créer qu'un seul dossier et de ne télécharger que les rapports qui n'avaient pas été encore sauvegardés,
 mais le contenu de ces derniers étant dynamique, la seule solution viable était une sauvegarde intégrale et datée à chaque appel de la fonction de sauvegarde.
+
+\newpage
 \subsubsection{Exportation}
 Enfin, pour l'exportation, je me suis posé la question du format d'exportation de ces données que je devais choisir.
 
@@ -263,13 +266,13 @@ En effet, le nombre total de rapports sur \gls{SnagR} étant plus élevé que la
 
 C'est pour cela qu'un travail d'analyse des différentes documentations des systèmes déployés pas Thales a été réalisé avec mon maître de stage ainsi que le manager de l'équipe afin d'obtenir une liste et donc un nombre total des rapports à produire.
 
-Il m'a ensuite fallu m'atteler à la création de différents indicateurs et outils permettant la vérification de la cohérence des données. 
+Il m'a ensuite fallu m'atteler à la création de différents indicateurs et outils permettant la vérification de la cohérence des données.
 
 Par exemple, en m'appuyant sur la liste des rapports abordée précédemment, j'ai pu identifier ces rapports sur \gls{SnagR}, ce qui m'a permis d'ajouter de nouveaux filtres afin d'analyser uniquement les 1500 rapports à produire et non les 6000 présents sur \gls{SnagR} (c.f 3.2.1).
 
 Une fois la cohérence des données assurée, je pouvais analyser ces dernières afin d'identifier les données les plus utiles.
 
-Par exemple, en utilisant la date du test ainsi que les dates auxquelles les différents parti ont signé, on allait pouvoir obtenir les délais suivant : 
+Par exemple, en utilisant la date du test ainsi que les dates auxquelles les différents partis ont signé, on allait pouvoir obtenir les délais suivant :
 \begin{itemize}
 \item Le délai de remplissage du rapport par Thales (date de signature Thales - date du test)
 \item Le délai de signature du rapport par QDVC (date de signature QDVC - date de signature Thales)
@@ -280,30 +283,30 @@ Par exemple, en utilisant la date du test ainsi que les dates auxquelles les dif
 Une fois les données analysées et les différents problèmes de cohérence résolus, il fallait pouvoir rendre compte de l'avancement à l'équipe Thales.
 
 \subsection{Communication interne}
-Avoir choisit comme format de donnée un fichier Excel présente l'avantage de pouvoir facilement transmettre les données et de pouvoir réaliser des indicateurs d'avancement modulables.
+Avoir choisi comme format de donnée un fichier Excel présente l'avantage de pouvoir facilement transmettre les données et de pouvoir réaliser des indicateurs d'avancement modulables.
 
-Les indicateurs nécessaires diffèrent en fonction de leur destinataire, et à la vue du nombre important de membres sur le projet, il a fallu réaliser un nombre important de graphiques utilisant les données précédemment exportées. 
+Les indicateurs nécessaires diffèrent en fonction de leur destinataire, et à la vue du nombre important de membres sur le projet, il a fallu réaliser un nombre important de graphiques utilisant les données précédemment exportées.
 
 En voici quelques un :
 
 \begin{itemize}
 \item Sur une même figure : l'histogramme retraçant la production de rapport journalière, la courbe d'évolution du nombre total de rapports produits, la courbe correspondant à l'avancement programmé ainsi qu'une courbe de tendance prévoyant l'évolution à venir du nombre total de rapports produits, basée sur l'avancement durant les deux semaines précédentes.
-\item Un tableau croisé dynamique permettant de connaitre le statut de complétion des \gls{TestCases} liés à des exigences sécurité pour chaque localisation où ils sont applicables.
-\item Un tableau croisé dynamique permettant de connaitre l'état d'avancement des rapport de chaque système en fonction de chaque localisation où le système est présent.
-\item Des histogrammes illustrant le nombre de rapport produit par rapport au nombre de rapport restant en fonction de différents filtres, critères (par système, par type de test etc)
-\item Un diagramme représentant, en fonction du délai total de production moyen, la part de responsabilité des différents partis (Thales, QDVC, ICE) dans ce délais.
+\item Un tableau croisé dynamique permettant de connaître le statut de complétion des \gls{TestCases} liés à des exigences sécurité pour chaque localisation où ils sont applicables.
+\item Un tableau croisé dynamique permettant de connaître l'état d'avancement des rapports de chaque système en fonction de chaque localisation où le système est présent.
+\item Des histogrammes illustrant le nombre de rapports produits en fonction du nombre de rapports restant en fonction de différents filtres, critères (par système, par type de test, etc.)
+\item Un diagramme représentant, en fonction du délai total de production moyen, la part de responsabilité des différents partis (Thales, QDVC, ICE) dans ce délai.
 \end{itemize}
 
 De plus, puisque je n'étais pas le seul à communiquer un rapport d'avancement, il fallait s'assurer de la cohérence entre les différents rapports envoyés par l'équipe \gls{TC}.
 
 Les deux autres rapports principaux étaient le rapport du manager de l'équipe gestion de projet et celui du manager de l'équipe \gls{TC}.
 
-Le premier était un rapport tenant compte du planning annoncé et proposant une estimation officielle de l'avancement planifié au cours des semaines suivante.
+Le premier était un rapport tenant compte du planning annoncé et proposant une estimation officielle de l'avancement planifié au cours des semaines suivantes.
 
-Le second était un rapport de l'avancement des test, et non de l'avancement de la production des rapports. Il était donc utile de croiser nos données pour identifier les tests déjà effectués mais pour lesquels aucuns rapports n'avaient été produit. 
+Le second était un rapport de l'avancement des tests, et non de l'avancement de la production des rapports. Il était donc utile de croiser nos données pour identifier les tests déjà effectués, mais pour lesquels aucun rapport n'avait été produit.
 Cela nous permettait d'identifier les points bloquants avant de reporter l'avancement au client.
 
-Ces deux rapports utilisant le découpage en activités (c.f 3.2.1) et non le découpage en rapport, contrairement à moi, il me fallu réaliser une table de correspondance entre les noms des activités et les noms des rapports, afin de pouvoir lier et comparer ces trois fichiers.
+Ces deux rapports utilisant le découpage en activités (c.f 3.2.1) et non le découpage en rapport, contrairement à moi, il me fallut réaliser une table de correspondance entre les noms des activités et les noms des rapports, afin de pouvoir lier et comparer ces trois fichiers.
 
 Une fois que ces 3 rapports faisaient état du même avancement, nous le communiquions au client.
 
@@ -311,12 +314,12 @@ Une fois que ces 3 rapports faisaient état du même avancement, nous le communi
 \subsection{Communication avec le client}
 
 %Organisation des données et des indicateurs pour correspondre aux différents scopes proposés par l'équipe RAMS (Pilot, Safety Strategy et Safety Related)
-La communication avec le client doit se faire certes en toute transparence, mais au vue de l'expertise métier détenue par Thales, cette communication de l'avancement se doit d'être structurée autours d'objectifs. 
+La communication avec le client doit se faire certes en toute transparence, mais au vu de l'expertise métier détenue par Thales, cette communication de l'avancement se doit d'être structurée autour d'objectifs.
 
-C'est pour cette raison que l'équipe \gls{RAMS} a proposé de présenter les données autours de 4 objectifs :
+C'est pour cette raison que l'équipe \gls{RAMS} a proposé de présenter les données autour de 4 objectifs :
 \begin{itemize}
-\item \textbf{1. Pilot :} on met en priorité 1 (maximale) certains rapports de manière à pouvoir prouver la conformité du système à chaque exigence sécurité dans au moins une localisation, en essayant, dans la mesure du possible, de réduire le nombre de stations concernées afin de pouvoir y organiser des visites de démonstration de leur conformité en terme de sécurité. 
-\item \textbf{2. Stratégie SIL :} ici la stratégie reste la même pour les exigences \gls{SIL}0 (c.f 3.1.1), on inclut les mêmes localisation que pour l'objectif Pilot. Cependant pour les exigences \gls{SIL}2, on intègre au spectre de cet objectif toutes les localisations ou elles sont applicables.
+\item \textbf{1. Pilot :} on met en priorité 1 (maximale) certain rapport de manière à pouvoir prouver la conformité du système à chaque exigence sécurité dans au moins une localisation, en essayant, dans la mesure du possible, de réduire le nombre de stations concernées afin de pouvoir y organiser des visites de démonstration de leur conformité en termes de sécurité.
+\item \textbf{2. Stratégie SIL :} ici la stratégie reste la même pour les exigences \gls{SIL}0 (c.f 3.1.1), on inclut les mêmes localisations que pour l'objectif Pilot. Cependant pour les exigences \gls{SIL}2, on intègre au spectre de cet objectif toutes les localisations ou elles sont applicables.
 \item \textbf{3. Sécurité :} ensuite l'objectif est la conformité des toutes les localisations du projet avec les exigences sécurité y étant applicables.
 \item \textbf{4. Général :} enfin l'objectif est la conformité des toutes les localisations du projet avec toutes les exigences y étant applicables.
 \end{itemize}
@@ -328,12 +331,12 @@ Les différents indicateurs exposés dans la partie précédente ont du tenir co
 %Blockers externes
 La communication avec le client, bien que basée sur les mêmes données, imposait un niveau de détails plus important, pour, par exemple, être capable de justifier d'éventuels délais.
 
-Ainsi nous ajoutions des commentaires, des observations à certains des indicateurs pour proposer une certaine lecture des données au client. 
+Ainsi nous ajoutions des commentaires, des observations à certains des indicateurs pour proposer une certaine lecture des données au client.
 %Difficultés personnelles rencontrées face au client (dues à une première expérience)
 Il est important de rappeler ici que Thales est sur ce projet en tant que prestataire de QDVC et ne fait donc pas partie du Consortium.
-Pourtant sur tout les systèmes \gls{CCS}, qui représentent une partie très importante des différents systèmes du projet, c'est Thales qui possède l'expertise métier. 
+Pourtant sur tous les systèmes \gls{CCS}, qui représentent une partie très importante des différents systèmes du projet, c'est Thales qui possède l'expertise métier.
 
-De plus, le client était dans les mêmes locaux que Thales, ce qui compliquait parfois la préservation des informations confidentielles. 
+De plus, le client était dans les mêmes locaux que Thales, ce qui compliquait parfois la préservation des informations confidentielles.
 
 Ainsi différents facteurs pouvaient compliquer la communication avec le client, d'où l'importance cruciale de savoir identifier si les points bloquants avaient des causes internes (due à l'équipe \gls{TC}, Installation ou offshore) ou bien externes (due aux autres prestataires, au client, au génie civil, à Alstom).
 
@@ -342,51 +345,47 @@ Ainsi différents facteurs pouvaient compliquer la communication avec le client,
 \newpage
 \section{Formation et transmission}
 
-Durant ce stage, j'ai du former des membres du projet de manière ponctuelle mais aussi de manière continue.
+Durant ce stage, j'ai dû former des membres du projet de manière ponctuelle, mais aussi de manière continue.
 \subsection{Sensibilisation des membres de l'équipe }
 
 
-Comme nous l'avons vu précédemment, il pouvait arriver que certains rapports de test restent vide même une fois le test réalisé. Cela pouvait se produire pour plusieurs raisons : 
+Comme nous l'avons vu précédemment, il pouvait arriver que certains rapports de test restent vides même une fois le test réalisé. Cela pouvait se produire pour plusieurs raisons :
 \begin{itemize}
 \item Un simple oubli de la part de l'ingénieur Thales responsable du test. Dans ce cas, un simple rappel suffisait.
-\item Un mauvaise communication au sujet du caractère prioritaire de la production des rapports. Ici la solution choisi par le management était d'afficher les indicateurs que je produisait dans l'open space de l'équipe \gls{TC} afin que tout le monde soit en phase avec les objectifs fixés.
-\item Une charge de travail trop importante en terme de test, ce qui rends impossible la production des rapports correspondant à ces tests. La seule solution ici était d'en référer au management afin de répartir à nouveau les ressources pour libérer l'ingénieur en question.
+\item Une mauvaise communication au sujet du caractère prioritaire de la production des rapports. Ici la solution choisie par le management était d'afficher les indicateurs que je produisais dans l'open space de l'équipe \gls{TC} afin que tout le monde soit en phase avec les objectifs fixés.
+\item Une charge de travail trop importante en termes de test, ce qui rend impossible la production des rapports correspondant à ces tests. La seule solution ici était d'en référer au management afin de répartir à nouveau les ressources pour libérer l'ingénieur en question.
 \end{itemize}
 
 %absence validation données
-Mais le problème majeur auquel j'ai du faire face est celui des données renseignées par les membres du projet (pas uniquement Thales mais aussi QDVC et ICE).
+Mais le problème majeur auquel j'ai dû faire face est celui des données renseignées par les membres du projet (pas uniquement Thales, mais aussi QDVC et ICE).
 
 En effet, l'interface d'édition de rapports que propose \gls{SnagR} présente un important défaut : elle n'a pas été dotée d'une fonction de validation des données.
 
-C'est un problème majeur car des données erronées viennent fausser les indicateurs produits et menacent la cohérence de la base de données.
+C'est un problème majeur, car des données erronées viennent fausser les indicateurs produits et menacent la cohérence de la base de données.
 
-La solution me paraissant la plus robuste était de produire une documentation à l'attention de tous les utilisateurs de \gls{SnagR} à même de remplir des rapports. 
-Dans cette documentation j'ai énoncé une dizaine de règles à respecter, illustrées par des exemples et captures d'écran du site. 
+La solution me paraissant la plus robuste était de produire une documentation à l'attention de tous les utilisateurs de \gls{SnagR} à même de remplir des rapports.
+Dans cette documentation j'ai énoncé une dizaine de règles à respecter, illustrées par des exemples et captures d'écran du site.
 
-À la fin de cette documentation j'ai ajouté une convention de nommage concernant 3 champs de données : la localisation, le système et le type de test. 
+À la fin de cette documentation, j'ai ajouté une convention de nommage (c.f Annexe II) concernant 3 champs de données : la localisation, le système et le type de test.
 Sans cette démarche, les données n'auraient jamais le même format puisqu'il y autant de façon de les renseigner qu'il y a d'utilisateurs.
 
-En plus de distribuer cette documentation par mail à tout le projet, j'ai organisé une petite formation pour énoncer clairement ces règles et répondre à toutes les question des utilisateurs durant la même séance.
+En plus de distribuer cette documentation par mail à tout le projet, j'ai organisé une petite formation pour énoncer clairement ces règles et répondre à toutes les questions des utilisateurs durant la même séance.
 
 %Listing ?
-Nous avons parlé ici de petites formations ponctuelles, mais au cours de mon dernier mois, j'ai du former quelqu'un en continu.
+Nous avons parlé ici de petites formations ponctuelles, mais au cours de mon dernier mois, j'ai dû former quelqu'un en continu.
 
 \subsection{Tuilage}
 
-À la fin de mon stage, j'ai eu la chance de connaitre mon remplaçant un mois à l'avance. Le but de cette section est de retracer chronologiquement les différentes étapes de ce tuilage.
+À la fin de mon stage, j'ai eu la chance de connaître mon remplaçant un mois à l'avance. Le but de cette section est de retracer chronologiquement les différentes étapes de ce tuilage.
 
 \begin{itemize}
-\item Tout d'abord, progressivement au cours du stage j'ai rédigé une documentation sur le script Python tout en le commentant. Je me suis imposé cette pratique car d'expérience je sais à quel point il est complexe de revenir sur des lignes de code écrites auparavant, et je ne voulais pas avoir à subir cette tâche laborieuse à la fin de mon stage.
-\item Dans un second temps, mon maître de stage m'a demandé de lui fournir un profil type pour mon remplaçant. Au bout d'un peu plus de 4 mois de stage, on m'avait proposé de continuer a sein du projet après mon stage, mais la date limite de dépôt de dossier de candidature pour une césure en P19 était déjà passée.
-\item Au alentours du 15 janvier, j'ai rencontré mon remplaçant, nous avons commencé par passer 1h à 1h30 tous les jours ensemble, je lui expliquais les tâches que je réalisais ainsi que le fonctionnement du processus (c.f 3.1).
-\item Puis vers la fin du mois de janvier, j'ai commencé à lui expliquer étapes par étapes comment mener à bien les tâches que j'avais à ma charge. En plus d'une documentation où j'ai détaillé chacune des étapes, j'effectuai des captures d'écran vidéo de mon écran ainsi que de mon microphone durant ces séances.
-\item Ensuite, j'ai commencé à lui déléguer certaines tâches progressivement pour qu'il puisse pratiquer. Au cours de l'avant dernière semaine, je lui ai demandé de réaliser un rapport de l'avancement du \gls{reporting} en utilisant les outils auxquels je l'avais formé. Cette tâche m'as permis de vérifier sa capacité à endosser cette fonction en totale autonomie et ainsi d'affirmer à mon maître de stage et au directeur adjoint son aptitude à me remplacer.
-\item La dernière étape a été d'amener mon remplaçant aux différentes réunions internes u avec le client auxquelles j'étais convié. Durant celles ci, il a pu identifier les demandes du client et les interactions entre les différents participants.
+\item Tout d'abord, progressivement au cours du stage j'ai rédigé une documentation sur le script Python tout en le commentant. Je me suis imposé cette pratique, car d'expérience je sais à quel point il est complexe de revenir sur des lignes de code écrites auparavant, et je ne voulais pas avoir à subir cette tâche laborieuse à la fin de mon stage.
+\item Dans un second temps, mon maître de stage m'a demandé de lui fournir un profil type pour mon remplaçant. Au bout d'un peu plus de 4 mois de stage, on m'avait proposé de continuer au sein du projet après mon stage, mais la date limite de dépôt de dossier de candidature pour une césure en P19 était déjà passée.
+\item Aux alentours du 15 janvier, j'ai rencontré mon remplaçant, nous avons commencé par passer 1h à 1h30 tous les jours ensemble, je lui expliquais les tâches que je réalisais ainsi que le fonctionnement du processus (c.f 3.1).
+\item Puis vers la fin du mois de janvier, j'ai commencé à lui expliquer étape par étape comment mener à bien les tâches que j'avais à ma charge. En plus d'une documentation où j'ai détaillé chacune des étapes, j'effectuai des captures d'écran vidéo de mon écran ainsi que de mon microphone durant ces séances.
+\item Ensuite, j'ai commencé à lui déléguer certaines tâches progressivement pour qu'il puisse pratiquer. Au cours de l'avant-dernière semaine, je lui ai demandé de réaliser un rapport de l'avancement du \gls{reporting} en utilisant les outils auxquels je l'avais formé. Cette tâche m'a permis de vérifier sa capacité à endosser cette fonction en totale autonomie et ainsi d'affirmer à mon maître de stage et au directeur adjoint son aptitude à me remplacer.
+\item La dernière étape a été d'amener mon remplaçant aux différentes réunions internes u avec le client auxquelles j'étais convié. Durant celles-ci, il a pu identifier les demandes du client et les interactions entre les différents participants.
 \item Enfin, j'ai réalisé une note pour mon maître de stage et mes managers listant les différentes tâches pour lesquelles mon remplaçant avait été formé, les premières tâches auxquelles il devra s'atteler en priorité, les questions et tâches en attente d'une réponse du client ou interne ainsi qu'un état de l'avancement global du \gls{reporting} au sein du projet.
 \end{itemize}
 
-Grâce à a durée importante dédiée au tuilage, je peux quitter mes fonctions sereinement car je pense que la continuité de mon travail au sein de ce projet est assurée.
-
-
-
-
+Grâce à a durée importante dédiée au tuilage, je peux quitter mes fonctions sereinement, car je pense que la continuité de mon travail au sein de ce projet est assurée.

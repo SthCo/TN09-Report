@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.26)  15 FEB 2019 16:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.26)  15 FEB 2019 18:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1260,68 +1260,68 @@ Chapter 3.
 [15
 
 ]
-Overfull \hbox (1.28436pt too wide) in paragraph at lines 45--46
+Overfull \hbox (1.28436pt too wide) in paragraph at lines 46--47
 \T1/cmr/m/n/12 Après l'analyse ex-posée précédem-ment, nous avons tra-vaillé co
 n-join-te-ment avec mon maître
  []
 
-<ressources/images/figures/Workflow1.png, id=338, 870.25125pt x 430.60875pt>
+<ressources/images/figures/Workflow1.png, id=340, 870.25125pt x 430.60875pt>
 File: ressources/images/figures/Workflow1.png Graphic file (type png)
 <use ressources/images/figures/Workflow1.png>
 Package pdftex.def Info: ressources/images/figures/Workflow1.png  used on input
- line 48.
+ line 49.
 (pdftex.def)             Requested size: 402.52473pt x 199.16928pt.
 [16] [17 <./ressources/images/figures/Workflow1.png>]
-<ressources/images/figures/RACI.png, id=361, 993.7125pt x 233.87375pt>
+<ressources/images/figures/RACI.png, id=363, 993.7125pt x 233.87375pt>
 File: ressources/images/figures/RACI.png Graphic file (type png)
 <use ressources/images/figures/RACI.png>
 Package pdftex.def Info: ressources/images/figures/RACI.png  used on input line
- 68.
+ 69.
 (pdftex.def)             Requested size: 483.5724pt x 113.81102pt.
 
-Overfull \hbox (25.48283pt too wide) in paragraph at lines 68--69
+Overfull \hbox (25.48283pt too wide) in paragraph at lines 69--70
  [] 
  []
 
-<ressources/images/figures/Workflow2.png, id=362, 1023.825pt x 438.63875pt>
+<ressources/images/figures/Workflow2.png, id=364, 1023.825pt x 438.63875pt>
 File: ressources/images/figures/Workflow2.png Graphic file (type png)
 <use ressources/images/figures/Workflow2.png>
 Package pdftex.def Info: ressources/images/figures/Workflow2.png  used on input
- line 74.
+ line 75.
 (pdftex.def)             Requested size: 464.88814pt x 199.16928pt.
 
-Overfull \hbox (6.79857pt too wide) in paragraph at lines 74--75
+Overfull \hbox (6.79857pt too wide) in paragraph at lines 75--76
  [] 
  []
 
 [18 <./ressources/images/figures/RACI.png> <./ressources/images/figures/Workflo
 w2.png>] [19] [20]
-<ressources/images/figures/tree.png, id=390, 344.28625pt x 316.18124pt>
+<ressources/images/figures/tree.png, id=392, 344.28625pt x 316.18124pt>
 File: ressources/images/figures/tree.png Graphic file (type png)
 <use ressources/images/figures/tree.png>
 Package pdftex.def Info: ressources/images/figures/tree.png  used on input line
- 136.
+ 137.
 (pdftex.def)             Requested size: 216.87521pt x 199.16928pt.
  [21] [22 <./ressources/images/figures/tree.png>]
-Overfull \hbox (28.65543pt too wide) in paragraph at lines 175--177
+Overfull \hbox (28.65543pt too wide) in paragraph at lines 176--178
 []\T1/cmr/m/n/12 Il m'a donc fallu com-pren-dre la struc-ture et le fonc-tion-n
 ement de l'[][]$[]$[] par l'expérimentation.
  []
 
 [23] [24]
-<ressources/images/figures/bd.png, id=425, 1028.84375pt x 1345.025pt>
+<ressources/images/figures/bd.png, id=427, 1028.84375pt x 1345.025pt>
 File: ressources/images/figures/bd.png Graphic file (type png)
 <use ressources/images/figures/bd.png>
 Package pdftex.def Info: ressources/images/figures/bd.png  used on input line 2
-15.
+16.
 (pdftex.def)             Requested size: 514.42062pt x 672.51085pt.
 
-Overfull \hbox (56.33105pt too wide) in paragraph at lines 215--216
+Overfull \hbox (56.33105pt too wide) in paragraph at lines 216--217
  [] 
  []
 
 [25 <./ressources/images/figures/bd.png>] [26] [27]
-Overfull \hbox (11.66519pt too wide) in paragraph at lines 270--271
+Overfull \hbox (11.66519pt too wide) in paragraph at lines 273--274
 []\T1/cmr/m/n/12 Une fois la co-hérence des don-nées as-surée, je pou-vais anal
 -yser ces dernières afin d'identifier
  []
@@ -1333,7 +1333,7 @@ Overfull \hbox (11.66519pt too wide) in paragraph at lines 270--271
 
 
 ]
-Overfull \hbox (10.58002pt too wide) in paragraph at lines 50--53
+Overfull \hbox (10.58002pt too wide) in paragraph at lines 53--56
 \T1/cmr/m/n/12 métro, mais supérieures à celles des sys-tèmes tra-di-tion-nels 
 de tramway. (c.f $[]$).
  []
@@ -1352,31 +1352,43 @@ l.1 \chapter
             *{Annexes} [1
 
 ]
-<ressources/images/annexes/Vcycle.png, id=654, 1025.8325pt x 781.92125pt>
+<ressources/images/annexes/Vcycle.png, id=673, 1025.8325pt x 781.92125pt>
 File: ressources/images/annexes/Vcycle.png Graphic file (type png)
 <use ressources/images/annexes/Vcycle.png>
 Package pdftex.def Info: ressources/images/annexes/Vcycle.png  used on input li
 ne 10.
 (pdftex.def)             Requested size: 522.60416pt x 398.33858pt.
-)
-Overfull \hbox (64.51459pt too wide) in paragraph at lines 10--150
-[]
+
+Overfull \hbox (64.51459pt too wide) in paragraph at lines 10--12
+[] 
  []
 
+<ressources/images/annexes/convention.png, id=674, 652.4375pt x 441.65pt>
+File: ressources/images/annexes/convention.png Graphic file (type png)
+<use ressources/images/annexes/convention.png>
+Package pdftex.def Info: ressources/images/annexes/convention.png  used on inpu
+t line 16.
+(pdftex.def)             Requested size: 489.32692pt x 331.23668pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--150
-
+Overfull \hbox (31.23735pt too wide) in paragraph at lines 16--17
+ [] 
  []
 
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.17 \end{center}
+                  [2
+
+ <./ressources/images/annexes/Vcycle.png>])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 152.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.152 \end{document}
-                     [2
-
- <./ressources/images/annexes/Vcycle.png>]
+                     [3 <./ressources/images/annexes/convention.png>]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 152.
 
 (./rapport.aux)
@@ -1389,10 +1401,10 @@ Package logreq Info: Writing requests to 'rapport.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24395 strings out of 492649
- 408123 string characters out of 6129622
- 929902 words of memory out of 5000000
- 27765 multiletter control sequences out of 15000+600000
+ 24400 strings out of 492649
+ 408316 string characters out of 6129622
+ 931466 words of memory out of 5000000
+ 27769 multiletter control sequences out of 15000+600000
  19682 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  47i,8n,45p,1989b,1716s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1414,10 +1426,10 @@ exmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2018/tex
 mf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2018/texmf
 -dist/fonts/type1/public/cm-super/sfti1440.pfb></usr/local/texlive/2018/texmf-d
 ist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on rapport.pdf (45 pages, 3294677 bytes).
+Output written on rapport.pdf (46 pages, 3323267 bytes).
 PDF statistics:
- 746 PDF objects out of 1000 (max. 8388607)
- 645 compressed objects within 7 object streams
+ 770 PDF objects out of 1000 (max. 8388607)
+ 666 compressed objects within 7 object streams
  127 named destinations out of 1000 (max. 500000)
- 236 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 241 words of extra memory for PDF output out of 10000 (max. 10000000)
 
