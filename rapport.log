@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.26)  15 FEB 2019 22:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.26)  15 FEB 2019 22:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -506,27 +506,229 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
-! Undefined control sequence.
-l.72 \addbibresource
-                    {7-bibliographie.bib}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2018/03/04 v3.11 programmable bibliographies (PK/MW)
 
+(/usr/local/texlive/2018/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count124
 
-! LaTeX Error: Missing \begin{document}.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xstring/xstring.tex
+\@xs@message=\write3
+\integerpart=\count125
+\decimalpart=\count126
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+\c@tabx@nest=\count127
+\c@listtotal=\count128
+\c@listcount=\count129
+\c@liststart=\count130
+\c@liststop=\count131
+\c@citecount=\count132
+\c@citetotal=\count133
+\c@multicitecount=\count134
+\c@multicitetotal=\count135
+\c@instcount=\count136
+\c@maxnames=\count137
+\c@minnames=\count138
+\c@maxitems=\count139
+\c@minitems=\count140
+\c@citecounter=\count141
+\c@savedcitecounter=\count142
+\c@uniquelist=\count143
+\c@uniquename=\count144
+\c@refsection=\count145
+\c@refsegment=\count146
+\c@maxextratitle=\count147
+\c@maxextratitleyear=\count148
+\c@maxextradate=\count149
+\c@maxextraalpha=\count150
+\c@abbrvpenalty=\count151
+\c@highnamepenalty=\count152
+\c@lownamepenalty=\count153
+\c@maxparens=\count154
+\c@parenlevel=\count155
+\blx@tempcnta=\count156
+\blx@tempcntb=\count157
+\blx@tempcntc=\count158
+\blx@maxsection=\count159
+\blx@maxsegment@0=\count160
+\blx@notetype=\count161
+\blx@parenlevel@text=\count162
+\blx@parenlevel@foot=\count163
+\blx@sectionciteorder@0=\count164
+\labelnumberwidth=\skip50
+\labelalphawidth=\skip51
+\biblabelsep=\skip52
+\bibitemsep=\skip53
+\bibnamesep=\skip54
+\bibinitsep=\skip55
+\bibparsep=\skip56
+\bibhang=\skip57
+\blx@bcfin=\read1
+\blx@bcfout=\write4
+\c@mincomprange=\count165
+\c@maxcomprange=\count166
+\c@mincompwidth=\count167
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.72 \addbibresource{7
-                      -bibliographie.bib}
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2018/03/04 v3.11 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'numeric-comp.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count168
+\c@savedafterword=\count169
+\c@annotator=\count170
+\c@savedannotator=\count171
+\c@author=\count172
+\c@savedauthor=\count173
+\c@bookauthor=\count174
+\c@savedbookauthor=\count175
+\c@commentator=\count176
+\c@savedcommentator=\count177
+\c@editor=\count178
+\c@savededitor=\count179
+\c@editora=\count180
+\c@savededitora=\count181
+\c@editorb=\count182
+\c@savededitorb=\count183
+\c@editorc=\count184
+\c@savededitorc=\count185
+\c@foreword=\count186
+\c@savedforeword=\count187
+\c@holder=\count188
+\c@savedholder=\count189
+\c@introduction=\count190
+\c@savedintroduction=\count191
+\c@namea=\count192
+\c@savednamea=\count193
+\c@nameb=\count194
+\c@savednameb=\count195
+\c@namec=\count196
+\c@savednamec=\count197
+\c@translator=\count198
+\c@savedtranslator=\count199
+\c@shortauthor=\count266
+\c@savedshortauthor=\count267
+\c@shorteditor=\count268
+\c@savedshorteditor=\count269
+\c@labelname=\count270
+\c@savedlabelname=\count271
+\c@institution=\count272
+\c@savedinstitution=\count273
+\c@lista=\count274
+\c@savedlista=\count275
+\c@listb=\count276
+\c@savedlistb=\count277
+\c@listc=\count278
+\c@savedlistc=\count279
+\c@listd=\count280
+\c@savedlistd=\count281
+\c@liste=\count282
+\c@savedliste=\count283
+\c@listf=\count284
+\c@savedlistf=\count285
+\c@location=\count286
+\c@savedlocation=\count287
+\c@organization=\count288
+\c@savedorganization=\count289
+\c@origlocation=\count290
+\c@savedoriglocation=\count291
+\c@origpublisher=\count292
+\c@savedorigpublisher=\count293
+\c@publisher=\count294
+\c@savedpublisher=\count295
+\c@language=\count296
+\c@savedlanguage=\count297
+\c@origlanguage=\count298
+\c@savedoriglanguage=\count299
+\c@pageref=\count300
+\c@savedpageref=\count301
+\shorthandwidth=\skip58
+\shortjournalwidth=\skip59
+\shortserieswidth=\skip60
+\shorttitlewidth=\skip61
+\shortauthorwidth=\skip62
+\shorteditorwidth=\skip63
+\locallabelnumberwidth=\skip64
+\locallabelalphawidth=\skip65
+\localshorthandwidth=\skip66
+\localshortjournalwidth=\skip67
+\localshortserieswidth=\skip68
+\localshorttitlewidth=\skip69
+\localshortauthorwidth=\skip70
+\localshorteditorwidth=\skip71
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
 
+(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
+\c@textcitecount=\count302
+\c@textcitetotal=\count303
+\c@textcitemaxnames=\count304
+\c@biburlnumpenalty=\count305
+\c@biburlucpenalty=\count306
+\c@biburllcpenalty=\count307
+\c@smartand=\count308
+)
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
+File: numeric-comp.bbx 2018/03/04 v3.11 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2018/03/04 v3.11 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2018/03/04 v3.11 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count309
+\c@bbx:relatedtotal=\count310
+)))
+Package biblatex Info: Trying to load citation style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.cbx' found.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
+File: numeric-comp.cbx 2018/03/04 v3.11 biblatex citation style (PK/MW)
+\c@cbx@tempcnta=\count311
+\c@cbx@tempcntb=\count312
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+))
 (./glossary.tex
 (/usr/local/texlive/2018/texmf-dist/tex/latex/glossaries/base/glossaries.sty
 Package: glossaries 2018/04/07 v4.37 (NLCT)
@@ -539,7 +741,7 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@toks=\toks25
 \XKV@tempa@toks=\toks26
 )
-\XKV@depth=\count124
+\XKV@depth=\count313
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/local/texlive/2018/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
@@ -558,7 +760,7 @@ Package: datatool-base 2017/11/12 v2.29 (NLCT)
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2017/09/02 v2.17a AMS math features
-\@mathmargin=\skip50
+\@mathmargin=\skip72
 
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -576,13 +778,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count125
+\inf@bad=\count314
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count126
-\leftroot@=\count127
+\uproot@=\count315
+\leftroot@=\count316
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count128
-\DOTSCASE@=\count129
+\classnum@=\count317
+\DOTSCASE@=\count318
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
@@ -591,15 +793,15 @@ LaTeX Info: Redefining \cdots on input line 596.
 \big@size=\dimen137
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count130
-\c@MaxMatrixCols=\count131
+\macc@depth=\count319
+\c@MaxMatrixCols=\count320
 \dotsspace@=\muskip11
-\c@parentequation=\count132
-\dspbrk@lvl=\count133
+\c@parentequation=\count321
+\dspbrk@lvl=\count322
 \tag@help=\toks30
-\row@=\count134
-\column@=\count135
-\maxfields@=\count136
+\row@=\count323
+\column@=\count324
+\maxfields@=\count325
 \andhelp@=\toks31
 \eqnshift@=\dimen138
 \alignsep@=\dimen139
@@ -608,15 +810,15 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \totwidth@=\dimen142
 \lineht@=\dimen143
 \@envbody=\toks32
-\multlinegap=\skip51
-\multlinetaggap=\skip52
+\multlinegap=\skip73
+\multlinetaggap=\skip74
 \mathdisplay@stack=\toks33
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/substr/substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count137
+\c@su@anzahl=\count326
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/datatool/datatool-fp.sty
 Package: datatool-fp 2017/11/12 v2.29 (NLCT)
@@ -627,19 +829,19 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 (/usr/local/texlive/2018/texmf-dist/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count138
+\actioncount=\count327
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count139
-\FP@xia=\count140
-\FP@xib=\count141
-\FP@xfa=\count142
-\FP@xfb=\count143
-\FP@rega=\count144
-\FP@regb=\count145
-\FP@regs=\count146
-\FP@times=\count147
+\FP@xs=\count328
+\FP@xia=\count329
+\FP@xib=\count330
+\FP@xfa=\count331
+\FP@xfb=\count332
+\FP@rega=\count333
+\FP@regb=\count334
+\FP@regs=\count335
+\FP@times=\count336
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
@@ -658,7 +860,7 @@ Package: fp-pas 1994/08/29
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count148
+\FPseed=\count337
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
@@ -670,14 +872,14 @@ Package: fp-upn 1996/10/21
 Package: fp-eval 1995/04/03
 )))
 \@dtl@toks=\toks34
-\@dtl@tmpcount=\count149
-\dtl@tmplength=\skip53
-\dtl@sortresult=\count150
-\@dtl@numgrpsepcount=\count151
-\@dtl@datatype=\count152
-\dtl@codeA=\count153
-\dtl@codeB=\count154
-\@dtl@foreach@level=\count155
+\@dtl@tmpcount=\count338
+\dtl@tmplength=\skip75
+\dtl@sortresult=\count339
+\@dtl@numgrpsepcount=\count340
+\@dtl@datatype=\count341
+\dtl@codeA=\count342
+\dtl@codeB=\count343
+\@dtl@foreach@level=\count344
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/glossaries/base/glossaries-compat
 ible-307.sty
@@ -694,9 +896,9 @@ Package: translator 2018/01/04 v1.12 Easy translation of strings in LaTeX
 lish.ldf
 File: glossaries-english.ldf 2014/11/23 v1.0
 )
-\gls@level=\count156
+\gls@level=\count345
 \@gls@tmpb=\toks35
-\gls@tmplen=\skip54
+\gls@tmplen=\skip76
 \glskeylisttok=\toks36
 \glslabeltok=\toks37
 \glsshorttok=\toks38
@@ -709,42 +911,42 @@ Package: glossary-hypernav 2018/04/07 v4.37 (NLCT)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/glossaries/styles/glossary-list.s
 ty
 Package: glossary-list 2018/04/07 v4.37 (NLCT)
-\glslistdottedwidth=\skip55
+\glslistdottedwidth=\skip77
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/glossaries/styles/glossary-long.s
 ty
 Package: glossary-long 2018/04/07 v4.37 (NLCT)
  (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip56
-\LTright=\skip57
-\LTpre=\skip58
-\LTpost=\skip59
-\LTchunksize=\count157
+\LTleft=\skip78
+\LTright=\skip79
+\LTpre=\skip80
+\LTpost=\skip81
+\LTchunksize=\count346
 \LTcapwidth=\dimen144
 \LT@head=\box35
 \LT@firsthead=\box36
 \LT@foot=\box37
 \LT@lastfoot=\box38
-\LT@cols=\count158
-\LT@rows=\count159
-\c@LT@tables=\count160
-\c@LT@chunks=\count161
+\LT@cols=\count347
+\LT@rows=\count348
+\c@LT@tables=\count349
+\c@LT@chunks=\count350
 \LT@p@ftn=\toks40
 )
-\glsdescwidth=\skip60
-\glspagelistwidth=\skip61
+\glsdescwidth=\skip82
+\glspagelistwidth=\skip83
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/glossaries/styles/glossary-super.
 sty
 Package: glossary-super 2018/04/07 v4.37 (NLCT)
  (/usr/local/texlive/2018/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
-\c@tracingst=\count162
+\c@tracingst=\count351
 \ST@wd=\dimen145
-\ST@rightskip=\skip62
-\ST@leftskip=\skip63
-\ST@parfillskip=\skip64
+\ST@rightskip=\skip84
+\ST@leftskip=\skip85
+\ST@parfillskip=\skip86
 \ST@pageleft=\dimen146
 \ST@headht=\dimen147
 \ST@tailht=\dimen148
@@ -760,11 +962,11 @@ Package: supertabular 2004/02/20 v4.1e the supertabular environment
 (/usr/local/texlive/2018/texmf-dist/tex/latex/glossaries/styles/glossary-tree.s
 ty
 Package: glossary-tree 2018/04/07 v4.37 (NLCT)
-\glstreeindent=\skip65
+\glstreeindent=\skip87
 ))
-\glswrite=\write3
-\glo@main@file=\write4
-\openout4 = `rapport.glo'.
+\glswrite=\write5
+\glo@main@file=\write6
+\openout6 = `rapport.glo'.
 
 Package glossaries Info: Writing glossary file rapport.glo on input line 3.
 )
@@ -772,146 +974,12 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
- (./rapport.aux
-! Undefined control sequence.
-l.19 \abx@aux@refcontext
-                        {nty/global//global/global}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.19 \abx@aux@refcontext{n
-                          ty/global//global/global}
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-l.85 \abx@aux@refcontextdefaultsdone
-                                    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.86 \abx@aux@defaultrefcontext
-                               {0}{thales3}{nty/global//global/global}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.87 \abx@aux@defaultrefcontext
-                               {0}{scrapping2}{nty/global//global/global}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.88 \abx@aux@defaultrefcontext
-                               {0}{scrapping}{nty/global//global/global}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.89 \abx@aux@defaultrefcontext
-                               {0}{E2E}{nty/global//global/global}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.90 \abx@aux@defaultrefcontext
-                               {0}{thales2}{nty/global//global/global}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.91 \abx@aux@defaultrefcontext
-                               {0}{thales}{nty/global//global/global}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.92 \abx@aux@defaultrefcontext
-                               {0}{RACI}{nty/global//global/global}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.93 \abx@aux@defaultrefcontext
-                               {0}{json}{nty/global//global/global}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.94 \abx@aux@defaultrefcontext
-                               {0}{pandas}{nty/global//global/global}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.95 \abx@aux@defaultrefcontext
-                               {0}{python}{nty/global//global/global}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.96 \abx@aux@defaultrefcontext
-                               {0}{thalesgroup}{nty/global//global/global}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.97 \abx@aux@defaultrefcontext
-                               {0}{FAT}{nty/global//global/global}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
 )
+(./rapport.aux)
 \openout1 = `rapport.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 130.
@@ -971,28 +1039,17 @@ LaTeX Font Info:    ... okay on input line 130.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-Overfull \hbox (37.97058pt too wide) in paragraph at lines 19--13
-[]\T1/cmr/m/n/12 nty/global//global/global                                     
-                             0thales3nty/global//global/global
- []
-
-
-Overfull \hbox (86.97278pt too wide) in paragraph at lines 19--13
-\T1/cmr/m/n/12 0scrap-ping2nty/global//global/global 0scrap-pingn-ty/-glob-al//
--glob-al/-global 0E2Enty/global//global/global
- []
-
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count163
+\scratchcounter=\count352
 \scratchdimen=\dimen156
 \scratchbox=\box40
-\nofMPsegments=\count164
-\nofMParguments=\count165
+\nofMPsegments=\count353
+\nofMParguments=\count354
 \everyMPshowfont=\toks41
-\MPscratchCnt=\count166
+\MPscratchCnt=\count355
 \MPscratchDim=\dimen157
-\MPnumerator=\count167
-\makeMPintoPDFobject=\count168
+\MPnumerator=\count356
+\makeMPintoPDFobject=\count357
 \everyMPtoPDFconversion=\toks42
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1020,15 +1077,15 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count169
+\c@section@level=\count358
 )
 LaTeX Info: Redefining \ref on input line 130.
 LaTeX Info: Redefining \pageref on input line 130.
 LaTeX Info: Redefining \nameref on input line 130.
 
 (./rapport.out) (./rapport.out)
-\@outlinefile=\write5
-\openout5 = `rapport.out'.
+\@outlinefile=\write7
+\openout7 = `rapport.out'.
 
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/pdflscape.sty
@@ -1039,33 +1096,38 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-\c@lstlisting=\count170
+\c@lstlisting=\count359
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout4 = `rapport.bcf'.
 
-(./0.0-titre.tex [1
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'rapport.bbl' found.
 
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-\openout3 = `rapport.ist'.
-
-]
-<ressources/images/logos/Thales_Logo.png, id=94, 803.0pt x 139.52126pt>
+(./rapport.bbl)
+Package biblatex Info: Reference section=0 on input line 130.
+Package biblatex Info: Reference segment=0 on input line 130.
+ (./0.0-titre.tex
+<ressources/images/logos/Thales_Logo.png, id=88, 803.0pt x 139.52126pt>
 File: ressources/images/logos/Thales_Logo.png Graphic file (type png)
 <use ressources/images/logos/Thales_Logo.png>
 Package pdftex.def Info: ressources/images/logos/Thales_Logo.png  used on input
  line 4.
 (pdftex.def)             Requested size: 131.0067pt x 22.76228pt.
-<ressources/images/logos/logo_UTC.png, id=96, 363.16583pt x 91.69937pt>
+<ressources/images/logos/logo_UTC.png, id=90, 363.16583pt x 91.69937pt>
 File: ressources/images/logos/logo_UTC.png Graphic file (type png)
 <use ressources/images/logos/logo_UTC.png>
 Package pdftex.def Info: ressources/images/logos/logo_UTC.png  used on input li
 ne 4.
 (pdftex.def)             Requested size: 112.68552pt x 28.45274pt.
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.34   \end{titlepage}
-                       [1 <./ressources/images/logos/Thales_Logo.png> <./ressou
-rces/images/logos/logo_UTC.png>]) (./0.1-acknowledgments.tex
+ [1
+
+\openout5 = `rapport.ist'.
+
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./resso
+urces/images/logos/Thales_Logo.png> <./ressources/images/logos/logo_UTC.png>]) 
+(./0.1-acknowledgments.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
@@ -1092,702 +1154,9 @@ been already used, duplicate ignored
 l.137 \tableofcontents
                        [1
 
-] (./rapport.toc
-
-! Package etoolbox Error: Boolean '\ifciterequest' undefined.
-
-See the etoolbox package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \boolfalse {citerequest}
-                            \boolfalse {citetracker}\boolfalse {pagetracker}...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package etoolbox Error: Boolean '\ifcitetracker' undefined.
-
-See the etoolbox package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 ...false {citerequest}\boolfalse {citetracker}
-                                                  \boolfalse {pagetracker}\b...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package etoolbox Error: Boolean '\ifpagetracker' undefined.
-
-See the etoolbox package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 ...false {citetracker}\boolfalse {pagetracker}
-                                                  \boolfalse {backtracker}\r...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package etoolbox Error: Boolean '\ifbacktracker' undefined.
-
-See the etoolbox package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 ...false {pagetracker}\boolfalse {backtracker}
-                                                  \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 \defcounter {refsection}{0}
-                               \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 \defcounter {refsection}{0}
-                               \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.7 \defcounter {refsection}{0}
-                               \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.9 \defcounter {refsection}{0}
-                               \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 \defcounter {refsection}{0}
-                                \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.13 \defcounter {refsection}{0}
-                                \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.15 \defcounter {refsection}{0}
-                                \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.17 \defcounter {refsection}{0}
-                                \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.19 \defcounter {refsection}{0}
-                                \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21 \defcounter {refsection}{0}
-                                \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.23 \defcounter {refsection}{0}
-                                \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.25 \defcounter {refsection}{0}
-                                \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.27 \defcounter {refsection}{0}
-                                \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.29 \defcounter {refsection}{0}
-                                \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.31 \defcounter {refsection}{0}
-                                \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.33 \defcounter {refsection}{0}
-                                \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35 \defcounter {refsection}{0}
-                                \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.37 \defcounter {refsection}{0}
-                                \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.39 \defcounter {refsection}{0}
-                                \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.41 \defcounter {refsection}{0}
-                                \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.43 \defcounter {refsection}{0}
-                                \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.45 \defcounter {refsection}{0}
-                                \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.47 \defcounter {refsection}{0}
-                                \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.49 \defcounter {refsection}{0}
-                                \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.51 \defcounter {refsection}{0}
-                                \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.53 \defcounter {refsection}{0}
-                                \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.55 \defcounter {refsection}{0}
-                                \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.57 \defcounter {refsection}{0}
-                                \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.59 \defcounter {refsection}{0}
-                                \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.61 \defcounter {refsection}{0}
-                                \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.63 \defcounter {refsection}{0}
-                                \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.65 \defcounter {refsection}{0}
-                                \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.67 \defcounter {refsection}{0}
-                                \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.69 \defcounter {refsection}{0}
-                                \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.71 \defcounter {refsection}{0}
-                                \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.73 \defcounter {refsection}{0}
-                                \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.75 \defcounter {refsection}{0}
-                                \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.77 \defcounter {refsection}{0}
-                                \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.79 \defcounter {refsection}{0}
-                                \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.81 \defcounter {refsection}{0}
-                                \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.83 \defcounter {refsection}{0}
-                                \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.85 \defcounter {refsection}{0}
-                                \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.87 \defcounter {refsection}{0}
-                                \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.89 \defcounter {refsection}{0}
-                                \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.91 \defcounter {refsection}{0}
-                                \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.93 \defcounter {refsection}{0}
-                                \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.95 \defcounter {refsection}{0}
-                                \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.97 \defcounter {refsection}{0}
-                                \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: No counter 'refsection' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.99 \defcounter {refsection}{0}
-                                \relax
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-)
-\tf@toc=\write6
-\openout6 = `rapport.toc'.
+] (./rapport.toc)
+\tf@toc=\write8
+\openout8 = `rapport.toc'.
 
  (./0.2-figures.texpdfTeX warning (ext4): destination with the same identifier 
 (name{page.}) has been already used, duplicate ignored
@@ -1820,7 +1189,7 @@ i que des do-maines d'ingénierie
 
 ]
 Chapter 1.
-<ressources/images/figures/timeline.png, id=148, 866.23625pt x 657.45625pt>
+<ressources/images/figures/timeline.png, id=145, 866.23625pt x 657.45625pt>
 File: ressources/images/figures/timeline.png Graphic file (type png)
 <use ressources/images/figures/timeline.png>
 Package pdftex.def Info: ressources/images/figures/timeline.png  used on input 
@@ -1829,14 +1198,14 @@ line 7.
 [2
 
  <./ressources/images/figures/timeline.png>]
-<ressources/images/figures/Key.png, id=159, 1061.9675pt x 702.625pt>
+<ressources/images/figures/Key.png, id=155, 1061.9675pt x 702.625pt>
 File: ressources/images/figures/Key.png Graphic file (type png)
 <use ressources/images/figures/Key.png>
 Package pdftex.def Info: ressources/images/figures/Key.png  used on input line 
 36.
 (pdftex.def)             Requested size: 344.03345pt x 227.62204pt.
  [3] [4 <./ressources/images/figures/Key.png>]
-<ressources/images/figures/Lusail.png, id=177, 997.7275pt x 489.83pt>
+<ressources/images/figures/Lusail.png, id=174, 997.7275pt x 489.83pt>
 File: ressources/images/figures/Lusail.png Graphic file (type png)
 <use ressources/images/figures/Lusail.png>
 Package pdftex.def Info: ressources/images/figures/Lusail.png  used on input li
@@ -1847,7 +1216,7 @@ Overfull \hbox (5.54443pt too wide) in paragraph at lines 53--54
  [] 
  []
 
-<ressources/images/figures/Consortium.png, id=178, 1541.76pt x 691.58376pt>
+<ressources/images/figures/Consortium.png, id=175, 1541.76pt x 691.58376pt>
 File: ressources/images/figures/Consortium.png Graphic file (type png)
 <use ressources/images/figures/Consortium.png>
 Package pdftex.def Info: ressources/images/figures/Consortium.png  used on inpu
@@ -1865,7 +1234,7 @@ sor-tium et fait l'intermédiaire
  []
 
 [6 <./ressources/images/figures/Consortium.png>] [7]
-<ressources/images/figures/OBS1.png, id=230, 804.00375pt x 372.39125pt>
+<ressources/images/figures/OBS1.png, id=227, 804.00375pt x 372.39125pt>
 File: ressources/images/figures/OBS1.png Graphic file (type png)
 <use ressources/images/figures/OBS1.png>
 Package pdftex.def Info: ressources/images/figures/OBS1.png  used on input line
@@ -1876,7 +1245,7 @@ Overfull \hbox (33.37027pt too wide) in paragraph at lines 114--115
  [] 
  []
 
-<ressources/images/figures/OBS2.png, id=233, 693.59125pt x 221.82875pt>
+<ressources/images/figures/OBS2.png, id=230, 693.59125pt x 221.82875pt>
 File: ressources/images/figures/OBS2.png Graphic file (type png)
 <use ressources/images/figures/OBS2.png>
 Package pdftex.def Info: ressources/images/figures/OBS2.png  used on input line
@@ -1888,7 +1257,7 @@ Chapter 2.
 [10
 
 ] [11] [12]
-<ressources/images/figures/Trello.png, id=311, 1445.4pt x 540.0175pt>
+<ressources/images/figures/Trello.png, id=308, 1445.4pt x 540.0175pt>
 File: ressources/images/figures/Trello.png Graphic file (type png)
 <use ressources/images/figures/Trello.png>
 Package pdftex.def Info: ressources/images/figures/Trello.png  used on input li
@@ -1910,14 +1279,14 @@ Overfull \hbox (1.28436pt too wide) in paragraph at lines 46--47
 n-join-te-ment avec mon maître
  []
 
-<ressources/images/figures/Workflow1.png, id=352, 870.25125pt x 430.60875pt>
+<ressources/images/figures/Workflow1.png, id=349, 870.25125pt x 430.60875pt>
 File: ressources/images/figures/Workflow1.png Graphic file (type png)
 <use ressources/images/figures/Workflow1.png>
 Package pdftex.def Info: ressources/images/figures/Workflow1.png  used on input
  line 49.
 (pdftex.def)             Requested size: 402.52473pt x 199.16928pt.
 [16] [17 <./ressources/images/figures/Workflow1.png>]
-<ressources/images/figures/RACI.png, id=374, 993.7125pt x 233.87375pt>
+<ressources/images/figures/RACI.png, id=371, 993.7125pt x 233.87375pt>
 File: ressources/images/figures/RACI.png Graphic file (type png)
 <use ressources/images/figures/RACI.png>
 Package pdftex.def Info: ressources/images/figures/RACI.png  used on input line
@@ -1928,7 +1297,7 @@ Overfull \hbox (25.48283pt too wide) in paragraph at lines 69--70
  [] 
  []
 
-<ressources/images/figures/Workflow2.png, id=375, 1023.825pt x 438.63875pt>
+<ressources/images/figures/Workflow2.png, id=372, 1023.825pt x 438.63875pt>
 File: ressources/images/figures/Workflow2.png Graphic file (type png)
 <use ressources/images/figures/Workflow2.png>
 Package pdftex.def Info: ressources/images/figures/Workflow2.png  used on input
@@ -1941,7 +1310,7 @@ Overfull \hbox (6.79857pt too wide) in paragraph at lines 75--76
 
 [18 <./ressources/images/figures/RACI.png> <./ressources/images/figures/Workflo
 w2.png>] [19] [20]
-<ressources/images/figures/tree.png, id=404, 344.28625pt x 316.18124pt>
+<ressources/images/figures/tree.png, id=400, 344.28625pt x 316.18124pt>
 File: ressources/images/figures/tree.png Graphic file (type png)
 <use ressources/images/figures/tree.png>
 Package pdftex.def Info: ressources/images/figures/tree.png  used on input line
@@ -1954,7 +1323,7 @@ ement de l'[][]$[]$[] par l'expérimentation.
  []
 
 [23] [24]
-<ressources/images/figures/bd.png, id=438, 1028.84375pt x 1345.025pt>
+<ressources/images/figures/bd.png, id=435, 1028.84375pt x 1345.025pt>
 File: ressources/images/figures/bd.png Graphic file (type png)
 <use ressources/images/figures/bd.png>
 Package pdftex.def Info: ressources/images/figures/bd.png  used on input line 2
@@ -1983,23 +1352,27 @@ Overfull \hbox (10.58002pt too wide) in paragraph at lines 53--56
 de tramway. (c.f $[]$).
  []
 
-[38] [39])
-! Undefined control sequence.
-l.148 \printbibliography
-                        [title={Bibliographie},heading={bibintoc}]
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+[38] [39]) [40]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 148.
+
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+Overfull \hbox (21.26378pt too wide) in paragraph at lines 148--148
+[]\T1/cmr/m/n/12 Testing Dig-i-tal. \T1/cmr/m/it/12 Qu'est ce qu'un test bout à
+ bout ? \T1/cmr/m/sc/12 url\T1/cmr/m/n/12 : []$\T1/cmtt/m/n/12 https : / / blog
+ . testingdigital .
+ []
 
 (./6-appendix.texpdfTeX warning (ext4): destination with the same identifier (n
 ame{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \chapter
-            *{Annexes} [1]
-<ressources/images/annexes/Vcycle.png, id=672, 1025.8325pt x 781.92125pt>
+            *{Annexes} [1
+
+]
+<ressources/images/annexes/Vcycle.png, id=712, 1025.8325pt x 781.92125pt>
 File: ressources/images/annexes/Vcycle.png Graphic file (type png)
 <use ressources/images/annexes/Vcycle.png>
 Package pdftex.def Info: ressources/images/annexes/Vcycle.png  used on input li
@@ -2010,7 +1383,7 @@ Overfull \hbox (64.51459pt too wide) in paragraph at lines 10--12
 [] 
  []
 
-<ressources/images/annexes/convention.png, id=673, 652.4375pt x 441.65pt>
+<ressources/images/annexes/convention.png, id=713, 652.4375pt x 441.65pt>
 File: ressources/images/annexes/convention.png Graphic file (type png)
 <use ressources/images/annexes/convention.png>
 Package pdftex.def Info: ressources/images/annexes/convention.png  used on inpu
@@ -2041,34 +1414,28 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 154.
 (./rapport.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 154.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 154.
+Package rerunfilecheck Info: File `rapport.out' has not changed.
+(rerunfilecheck)             Checksum: 23344A9D71697D9196E501FA4FEA59ED;1344.
+Package logreq Info: Writing requests to 'rapport.run.xml'.
+\openout1 = `rapport.run.xml'.
 
-
-Package rerunfilecheck Warning: File `rapport.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `rapport.out':
-(rerunfilecheck)             Before: 23344A9D71697D9196E501FA4FEA59ED;1344
-(rerunfilecheck)             After:  9360C06CEC0ACF792472F2A56FDA417B;1294.
  ) 
 Here is how much of TeX's memory you used:
- 18054 strings out of 492649
- 287526 string characters out of 6129622
- 461354 words of memory out of 5000000
- 21478 multiletter control sequences out of 15000+600000
- 19369 words of font info for 44 fonts, out of 8000000 for 9000
+ 24432 strings out of 492649
+ 409192 string characters out of 6129622
+ 933735 words of memory out of 5000000
+ 27787 multiletter control sequences out of 15000+600000
+ 19682 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,8n,39p,1989b,621s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{chapter*.9} has been referenced but does not exis
-t, replaced by a fixed one
-
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</
-usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
-sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/
-local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/lo
-cal/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/loca
-l/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/
-texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/te
+ 47i,8n,45p,1989b,1716s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></us
+r/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/
+local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/lo
+cal/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/loca
+l/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/
+texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/te
 xlive/2018/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/local/texl
 ive/2018/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/texliv
 e/2018/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/
@@ -2077,11 +1444,12 @@ e/2018/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/
 /texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2018/t
 exmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2018/tex
 mf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2018/texmf
--dist/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on rapport.pdf (47 pages, 3287898 bytes).
+-dist/fonts/type1/public/cm-super/sfti1440.pfb></usr/local/texlive/2018/texmf-d
+ist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on rapport.pdf (47 pages, 3330911 bytes).
 PDF statistics:
- 762 PDF objects out of 1000 (max. 8388607)
- 659 compressed objects within 7 object streams
- 124 named destinations out of 1000 (max. 500000)
+ 811 PDF objects out of 1000 (max. 8388607)
+ 705 compressed objects within 8 object streams
+ 137 named destinations out of 1000 (max. 500000)
  249 words of extra memory for PDF output out of 10000 (max. 10000000)
 
