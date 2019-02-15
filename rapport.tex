@@ -16,8 +16,7 @@
 \usepackage[final]{pdfpages}  % Inclusion de fichier pdf
 \usepackage{framed}
 \usepackage{geometry}
-
-
+%\usepackage{apacite}
 
 %%% Affichage de code
 \usepackage{listings}
@@ -69,9 +68,10 @@
 
 
 %%% Bibliographie
-\usepackage[backend=biber,style=numeric-comp]{biblatex}
+%\usepackage[backend=biber,style=numeric-comp]{biblatex}
 \addbibresource{7-bibliographie.bib}
-
+%\bibliographystyle{plain}
+%\bibliography{bibliographie}
 %%%%% Configuration %%%%%
 \definecolor{shadecolor}{gray}{0.9}
 
@@ -104,6 +104,7 @@
 \addto\captionsenglish{
   \renewcommand{\contentsname}
     {Sommaire} 
+    \renewcommand{\listfigurename}{Table des figures}
 }
 
 %%% Meta-données
@@ -134,6 +135,7 @@
 %%%%% Faire Table des Figures
 \setstretch{1,15}
 \tableofcontents
+\input{0.2-figures}
 \setstretch{1,3}
 \input{1-introduction}
 \pagenumbering{arabic}

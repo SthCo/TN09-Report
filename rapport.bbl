@@ -19,75 +19,305 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
-    \entry{django_doc}{online}{}
+    \entry{thales3}{online}{}
       \name{author}{1}{}{%
-        {{hash=2b9afb89a6acc1575b159bfca38d10ad}{%
-           family={django},
-           familyi={d\bibinitperiod}}}%
+        {{hash=c589ce6afa4347eced063731e46f782d}{%
+           family={Challenges},
+           familyi={C\bibinitperiod}}}%
       }
-      \strng{namehash}{2b9afb89a6acc1575b159bfca38d10ad}
-      \strng{fullhash}{2b9afb89a6acc1575b159bfca38d10ad}
-      \strng{bibnamehash}{2b9afb89a6acc1575b159bfca38d10ad}
-      \strng{authorbibnamehash}{2b9afb89a6acc1575b159bfca38d10ad}
-      \strng{authornamehash}{2b9afb89a6acc1575b159bfca38d10ad}
-      \strng{authorfullhash}{2b9afb89a6acc1575b159bfca38d10ad}
-      \field{sortinit}{d}
+      \strng{namehash}{c589ce6afa4347eced063731e46f782d}
+      \strng{fullhash}{c589ce6afa4347eced063731e46f782d}
+      \strng{bibnamehash}{c589ce6afa4347eced063731e46f782d}
+      \strng{authorbibnamehash}{c589ce6afa4347eced063731e46f782d}
+      \strng{authornamehash}{c589ce6afa4347eced063731e46f782d}
+      \strng{authorfullhash}{c589ce6afa4347eced063731e46f782d}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Après le rachat de BE Aerospace-par Rockwell Collins, Safran, Thales et Zodiac sont ils trop petits face aux americains ?}
+      \verb{urlraw}
+      \verb https://www.challenges.fr/challenges-soir/apres-le-rachat-de-b-e-aerospace-par-rockwell-collins-safran-thales-et-zodiac-sont-ils-trop-petits-face-aux-americains_434824
+      \endverb
+      \verb{url}
+      \verb https://www.challenges.fr/challenges-soir/apres-le-rachat-de-b-e-aerospace-par-rockwell-collins-safran-thales-et-zodiac-sont-ils-trop-petits-face-aux-americains_434824
+      \endverb
+    \endentry
+    \entry{scrapping2}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e7e6a9b330df0265255d47efb8503308}{%
+           family={Cloud},
+           familyi={C\bibinitperiod},
+           given={Prompt},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{e7e6a9b330df0265255d47efb8503308}
+      \strng{fullhash}{e7e6a9b330df0265255d47efb8503308}
+      \strng{bibnamehash}{e7e6a9b330df0265255d47efb8503308}
+      \strng{authorbibnamehash}{e7e6a9b330df0265255d47efb8503308}
+      \strng{authornamehash}{e7e6a9b330df0265255d47efb8503308}
+      \strng{authorfullhash}{e7e6a9b330df0265255d47efb8503308}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Best programming language for web scrapping}
+      \verb{urlraw}
+      \verb https://www.promptcloud.com/blog/best-programming-language-for-web-scraping
+      \endverb
+      \verb{url}
+      \verb https://www.promptcloud.com/blog/best-programming-language-for-web-scraping
+      \endverb
+    \endentry
+    \entry{scrapping}{online}{}
+      \name{author}{1}{}{%
+        {{hash=08278ca59eac501c1e872a52fe1cef93}{%
+           family={Concept},
+           familyi={C\bibinitperiod},
+           given={Luxury},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{08278ca59eac501c1e872a52fe1cef93}
+      \strng{fullhash}{08278ca59eac501c1e872a52fe1cef93}
+      \strng{bibnamehash}{08278ca59eac501c1e872a52fe1cef93}
+      \strng{authorbibnamehash}{08278ca59eac501c1e872a52fe1cef93}
+      \strng{authornamehash}{08278ca59eac501c1e872a52fe1cef93}
+      \strng{authorfullhash}{08278ca59eac501c1e872a52fe1cef93}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Le scrapping des données, pourquoi et comment ?}
+      \verb{urlraw}
+      \verb https://www.luxury-concept.com/dev-blog/346-le-scaping-des-donnees-pourquoi-et-comment.html
+      \endverb
+      \verb{url}
+      \verb https://www.luxury-concept.com/dev-blog/346-le-scaping-des-donnees-pourquoi-et-comment.html
+      \endverb
+    \endentry
+    \entry{E2E}{online}{}
+      \name{author}{1}{}{%
+        {{hash=388f1f069f1700c110d8f826c1b175d1}{%
+           family={Digital},
+           familyi={D\bibinitperiod},
+           given={Testing},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{388f1f069f1700c110d8f826c1b175d1}
+      \strng{fullhash}{388f1f069f1700c110d8f826c1b175d1}
+      \strng{bibnamehash}{388f1f069f1700c110d8f826c1b175d1}
+      \strng{authorbibnamehash}{388f1f069f1700c110d8f826c1b175d1}
+      \strng{authornamehash}{388f1f069f1700c110d8f826c1b175d1}
+      \strng{authorfullhash}{388f1f069f1700c110d8f826c1b175d1}
+      \field{sortinit}{D}
       \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Django Documentation}
+      \field{title}{Qu'est ce qu'un test bout à bout ?}
       \verb{urlraw}
-      \verb https://docs.djangoproject.com/fr/2.0/
+      \verb https://blog.testingdigital.com/quest-test-de-bout-bout-end-to-end-1288
       \endverb
       \verb{url}
-      \verb https://docs.djangoproject.com/fr/2.0/
+      \verb https://blog.testingdigital.com/quest-test-de-bout-bout-end-to-end-1288
       \endverb
     \endentry
-    \entry{Git}{online}{}
+    \entry{thales2}{online}{}
       \name{author}{1}{}{%
-        {{hash=5f858f200e48c276b881a8c8b46a29c3}{%
-           family={git-scm},
-           familyi={g\bibinithyphendelim s\bibinitperiod}}}%
+        {{hash=06415d08603cb86c0b75b8a4a347d6f7}{%
+           family={Echos},
+           familyi={E\bibinitperiod},
+           given={Les},
+           giveni={L\bibinitperiod}}}%
       }
-      \strng{namehash}{5f858f200e48c276b881a8c8b46a29c3}
-      \strng{fullhash}{5f858f200e48c276b881a8c8b46a29c3}
-      \strng{bibnamehash}{5f858f200e48c276b881a8c8b46a29c3}
-      \strng{authorbibnamehash}{5f858f200e48c276b881a8c8b46a29c3}
-      \strng{authornamehash}{5f858f200e48c276b881a8c8b46a29c3}
-      \strng{authorfullhash}{5f858f200e48c276b881a8c8b46a29c3}
-      \field{sortinit}{g}
-      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \strng{namehash}{06415d08603cb86c0b75b8a4a347d6f7}
+      \strng{fullhash}{06415d08603cb86c0b75b8a4a347d6f7}
+      \strng{bibnamehash}{06415d08603cb86c0b75b8a4a347d6f7}
+      \strng{authorbibnamehash}{06415d08603cb86c0b75b8a4a347d6f7}
+      \strng{authornamehash}{06415d08603cb86c0b75b8a4a347d6f7}
+      \strng{authorfullhash}{06415d08603cb86c0b75b8a4a347d6f7}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Git Basics Tagging}
+      \field{title}{Thales compte sur sa force technologique face à ses concurrents}
       \verb{urlraw}
-      \verb https://git-scm.com/book/en/v2/Git-Basics-Tagging
+      \verb https://investir.lesechos.fr/actions/actualites/thales-compte-sur-sa-force-technologique-face-a-ses-concurrents-1767362.php
       \endverb
       \verb{url}
-      \verb https://git-scm.com/book/en/v2/Git-Basics-Tagging
+      \verb https://investir.lesechos.fr/actions/actualites/thales-compte-sur-sa-force-technologique-face-a-ses-concurrents-1767362.php
       \endverb
     \endentry
-    \entry{gruber}{article}{}
+    \entry{thales}{online}{}
       \name{author}{1}{}{%
-        {{hash=19ae5b788a68be4aff60dca980153447}{%
-           family={Gruber},
-           familyi={G\bibinitperiod},
-           given={T.\bibnamedelimi R},
-           giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=06415d08603cb86c0b75b8a4a347d6f7}{%
+           family={Echos},
+           familyi={E\bibinitperiod},
+           given={Les},
+           giveni={L\bibinitperiod}}}%
       }
-      \strng{namehash}{19ae5b788a68be4aff60dca980153447}
-      \strng{fullhash}{19ae5b788a68be4aff60dca980153447}
-      \strng{bibnamehash}{19ae5b788a68be4aff60dca980153447}
-      \strng{authorbibnamehash}{19ae5b788a68be4aff60dca980153447}
-      \strng{authornamehash}{19ae5b788a68be4aff60dca980153447}
-      \strng{authorfullhash}{19ae5b788a68be4aff60dca980153447}
-      \field{sortinit}{G}
-      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \strng{namehash}{06415d08603cb86c0b75b8a4a347d6f7}
+      \strng{fullhash}{06415d08603cb86c0b75b8a4a347d6f7}
+      \strng{bibnamehash}{06415d08603cb86c0b75b8a4a347d6f7}
+      \strng{authorbibnamehash}{06415d08603cb86c0b75b8a4a347d6f7}
+      \strng{authornamehash}{06415d08603cb86c0b75b8a4a347d6f7}
+      \strng{authorfullhash}{06415d08603cb86c0b75b8a4a347d6f7}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Computer Science Department, Standofrd University}
-      \field{title}{A Translation Approach to Portable Ontology Specifications}
-      \field{year}{1993}
+      \field{title}{Thales, un géant très diversifié}
+      \verb{urlraw}
+      \verb https://www.lesechos.fr/17/12/2017/lesechos.fr/0301035359398_thales--un-geant-tres-diversifie.htm
+      \endverb
+      \verb{url}
+      \verb https://www.lesechos.fr/17/12/2017/lesechos.fr/0301035359398_thales--un-geant-tres-diversifie.htm
+      \endverb
+    \endentry
+    \entry{RACI}{online}{}
+      \name{author}{1}{}{%
+        {{hash=4cf1f07bd3974027a571153f8426a388}{%
+           family={Emploi},
+           familyi={E\bibinitperiod},
+           given={Cadre},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{4cf1f07bd3974027a571153f8426a388}
+      \strng{fullhash}{4cf1f07bd3974027a571153f8426a388}
+      \strng{bibnamehash}{4cf1f07bd3974027a571153f8426a388}
+      \strng{authorbibnamehash}{4cf1f07bd3974027a571153f8426a388}
+      \strng{authornamehash}{4cf1f07bd3974027a571153f8426a388}
+      \strng{authorfullhash}{4cf1f07bd3974027a571153f8426a388}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Méthode RACI : Le plus court chemin pour bien gérer vos projets}
+      \verb{urlraw}
+      \verb https://www.cadremploi.fr/editorial/conseils/conseils-carriere/detail/article/methode-raci-le-plus-court-chemin-pour-bien-gerer-vos-projets.html
+      \endverb
+      \verb{url}
+      \verb https://www.cadremploi.fr/editorial/conseils/conseils-carriere/detail/article/methode-raci-le-plus-court-chemin-pour-bien-gerer-vos-projets.html
+      \endverb
+    \endentry
+    \entry{json}{online}{}
+      \name{author}{1}{}{%
+        {{hash=eed8d85b888a6c015834240885ee6333}{%
+           family={Json},
+           familyi={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{eed8d85b888a6c015834240885ee6333}
+      \strng{fullhash}{eed8d85b888a6c015834240885ee6333}
+      \strng{bibnamehash}{eed8d85b888a6c015834240885ee6333}
+      \strng{authorbibnamehash}{eed8d85b888a6c015834240885ee6333}
+      \strng{authornamehash}{eed8d85b888a6c015834240885ee6333}
+      \strng{authorfullhash}{eed8d85b888a6c015834240885ee6333}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Documentation Json}
+      \verb{urlraw}
+      \verb https://www.json.org
+      \endverb
+      \verb{url}
+      \verb https://www.json.org
+      \endverb
+    \endentry
+    \entry{pandas}{online}{}
+      \name{author}{1}{}{%
+        {{hash=251d2bbfe9a3b95e5691ceb30dc6784a}{%
+           family={Pandas},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{251d2bbfe9a3b95e5691ceb30dc6784a}
+      \strng{fullhash}{251d2bbfe9a3b95e5691ceb30dc6784a}
+      \strng{bibnamehash}{251d2bbfe9a3b95e5691ceb30dc6784a}
+      \strng{authorbibnamehash}{251d2bbfe9a3b95e5691ceb30dc6784a}
+      \strng{authornamehash}{251d2bbfe9a3b95e5691ceb30dc6784a}
+      \strng{authorfullhash}{251d2bbfe9a3b95e5691ceb30dc6784a}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Documentation Pandas}
+      \verb{urlraw}
+      \verb https://pandas.pydata.org
+      \endverb
+      \verb{url}
+      \verb https://pandas.pydata.org
+      \endverb
+    \endentry
+    \entry{python}{online}{}
+      \name{author}{1}{}{%
+        {{hash=a7f5f35426b927411fc9231b56382173}{%
+           family={Python},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{a7f5f35426b927411fc9231b56382173}
+      \strng{fullhash}{a7f5f35426b927411fc9231b56382173}
+      \strng{bibnamehash}{a7f5f35426b927411fc9231b56382173}
+      \strng{authorbibnamehash}{a7f5f35426b927411fc9231b56382173}
+      \strng{authornamehash}{a7f5f35426b927411fc9231b56382173}
+      \strng{authorfullhash}{a7f5f35426b927411fc9231b56382173}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Documentation Python}
+      \verb{urlraw}
+      \verb https://docs.python.org/
+      \endverb
+      \verb{url}
+      \verb https://docs.python.org/
+      \endverb
+    \endentry
+    \entry{thalesgroup}{online}{}
+      \name{author}{1}{}{%
+        {{hash=285e760d157c12307ebe65137ca7300b}{%
+           family={Thales},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{285e760d157c12307ebe65137ca7300b}
+      \strng{fullhash}{285e760d157c12307ebe65137ca7300b}
+      \strng{bibnamehash}{285e760d157c12307ebe65137ca7300b}
+      \strng{authorbibnamehash}{285e760d157c12307ebe65137ca7300b}
+      \strng{authornamehash}{285e760d157c12307ebe65137ca7300b}
+      \strng{authorfullhash}{285e760d157c12307ebe65137ca7300b}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Site du groupe}
+      \verb{urlraw}
+      \verb https://www.thalesgroup.com
+      \endverb
+      \verb{url}
+      \verb https://www.thalesgroup.com
+      \endverb
+    \endentry
+    \entry{FAT}{online}{}
+      \name{author}{1}{}{%
+        {{hash=6927efc4e34c833b9b459400077a1514}{%
+           family={Vaisala},
+           familyi={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{6927efc4e34c833b9b459400077a1514}
+      \strng{fullhash}{6927efc4e34c833b9b459400077a1514}
+      \strng{bibnamehash}{6927efc4e34c833b9b459400077a1514}
+      \strng{authorbibnamehash}{6927efc4e34c833b9b459400077a1514}
+      \strng{authornamehash}{6927efc4e34c833b9b459400077a1514}
+      \strng{authorfullhash}{6927efc4e34c833b9b459400077a1514}
+      \field{sortinit}{V}
+      \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Qu'est ce qu'un test d'acceptation ?}
+      \verb{urlraw}
+      \verb https://www.vaisala.com/fr/products/maintenance-and-support-services/project-services/test-dacceptation
+      \endverb
+      \verb{url}
+      \verb https://www.vaisala.com/fr/products/maintenance-and-support-services/project-services/test-dacceptation
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

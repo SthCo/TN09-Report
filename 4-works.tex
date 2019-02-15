@@ -285,7 +285,7 @@ Une fois les données analysées et les différents problèmes de cohérence ré
 \subsection{Communication interne}
 Avoir choisi comme format de donnée un fichier Excel présente l'avantage de pouvoir facilement transmettre les données et de pouvoir réaliser des indicateurs d'avancement modulables.
 
-Les indicateurs nécessaires diffèrent en fonction de leur destinataire, et à la vue du nombre important de membres sur le projet, il a fallu réaliser un nombre important de graphiques utilisant les données précédemment exportées.
+Les indicateurs nécessaires diffèrent en fonction de leur destinataire, et à la vue du grand nombre de membres sur le projet, il a fallu réaliser un nombre important de graphiques utilisant les données précédemment exportées.
 
 En voici quelques un :
 
@@ -306,7 +306,7 @@ Le premier était un rapport tenant compte du planning annoncé et proposant une
 Le second était un rapport de l'avancement des tests, et non de l'avancement de la production des rapports. Il était donc utile de croiser nos données pour identifier les tests déjà effectués, mais pour lesquels aucun rapport n'avait été produit.
 Cela nous permettait d'identifier les points bloquants avant de reporter l'avancement au client.
 
-Ces deux rapports utilisant le découpage en activités (c.f 3.2.1) et non le découpage en rapport, contrairement à moi, il me fallut réaliser une table de correspondance entre les noms des activités et les noms des rapports, afin de pouvoir lier et comparer ces trois fichiers.
+Ces deux rapports utilisant le découpage en activités (c.f 3.2.1) et non le découpage en rapport que j'utilisais, il me fallut réaliser une table de correspondance entre les noms des activités et les noms des rapports, afin de pouvoir lier et comparer ces trois fichiers.
 
 Une fois que ces 3 rapports faisaient état du même avancement, nous le communiquions au client.
 
@@ -318,10 +318,10 @@ La communication avec le client doit se faire certes en toute transparence, mais
 
 C'est pour cette raison que l'équipe \gls{RAMS} a proposé de présenter les données autour de 4 objectifs :
 \begin{itemize}
-\item \textbf{1. Pilot :} on met en priorité 1 (maximale) certain rapport de manière à pouvoir prouver la conformité du système à chaque exigence sécurité dans au moins une localisation, en essayant, dans la mesure du possible, de réduire le nombre de stations concernées afin de pouvoir y organiser des visites de démonstration de leur conformité en termes de sécurité.
+\item \textbf{1. Pilot :} on met en priorité 1 (maximale) certains rapports de manière à pouvoir prouver la conformité du système à chaque exigence sécurité dans au moins une localisation, en essayant, dans la mesure du possible, de réduire le nombre de stations concernées afin de pouvoir y organiser des visites de démonstration de leur conformité en termes de sécurité.
 \item \textbf{2. Stratégie SIL :} ici la stratégie reste la même pour les exigences \gls{SIL}0 (c.f 3.1.1), on inclut les mêmes localisations que pour l'objectif Pilot. Cependant pour les exigences \gls{SIL}2, on intègre au spectre de cet objectif toutes les localisations ou elles sont applicables.
-\item \textbf{3. Sécurité :} ensuite l'objectif est la conformité des toutes les localisations du projet avec les exigences sécurité y étant applicables.
-\item \textbf{4. Général :} enfin l'objectif est la conformité des toutes les localisations du projet avec toutes les exigences y étant applicables.
+\item \textbf{3. Sécurité :} ensuite l'objectif est la conformité de toutes les localisations du projet avec les exigences sécurité y étant applicables.
+\item \textbf{4. Général :} enfin l'objectif est la conformité de toutes les localisations du projet avec toutes les exigences y étant applicables.
 \end{itemize}
 
 
@@ -367,7 +367,7 @@ La solution me paraissant la plus robuste était de produire une documentation �
 Dans cette documentation j'ai énoncé une dizaine de règles à respecter, illustrées par des exemples et captures d'écran du site.
 
 À la fin de cette documentation, j'ai ajouté une convention de nommage (c.f Annexe II) concernant 3 champs de données : la localisation, le système et le type de test.
-Sans cette démarche, les données n'auraient jamais le même format puisqu'il y autant de façon de les renseigner qu'il y a d'utilisateurs.
+Sans cette démarche, les données n'auraient jamais eu le même format puisqu'il y autant de façon de les renseigner qu'il y a d'utilisateurs.
 
 En plus de distribuer cette documentation par mail à tout le projet, j'ai organisé une petite formation pour énoncer clairement ces règles et répondre à toutes les questions des utilisateurs durant la même séance.
 
@@ -382,10 +382,10 @@ Nous avons parlé ici de petites formations ponctuelles, mais au cours de mon de
 \item Tout d'abord, progressivement au cours du stage j'ai rédigé une documentation sur le script Python tout en le commentant. Je me suis imposé cette pratique, car d'expérience je sais à quel point il est complexe de revenir sur des lignes de code écrites auparavant, et je ne voulais pas avoir à subir cette tâche laborieuse à la fin de mon stage.
 \item Dans un second temps, mon maître de stage m'a demandé de lui fournir un profil type pour mon remplaçant. Au bout d'un peu plus de 4 mois de stage, on m'avait proposé de continuer au sein du projet après mon stage, mais la date limite de dépôt de dossier de candidature pour une césure en P19 était déjà passée.
 \item Aux alentours du 15 janvier, j'ai rencontré mon remplaçant, nous avons commencé par passer 1h à 1h30 tous les jours ensemble, je lui expliquais les tâches que je réalisais ainsi que le fonctionnement du processus (c.f 3.1).
-\item Puis vers la fin du mois de janvier, j'ai commencé à lui expliquer étape par étape comment mener à bien les tâches que j'avais à ma charge. En plus d'une documentation où j'ai détaillé chacune des étapes, j'effectuai des captures d'écran vidéo de mon écran ainsi que de mon microphone durant ces séances.
+\item Puis vers la fin du mois de janvier, j'ai commencé à lui expliquer étape par étape comment mener à bien les tâches que j'avais à ma charge. En plus d'une documentation où j'ai détaillé chacune des étapes, j'effectuais des captures d'écran vidéo de mon écran ainsi que de mon microphone durant ces séances.
 \item Ensuite, j'ai commencé à lui déléguer certaines tâches progressivement pour qu'il puisse pratiquer. Au cours de l'avant-dernière semaine, je lui ai demandé de réaliser un rapport de l'avancement du \gls{reporting} en utilisant les outils auxquels je l'avais formé. Cette tâche m'a permis de vérifier sa capacité à endosser cette fonction en totale autonomie et ainsi d'affirmer à mon maître de stage et au directeur adjoint son aptitude à me remplacer.
-\item La dernière étape a été d'amener mon remplaçant aux différentes réunions internes u avec le client auxquelles j'étais convié. Durant celles-ci, il a pu identifier les demandes du client et les interactions entre les différents participants.
+\item La dernière étape a été d'amener mon remplaçant aux réunions internes ainsi qu'à celles avec le client auxquelles j'étais convié. Durant celles-ci, il a pu identifier les demandes du client et les interactions entre les différents participants.
 \item Enfin, j'ai réalisé une note pour mon maître de stage et mes managers listant les différentes tâches pour lesquelles mon remplaçant avait été formé, les premières tâches auxquelles il devra s'atteler en priorité, les questions et tâches en attente d'une réponse du client ou interne ainsi qu'un état de l'avancement global du \gls{reporting} au sein du projet.
 \end{itemize}
 
-Grâce à a durée importante dédiée au tuilage, je peux quitter mes fonctions sereinement, car je pense que la continuité de mon travail au sein de ce projet est assurée.
+Grâce à la durée importante dédiée au tuilage, je peux quitter mes fonctions sereinement, car je pense que la continuité de mon travail au sein de ce projet est assurée.
