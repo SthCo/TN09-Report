@@ -208,13 +208,21 @@ Pour organiser les données, j'ai utilisé la bibliothèque \underline{\href{htt
 La première étape était d'importer les données au format JSON dans des tables. Pour cela j'ai utilisé le module "jsonnormalize" issu de la bibliothèque Pandas.
 
 Cette dernière m'a aussi servie à sélectionner les champs de données que je voulais conserver, filtrer les résultats, joindre des tables et toutes les opérations habituelles lorsqu'on traite avec des tables de données.
-Voici ci-dessous les différentes tables que j'ai créées afin de concevoir ma base de données finale :
+Voici ci-dessous les différentes tables que j'ai créées afin de concevoir ma base de données finale.
+
 \newpage
 \begin{center}
 \includegraphics[scale=0.5]{ressources/images/figures/bd.png}
 \end{center}
 \newpage
-Pour plus de détails, voici les différentes opérations réalisées :
+
+Les tables "Listes des formulaire", "Champs de données des ITR", "Champs de données des Test Cases" et "Liste des rapports" sont les tables obtenues en réponse à différentes requêtes envoyées à l'\gls{API} de \gls{SnagR}. 
+
+Les deux tables que l'on cherche à obtenir sont les tables "Rapports" et "Test Cases".
+
+Enfin toutes les autres tables sont des étapes intermédiaires dans l'agencement de ces données.
+
+Voici le détail des différentes opérations réalisées :
 \begin{itemize}
 \item 1 : on filtre la liste des formulaires en ne retenant que les ITR (première page d'un rapport).
 \item 2 : on effectue une jointure des deux tables avec l'identifiant du de l'ITR puis on supprime cet identifiant au profit de l'identifiant du rapport lié à l'ITR qui est aussi unique dont éligible en tant que clé primaire.
@@ -253,43 +261,130 @@ Une fois les données extraites, il faut leur donner un sens afin de pouvoir les
 Si on revient aux raisons qui nous ont poussés à développer l'outil présenté précédemment, une d'entre elles était le manque de cohérence.
 En effet, le nombre total de rapports sur \gls{SnagR} étant plus élevé que la réalité, il est, jusque là, impossible de rendre compte de l'avancement, puisque ce dernier s'illustre avec des pourcentages d'accomplissement.
 
-C'est pour cela qu'un travail d'analyse des différentes documentations des systèmes déployés pas Thales a été réalisé avec mon maître de stage ainsi que le manager de l'équipe afin d'obtenir un nombre total de rapports à produire.
+C'est pour cela qu'un travail d'analyse des différentes documentations des systèmes déployés pas Thales a été réalisé avec mon maître de stage ainsi que le manager de l'équipe afin d'obtenir une liste et donc un nombre total des rapports à produire.
 
-Création de différents indicateurs et outils permettant la vérification de la cohérence des données
+Il m'a ensuite fallu m'atteler à la création de différents indicateurs et outils permettant la vérification de la cohérence des données. 
 
+Par exemple, en m'appuyant sur la liste des rapports abordée précédemment, j'ai pu identifier ces rapports sur \gls{SnagR}, ce qui m'a permis d'ajouter de nouveaux filtres afin d'analyser uniquement les 1500 rapports à produire et non les 6000 présents sur \gls{SnagR} (c.f 3.2.1).
 
+Une fois la cohérence des données assurée, je pouvais analyser ces dernières afin d'identifier les données les plus utiles.
+
+Par exemple, en utilisant la date du test ainsi que les dates auxquelles les différents parti ont signé, on allait pouvoir obtenir les délais suivant : 
+\begin{itemize}
+\item Le délai de remplissage du rapport par Thales (date de signature Thales - date du test)
+\item Le délai de signature du rapport par QDVC (date de signature QDVC - date de signature Thales)
+\item Le délai de signature du rapport par ICE (date de signature ICE - date de signature QDVC)
+\item Le délai total de production du rapport (date de signature ICE - date du test)
+\end{itemize}
+
+Une fois les données analysées et les différents problèmes de cohérence résolus, il fallait pouvoir rendre compte de l'avancement à l'équipe Thales.
 
 \subsection{Communication interne}
-Liste (exhaustive ou non) des différents graphiques, tableaux et autres éléments présents dans les slides que j'envoyai chaque semaine.
-%Outils d'aide à la décision
-%KPI
-%S-Curves
-Partie expliquant la synchronisation avec le testing (fichier d'Armenio) pour plus de cohérence entre les différents fichiers communiqués.
+Avoir choisit comme format de donnée un fichier Excel présente l'avantage de pouvoir facilement transmettre les données et de pouvoir réaliser des indicateurs d'avancement modulables.
+
+Les indicateurs nécessaires diffèrent en fonction de leur destinataire, et à la vue du nombre important de membres sur le projet, il a fallu réaliser un nombre important de graphiques utilisant les données précédemment exportées. 
+
+En voici quelques un :
+
+\begin{itemize}
+\item Sur une même figure : l'histogramme retraçant la production de rapport journalière, la courbe d'évolution du nombre total de rapports produits, la courbe correspondant à l'avancement programmé ainsi qu'une courbe de tendance prévoyant l'évolution à venir du nombre total de rapports produits, basée sur l'avancement durant les deux semaines précédentes.
+\item Un tableau croisé dynamique permettant de connaitre le statut de complétion des \gls{TestCases} liés à des exigences sécurité pour chaque localisation où ils sont applicables.
+\item Un tableau croisé dynamique permettant de connaitre l'état d'avancement des rapport de chaque système en fonction de chaque localisation où le système est présent.
+\item Des histogrammes illustrant le nombre de rapport produit par rapport au nombre de rapport restant en fonction de différents filtres, critères (par système, par type de test etc)
+\item Un diagramme représentant, en fonction du délai total de production moyen, la part de responsabilité des différents partis (Thales, QDVC, ICE) dans ce délais.
+\end{itemize}
+
+De plus, puisque je n'étais pas le seul à communiquer un rapport d'avancement, il fallait s'assurer de la cohérence entre les différents rapports envoyés par l'équipe \gls{TC}.
+
+Les deux autres rapports principaux étaient le rapport du manager de l'équipe gestion de projet et celui du manager de l'équipe \gls{TC}.
+
+Le premier était un rapport tenant compte du planning annoncé et proposant une estimation officielle de l'avancement planifié au cours des semaines suivante.
+
+Le second était un rapport de l'avancement des test, et non de l'avancement de la production des rapports. Il était donc utile de croiser nos données pour identifier les tests déjà effectués mais pour lesquels aucuns rapports n'avaient été produit. 
+Cela nous permettait d'identifier les points bloquants avant de reporter l'avancement au client.
+
+Ces deux rapports utilisant le découpage en activités (c.f 3.2.1) et non le découpage en rapport, contrairement à moi, il me fallu réaliser une table de correspondance entre les noms des activités et les noms des rapports, afin de pouvoir lier et comparer ces trois fichiers.
+
+Une fois que ces 3 rapports faisaient état du même avancement, nous le communiquions au client.
+
 
 \subsection{Communication avec le client}
 
-Organisation des données et des indicateurs pour correspondre aux différents scopes proposés par l'équipe RAMS (Pilot, Safety Strategy et Safety Related)
+%Organisation des données et des indicateurs pour correspondre aux différents scopes proposés par l'équipe RAMS (Pilot, Safety Strategy et Safety Related)
+La communication avec le client doit se faire certes en toute transparence, mais au vue de l'expertise métier détenue par Thales, cette communication de l'avancement se doit d'être structurée autours d'objectifs. 
 
-Difficultés personnelles rencontrées face au client (dues à une première expérience)
+C'est pour cette raison que l'équipe \gls{RAMS} a proposé de présenter les données autours de 4 objectifs :
+\begin{itemize}
+\item \textbf{1. Pilot :} on met en priorité 1 (maximale) certains rapports de manière à pouvoir prouver la conformité du système à chaque exigence sécurité dans au moins une localisation, en essayant, dans la mesure du possible, de réduire le nombre de stations concernées afin de pouvoir y organiser des visites de démonstration de leur conformité en terme de sécurité. 
+\item \textbf{2. Stratégie SIL :} ici la stratégie reste la même pour les exigences \gls{SIL}0 (c.f 3.1.1), on inclut les mêmes localisation que pour l'objectif Pilot. Cependant pour les exigences \gls{SIL}2, on intègre au spectre de cet objectif toutes les localisations ou elles sont applicables.
+\item \textbf{3. Sécurité :} ensuite l'objectif est la conformité des toutes les localisations du projet avec les exigences sécurité y étant applicables.
+\item \textbf{4. Général :} enfin l'objectif est la conformité des toutes les localisations du projet avec toutes les exigences y étant applicables.
+\end{itemize}
+
+
+Les différents indicateurs exposés dans la partie précédente ont du tenir compte de ces objectifs, ainsi, dans mon rapport hebdomadaire que j'envoyais à l'équipe Thales ainsi qu'au client, je fournissais des indicateurs d'avancement pour chaque objectif, en mettant l'accent sur l'objectif le plus prioritaire à l'instant t.
+
+
+%Blockers externes
+La communication avec le client, bien que basée sur les mêmes données, imposait un niveau de détails plus important, pour, par exemple, être capable de justifier d'éventuels délais.
+
+Ainsi nous ajoutions des commentaires, des observations à certains des indicateurs pour proposer une certaine lecture des données au client. 
+%Difficultés personnelles rencontrées face au client (dues à une première expérience)
+Il est important de rappeler ici que Thales est sur ce projet en tant que prestataire de QDVC et ne fait donc pas partie du Consortium.
+Pourtant sur tout les systèmes \gls{CCS}, qui représentent une partie très importante des différents systèmes du projet, c'est Thales qui possède l'expertise métier. 
+
+De plus, le client était dans les mêmes locaux que Thales, ce qui compliquait parfois la préservation des informations confidentielles. 
+
+Ainsi différents facteurs pouvaient compliquer la communication avec le client, d'où l'importance cruciale de savoir identifier si les points bloquants avaient des causes internes (due à l'équipe \gls{TC}, Installation ou offshore) ou bien externes (due aux autres prestataires, au client, au génie civil, à Alstom).
+
+%QQchose
 
 \newpage
 \section{Formation et transmission}
+
+Durant ce stage, j'ai du former des membres du projet de manière ponctuelle mais aussi de manière continue.
 \subsection{Sensibilisation des membres de l'équipe }
-%Absence de validation des données
-Sensibilisation des utilisateurs SnagR à l'importance de la production des rapports (je vais essayer de tourner ça autrement pour ne pas commettre d'impair, mais l'idée est là)
 
-Création d'une norme de saisie des données et formation (guidelines SnagR, convention de dommage).
 
-Extrait de la norme proposée
+Comme nous l'avons vu précédemment, il pouvait arriver que certains rapports de test restent vide même une fois le test réalisé. Cela pouvait se produire pour plusieurs raisons : 
+\begin{itemize}
+\item Un simple oubli de la part de l'ingénieur Thales responsable du test. Dans ce cas, un simple rappel suffisait.
+\item Un mauvaise communication au sujet du caractère prioritaire de la production des rapports. Ici la solution choisi par le management était d'afficher les indicateurs que je produisait dans l'open space de l'équipe \gls{TC} afin que tout le monde soit en phase avec les objectifs fixés.
+\item Une charge de travail trop importante en terme de test, ce qui rends impossible la production des rapports correspondant à ces tests. La seule solution ici était d'en référer au management afin de répartir à nouveau les ressources pour libérer l'ingénieur en question.
+\end{itemize}
 
-\section{Tuilage}
+%absence validation données
+Mais le problème majeur auquel j'ai du faire face est celui des données renseignées par les membres du projet (pas uniquement Thales mais aussi QDVC et ICE).
 
-Séance de formation du remplaçant pendant le dernier mois
+En effet, l'interface d'édition de rapports que propose \gls{SnagR} présente un important défaut : elle n'a pas été dotée d'une fonction de validation des données.
 
-Délégation du travail progressive
+C'est un problème majeur car des données erronées viennent fausser les indicateurs produits et menacent la cohérence de la base de données.
 
-Tutoriel vidéo réalisé pour mon remplaçant.
+La solution me paraissant la plus robuste était de produire une documentation à l'attention de tous les utilisateurs de \gls{SnagR} à même de remplir des rapports. 
+Dans cette documentation j'ai énoncé une dizaine de règles à respecter, illustrées par des exemples et captures d'écran du site. 
 
-Documentation fournie.
+À la fin de cette documentation j'ai ajouté une convention de nommage concernant 3 champs de données : la localisation, le système et le type de test. 
+Sans cette démarche, les données n'auraient jamais le même format puisqu'il y autant de façon de les renseigner qu'il y a d'utilisateurs.
 
-État de l'avancement (pending tasks, pending issues).
+En plus de distribuer cette documentation par mail à tout le projet, j'ai organisé une petite formation pour énoncer clairement ces règles et répondre à toutes les question des utilisateurs durant la même séance.
+
+%Listing ?
+Nous avons parlé ici de petites formations ponctuelles, mais au cours de mon dernier mois, j'ai du former quelqu'un en continu.
+
+\newpage
+\subsection{Tuilage}
+
+À la fin de mon stage, j'ai eu la chance de connaitre mon remplaçant un mois à l'avance. Le but de cette section est de retracer chronologiquement les différentes étapes de ce tuilage.
+
+\begin{itemize}
+\item Tout d'abord, progressivement au cours du stage j'ai rédigé une documentation sur le script Python tout en le commentant. Je me suis imposé cette pratique car d'expérience je sais à quel point il est complexe de revenir sur des lignes de code écrites auparavant, et je ne voulais pas avoir à subir cette tâche laborieuse à la fin de mon stage.
+\item Dans un second temps,  mon maître de stage m'a demandé de lui fournir un profil type pour mon remplaçant. Au bout d'un peu plus de 4 mois de stage, on m'avait proposé de continuer a sein du projet après mon stage, mais la date limite de dépôt de dossier de candidature pour une césure en P19 était déjà passée.
+\item Tutoriel vidéo réalisé pour mon remplaçant.
+\item Délégation du travail progressive
+\item État de l'avancement (pending tasks, pending issues).
+\end{itemize}
+
+
+
+
+
