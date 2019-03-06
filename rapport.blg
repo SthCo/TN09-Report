@@ -1,17 +1,17 @@
 [0] Config.pm:302> INFO - This is Biber 2.11
-[0] Config.pm:305> INFO - Logfile is 'rapport.blg'
-[118] biber-darwin:313> INFO - === Fri Feb 15, 2019, 22:26:21
-[177] Biber.pm:371> INFO - Reading 'rapport.bcf'
-[424] Biber.pm:854> INFO - Using all citekeys in bib section 0
-[448] Biber.pm:3976> INFO - Processing section 0
-[467] Biber.pm:4136> INFO - Looking for bibtex format file '7-bibliographie.bib' for section 0
-[472] bibtex.pm:1500> INFO - LaTeX decoding ...
-[490] bibtex.pm:1316> INFO - Found BibTeX data source '7-bibliographie.bib'
-[515] Utils.pm:193> WARN - Duplicate entry key: 'json' in file '7-bibliographie.bib', skipping ...
-[604] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[605] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[605] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[605] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
-[643] bbl.pm:617> INFO - Writing 'rapport.bbl' with encoding 'UTF-8'
-[651] bbl.pm:720> INFO - Output to rapport.bbl
-[651] Biber.pm:110> INFO - WARNINGS: 1
+[1] Config.pm:305> INFO - Logfile is 'rapport.blg'
+[74] biber-darwin:313> INFO - === Sun Feb 17, 2019, 19:12:52
+[111] Biber.pm:371> INFO - Reading 'rapport.bcf'
+[310] Biber.pm:854> INFO - Using all citekeys in bib section 0
+[404] Biber.pm:3976> INFO - Processing section 0
+[437] Biber.pm:4136> INFO - Looking for bibtex format file '7-bibliographie.bib' for section 0
+[443] bibtex.pm:1500> INFO - LaTeX decoding ...
+[465] bibtex.pm:1316> INFO - Found BibTeX data source '7-bibliographie.bib'
+[468] Utils.pm:193> WARN - Duplicate entry key: 'json' in file '7-bibliographie.bib', skipping ...
+[767] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[768] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[768] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[768] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[809] bbl.pm:617> INFO - Writing 'rapport.bbl' with encoding 'UTF-8'
+[817] bbl.pm:720> INFO - Output to rapport.bbl
+[818] Biber.pm:110> INFO - WARNINGS: 1
